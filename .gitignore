@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Congestion Analyzer/Final PTDF.csv
+Congestion Analyzer/Model ERCOT 2019 1 Day  Solution.zip
+Congestion Analyzer/PLEXOS ERCOT Nodal 1.0.0.xml
+Congestion Analyzer/Results 8126_FORMOSA4A_138_8140_JOSLIN4A_138/8126_FORMOSA4A_138_8140_JOSLIN4A_138.xlsx
+Congestion Analyzer/Results 8126_FORMOSA4A_138_8140_JOSLIN4A_138/NI x SF.csv
+Congestion Analyzer/Results 8126_FORMOSA4A_138_8140_JOSLIN4A_138/SF.csv
