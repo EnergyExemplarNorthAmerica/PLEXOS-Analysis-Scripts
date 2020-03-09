@@ -176,7 +176,7 @@ def main(FB, TB, TS, ptdf_data, plexos_db = '', plexos_sol = '', db=None, sol=No
         if col != 'Node' and col != TS and col != Line and col != 'Generator':
             mem = mem.drop([col], axis = 1)
                 
-    # query genreation to a temporary file
+    # query generation to a temporary file
     print('Loading generation', time.time() - start_time)
     sol.QueryToCSV(temp_file, True, \
                     SimulationPhaseEnum.STSchedule, \
@@ -202,19 +202,20 @@ def main(FB, TB, TS, ptdf_data, plexos_db = '', plexos_sol = '', db=None, sol=No
             pass
     '''
     
-    print('Generation loaded', time.time() - start_time)
-
+    # read the results into a data frame
     Gen = pd.read_csv(temp_file)
     os.remove(temp_file)
     Gen = Gen.drop(Gen.columns[[0,1,2,3,4,5,6,7,8,9,11,13,14,15,16,17,18,19]], axis = 1)
+    print('Generation loaded', time.time() - start_time)
 
-    for col in Gen.columns:
-        if col != TS and col != 'child_name':
-            Gen = Gen.drop([col], axis = 1)
+    # Drop the columns I don't need
+    Gen = Gen.drop([col for col in Gen.columns if col not in [TS, 'child_name']], axis = 1)
 
+    # rename the remaining columns
     Gen.rename(columns = {TS:'Generation'}, inplace=True)
     Gen.rename(columns = {'child_name':'Generator'}, inplace=True)
 
+    # Compute some additional impact factors
     mem = mem.merge(Gen, on = 'Generator', how = 'outer')
     mem.rename(columns = {Line:'Shift Factor'}, inplace=True)
     mem['Generation * SF'] = mem['Generation'] * mem['Shift Factor']
@@ -222,16 +223,19 @@ def main(FB, TB, TS, ptdf_data, plexos_db = '', plexos_sol = '', db=None, sol=No
     mem.rename(columns = {TS:'Net Injection'}, inplace=True)
     mem = mem.dropna()
     
+    # write results to a spreadsheet
     print('Preparing to write results', time.time() - start_time)
     writer = pd.ExcelWriter(os.path.join(results_folder, '{}.xlsx.'.format(Line)), engine='xlsxwriter')
     Mult.to_excel(writer, sheet_name='NI x SF')
     SF.to_excel(writer, sheet_name='SF')
     mem.to_excel(writer, sheet_name='Avg Cost')
     writer.save()
+
+    # open the spreadsheet for the user
     os.startfile(os.path.join(results_folder,'{}.xlsx'.format(Line)))
 
+    # finish and return handles to the plexos inputs and outputs so they don't need to be reloaded
     print("--- %s seconds ---" % (time.time() - start_time))
-
     return db, sol
 
 
