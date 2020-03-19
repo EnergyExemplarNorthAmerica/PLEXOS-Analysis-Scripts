@@ -6,7 +6,6 @@ Author : TAREK IBRAHIM
 Acknowledgments : Energy Exemplar Solution Engineering Team
 '''
 
-# Hello London
 import csv
 import pandas as pd
 import os
