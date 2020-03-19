@@ -7,13 +7,15 @@ The Power BI Link pulls all PLEXOS output data of a specified time granularity.
 # Power BI Link Command Line Interface
 This script is setup to run in the following command line approach:
 ```
-python power_bi_link.py <PLEXOS Solution File.zip> [-y [<annual output file>.csv]] 
-                                                   [-q [<quarterly output file>.csv]]
-                                                   [-m [<monthly output file>.csv]]
-                                                   [-w [<weekly output file>.csv]]
-                                                   [-d [<daily output file>.csv]]
-                                                   [-h [<hourly output file>.csv]]
-                                                   [-i [<interval output file>.csv]]
+    python power_bi_link.py <solution_file> [-y [yr_file]]
+                                            [-q [qt_file]]
+                                            [-m [mn_file]]
+                                            [-w [wk_file]]
+                                            [-d [dy_file]]
+                                            [-h [hr_file]]
+                                            [-i [in_file]]
+                                            [-f [from_date]]
+                                            [-t [to_date]]
 ```
 Only those output time granulaties that have been specified as options will be pushed to Power BI 
 Link format. For example, the following will only produce annual and monthly output.
