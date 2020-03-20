@@ -1,6 +1,6 @@
 '''
 
-Line CONGESTION ANALYSIS TOOL
+CONGESTION ANALYSIS TOOL
 
 
 
@@ -154,6 +154,47 @@ def main(FB, TB, TS, ptdf_data, plexos_db = '', plexos_sol = '', db=None, sol=No
 
     #   below is the signature of the API method
 
+    '''
+
+    Boolean QueryToCSV(
+
+            String strCSVFile,
+
+            Boolean bAppendToFile,
+
+            SimulationPhaseEnum SimulationPhaseId,
+
+            CollectionEnum CollectionId,
+
+            String ParentName,
+
+            String ChildName,
+
+            PeriodEnum PeriodTypeId,
+
+            SeriesTypeEnum SeriesTypeId,
+
+            String PropertyList[ = None],
+
+            Object DateFrom[ = None],
+
+            Object DateTo[ = None],
+
+            String TimesliceList[ = None],
+
+            String SampleList[ = None],
+
+            String ModelName[ = None],
+
+            AggregationEnum AggregationType[ = None],
+
+            String Category[ = None],
+
+            String Separator[ = ,]
+
+            )
+
+    '''
 
     sol.QueryToCSV(temp_file, False, \
         
@@ -274,9 +315,9 @@ def main(FB, TB, TS, ptdf_data, plexos_db = '', plexos_sol = '', db=None, sol=No
 
     #   in relieving or causing congestion
 
-    Merge = Mult.head(100).merge(SF.head(100), on = Line, how = 'outer')
+    Merge = Mult.head(50).merge(SF.head(50), on = Line, how = 'outer')
 
-    Merge1 = Mult.tail(100).merge(SF.tail(100), on = Line, how = 'outer')
+    Merge1 = Mult.tail(50).merge(SF.tail(50), on = Line, how = 'outer')
 
     Merge = Merge.dropna()
 
@@ -342,45 +383,76 @@ def main(FB, TB, TS, ptdf_data, plexos_db = '', plexos_sol = '', db=None, sol=No
     
     print(mem['Generator'])
     
-    for col in mem['Generator']:
         
-        try:
+    try:
 
-            sol.QueryToCSV(temp_file, False, \
+        sol.QueryToCSV(temp_file, False, \
                 
-                        SimulationPhaseEnum.STSchedule, \
+                    SimulationPhaseEnum.STSchedule, \
                             
-                        CollectionEnum.SystemGenerators, \
+                    CollectionEnum.SystemGenerators, \
                             
-                        'System', \
+                    '', \
                             
-                        col, \
+                    '', \
                             
-                        PeriodEnum.Interval, \
+                    PeriodEnum.Interval, \
                             
-                        SeriesTypeEnum.Periods, \
+                    SeriesTypeEnum.Periods, \
                             
-                        '1', \
+                    '1', \
                             
-                        System.DateTime.Parse(TS), \
+                    System.DateTime.Parse(TS), \
                             
-                        System.DateTime.Parse(TS).AddHours(1), \
+                    System.DateTime.Parse(TS).AddHours(1), \
                             
-                        '', \
+                    '', \
                             
-                        '', \
+                    '', \
                             
-                        '', \
+                    '', \
                             
-                        0, \
+                    0, \
                             
-                        '', \
+                    '', \
                             
-                        ','                                   
-                    )
-        except:
+                    ','                                   
+                )
+        
+    except:
+        
             pass
 
+
+    '''
+
+    for col in mem['Generator']:
+
+        try:
+
+            sol.QueryToCSV(temp_file, True, \
+
+                            SimulationPhaseEnum.STSchedule, \
+
+                            CollectionEnum.SystemGenerators, \
+
+                            'System', \
+
+                            col, \
+
+                            PeriodEnum.Interval, \
+
+                            SeriesTypeEnum.Periods, \
+
+                            '1')
+
+        except:
+
+            pass
+
+    '''
+
+    
 
     print('Generation loaded', time.time() - start_time)
 
