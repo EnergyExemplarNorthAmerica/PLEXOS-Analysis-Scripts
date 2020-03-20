@@ -255,7 +255,7 @@ if __name__ == '__main__':
     for from_bus, to_bus, timestamp in zip(sys.argv[4::3], sys.argv[5::3], sys.argv[6::3]):
 
         # the first time through, we haven't loaded the data, but we can hold onto handles to them
-        if plexos_cxn is None or ptdf_data is None:
+        if plexos_cxn is None or plexos_sol is None:
             plexos_cxn, plexos_sol = main(from_bus, to_bus, timestamp, ptdf_file, plexos_db=plexos_db, plexos_sol=sol_file)
 
         # the second and subsequent times through, we already have loaded the data.

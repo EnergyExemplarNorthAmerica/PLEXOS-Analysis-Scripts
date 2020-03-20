@@ -16,7 +16,8 @@ load_assembly('EEUTILITY')
 
 from PLEXOS7_NET.Core import *
 from EEUTILITY.Enums import *
-from System import Enum
+from System import Enum, Boolean, DateTime
+
 
 def is_switch(arg_opt):
     '''
@@ -42,10 +43,45 @@ def switch_data(arg_opt):
     
     return None
 
+def switch_data_to_date(arg_opt):
+    '''
+    '''
+    try:
+        return DateTime.Parse(switch_data(arg_opt))
+    except:
+        return None
+
 def query_data_to_csv(sol, csv_file, sim_phase, coll, period):
     # Run the query
+    '''
+    Boolean QueryToCSV(
+        String strCSVFile,
+        Boolean bAppendToFile,
+        SimulationPhaseEnum SimulationPhaseId,
+        CollectionEnum CollectionId,
+        String ParentName,
+        String ChildName,
+        PeriodEnum PeriodTypeId,
+        SeriesTypeEnum SeriesTypeId,
+        String PropertyList[ = None],
+        Object DateFrom[ = None],
+        Object DateTo[ = None],
+        String TimesliceList[ = None],
+        String SampleList[ = None],
+        String ModelName[ = None],
+        AggregationEnum AggregationType[ = None],
+        String Category[ = None],
+        String Separator[ = ,]
+        )
+    '''
+    query_to_csv = sol.QueryToCSV[String,Boolean,SimulationPhaseEnum,CollectionEnum,String,String,PeriodEnum,SeriesTypeEnum,String,Object,Object]
+
+    DateFrom = switch_data_to_date('-f')
+    DateTo = switch_data_to_date('-t')
+    params = (csv_file, True, SimulationPhaseEnum.STSchedule, CollectionEnum.SystemGenerators, '', '', PeriodEnum.FiscalYear, SeriesTypeEnum.Values, '', DateFrom, DateTo)
+    query_to_csv.__invoke__(params)
     try:
-        if sol.QueryToCSV(csv_file, True, sim_phase, coll, '', '', period, SeriesTypeEnum.Values, ''):
+        if query_to_csv.__invoke__(params):
             if is_switch('-v'):
                 print('{1} successfully {0} phase output.'.format(str(sim_phase), str(coll)))
         else:
