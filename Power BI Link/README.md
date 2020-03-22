@@ -1,6 +1,7 @@
 # Power BI Link
-This module provides a way of quickly pushing PLEXOS results to a form that is consumable by Power BI. 
-This format is structurally native to PLEXOS, with perhaps some minor accommodations for usability.
+This module provides a way of quickly pushing PLEXOS results to a form that is 
+consumable by Power BI. This format is structurally native to PLEXOS, with perhaps 
+some minor accommodations for usability.
 
 The Power BI Link pulls all PLEXOS output data of a specified time granularity.
 
@@ -17,11 +18,20 @@ This script is setup to run in the following command line approach:
                                             [-f [from_date]]
                                             [-t [to_date]]
 ```
-Only those output time granulaties that have been specified as options will be pushed to Power BI 
-Link format. For example, the following will only produce annual and monthly output.
+Only those output time granulaties that have been specified as options will be pushed 
+to Power BI Link format. For example, the following will only produce annual and 
+monthly output.
 ```
 python power_bi_link.py "Model Year DA Solution.zip" -y -m
 ```
-Additionally in the above, the annual and monthly data will be pushed to default .csv file names for 
-those types. The default filenames replace .zip in the PLEXOS Solution File with "_<timestep>.csv"
-where <timestep> is annual, monthly, etc.
+Additionally in the above, the annual and monthly data will be pushed to default .csv
+file names for those types. The default filenames replace .zip in the PLEXOS Solution 
+File with "_<timestep>.csv" where <timestep> is annual, monthly, etc.
+
+The ```annual.csv```, ```monthly.csv```, and ```hourly.csv``` files were produced
+using the ```Model Year DA Solution.zip``` and the following two command lines.
+
+```
+python power_bi_link.py "Model Year DA Solution.zip" -y annual.csv -m monthly.csv
+python power_bi_link.py "Model Year DA Solution.zip" -i hourly.csv -f 7/14/2024 -t 7/17/2024
+```

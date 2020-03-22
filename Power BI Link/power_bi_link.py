@@ -2,17 +2,13 @@
 
 import pandas as pd
 import numpy as np
-import io, re, os, sys, time
-
-from dotnet import *
-from dotnet.overrides import type, isinstance, issubclass
-from dotnet.commontypes import *
+import io, re, os, sys, time, clr
 
 # load PLEXOS assemblies:
 plexos_path = 'C:/Program Files (x86)/Energy Exemplar/PLEXOS 8.1/'
-add_assemblies(plexos_path)
-load_assembly('PLEXOS7_NET.Core')
-load_assembly('EEUTILITY')
+sys.path.append(plexos_path)
+clr.AddReference('PLEXOS7_NET.Core')
+clr.AddReference('EEUTILITY')
 
 from PLEXOS7_NET.Core import *
 from EEUTILITY.Enums import *
@@ -45,13 +41,14 @@ def switch_data(arg_opt):
 
 def switch_data_to_date(arg_opt):
     '''
+    Pull a date from the command line
     '''
     try:
         return DateTime.Parse(switch_data(arg_opt))
     except:
         return None
 
-def query_data_to_csv(sol, csv_file, sim_phase, coll, period):
+def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to):
     # Run the query
     '''
     Boolean QueryToCSV(
@@ -74,14 +71,9 @@ def query_data_to_csv(sol, csv_file, sim_phase, coll, period):
         String Separator[ = ,]
         )
     '''
-    query_to_csv = sol.QueryToCSV[String,Boolean,SimulationPhaseEnum,CollectionEnum,String,String,PeriodEnum,SeriesTypeEnum,String,Object,Object]
-
-    DateFrom = switch_data_to_date('-f')
-    DateTo = switch_data_to_date('-t')
-    params = (csv_file, True, SimulationPhaseEnum.STSchedule, CollectionEnum.SystemGenerators, '', '', PeriodEnum.FiscalYear, SeriesTypeEnum.Values, '', DateFrom, DateTo)
-    query_to_csv.__invoke__(params)
+    params = (csv_file, True, sim_phase, coll, '', '', period, SeriesTypeEnum.Values, '', date_from, date_to)
     try:
-        if query_to_csv.__invoke__(params):
+        if sol.QueryToCSV(*params):
             if is_switch('-v'):
                 print('{1} successfully {0} phase output.'.format(str(sim_phase), str(coll)))
         else:
@@ -97,6 +89,10 @@ def pull_data(sol_cxn, time_res, arg_opt, default_csv):
     # is this time_res active? If not quit
     if not is_switch(arg_opt): return
 
+    # date_from and date_to
+    date_from = switch_data_to_date('-f')
+    date_to = switch_data_to_date('-t')
+
     start_time = time.time() # start timer
 
     # get the csv_file name
@@ -108,11 +104,11 @@ def pull_data(sol_cxn, time_res, arg_opt, default_csv):
     if os.path.exists(csv_file): os.remove(csv_file)
 
     # loop through all relevant collections and phases
-    for phase in Enum.GetValues(type(SimulationPhaseEnum)):
-        for coll in Enum.GetValues(type(CollectionEnum)):
-            query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res)
+    for phase in Enum.GetValues(clr.GetClrType(SimulationPhaseEnum)):
+        for coll in Enum.GetValues(clr.GetClrType(CollectionEnum)):
+            query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to)
 
-    print('Completed',str(time_res),'in',time.time() - start_time,'sec')
+    print('Completed',clr.GetClrType(PeriodEnum).GetEnumName(time_res),'in',time.time() - start_time,'sec')
 
 def main():
     if len(sys.argv) <= 1:
