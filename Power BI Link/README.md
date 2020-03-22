@@ -15,8 +15,8 @@ This script is setup to run in the following command line approach:
                                             [-d [dy_file]]
                                             [-h [hr_file]]
                                             [-i [in_file]]
-                                            [-f [from_date]]
-                                            [-t [to_date]]
+                                            [-f from_date]
+                                            [-t to_date]
 ```
 Only those output time granulaties that have been specified as options will be pushed 
 to Power BI Link format. For example, the following will only produce annual and 
