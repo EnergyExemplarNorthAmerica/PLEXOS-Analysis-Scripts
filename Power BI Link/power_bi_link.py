@@ -1,5 +1,4 @@
 
-
 import pandas as pd
 import numpy as np
 import io, re, os, sys, time, clr
@@ -13,7 +12,6 @@ clr.AddReference('EEUTILITY')
 from PLEXOS7_NET.Core import *
 from EEUTILITY.Enums import *
 from System import Enum, Boolean, DateTime
-
 
 def is_switch(arg_opt):
     '''
