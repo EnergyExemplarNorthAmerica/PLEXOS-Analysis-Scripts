@@ -319,7 +319,7 @@ if __name__ == '__main__':
     plexos_db = cli['-d'] if '-d' in cli else 'rtsDEMO/rts_PLEXOS.xml'
     gas_scenario = cli['-s'] if '-s' in cli else 'NYMEX'
     fuel_objects = cli['-g'].split(',') if '-g' in cli else ['NG/CC', 'NG/CT']
-    project_name = cli['-m'] if '-m' in cli else '3Month'
+    project_name = cli['-p'] if '-p' in cli else '3Month'
     base_scenarios = cli['b'].split(',') if '-b' in cli else ["Gen Outages","Load: DA","RE: DA","Add Spin Up"]
 
     main(plexos_db, fuel_objects, base_scenarios, gas_scenario, project_name)
