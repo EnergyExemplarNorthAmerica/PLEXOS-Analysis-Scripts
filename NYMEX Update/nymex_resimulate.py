@@ -284,8 +284,8 @@ def plexos_process(plexos_db, project_name):
 
 def main(plexos_db, fuel_objects, base_scenarios, gas_scenario, project_name):
 
-    #plexos_update(plexos_db, fuel_objects, base_scenarios, gas_scenario, project_name, pull_nymex_hh())
-    #plexos_launch(plexos_db, project_name)
+    plexos_update(plexos_db, fuel_objects, base_scenarios, gas_scenario, project_name, pull_nymex_hh())
+    plexos_launch(plexos_db, project_name)
     plexos_process(plexos_db, project_name)
 
 def parse_cli():

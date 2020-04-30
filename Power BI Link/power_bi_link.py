@@ -83,6 +83,7 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
 
 def main():
     from EEUTILITY.Enums import PeriodEnum
+    from PLEXOS7_NET.Core import DatabaseCore, Solution, PLEXOSConnect
     
     if len(sys.argv) <= 1:
         print('''
