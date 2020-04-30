@@ -39,9 +39,17 @@ python power_bi_link.py "Model Year DA Solution.zip" -i hourly.csv -f 7/14/2024 
 
 ## Configuration File Option
 For users wanting to pull only specific outputs from PLEXOS into Power BI, the ```-c```
-option provides a simple way to do this. To do so, one needs to create a configuration
-file that indicates which outputs are desired. The structure of this file is shown in the
-following example.
+option provides a simple way to do this. 
+
+```
+python power_bi_link.py "Model Year DA Solution.zip" -y annual.csv -c config.json
+```
+
+To do so, one needs to create a configuration file that indicates which outputs are desired. 
+The structure of this file is shown in the following example. An example file is provided
+in this project and is called ```config.json```. The configuation file maybe located wherever
+the user prefers and named according to the user's preference as long as the path to the file
+is indicated after the ```-c``` option.
 
 ```
 {
