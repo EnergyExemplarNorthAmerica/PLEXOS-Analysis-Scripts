@@ -1,7 +1,7 @@
 
 import pandas as pd
 import numpy as np
-import io, re, os, sys, time, clr
+import io, re, os, sys, time, clr, json
 
 from System import Enum, Boolean, DateTime
 
@@ -38,10 +38,10 @@ def switch_data_to_date(args, arg_opt):
     except:
         return None
 
-def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to, is_verbose = False):
+def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to, is_verbose = False, property_list = ''):
     # Run the query
     from EEUTILITY.Enums import SeriesTypeEnum
-    params = (csv_file, True, sim_phase, coll, '', '', period, SeriesTypeEnum.Values, '', date_from, date_to)
+    params = (csv_file, True, sim_phase, coll, '', '', period, SeriesTypeEnum.Values, property_list, date_from, date_to)
     try:
         if sol.QueryToCSV(*params):
             if is_verbose:
@@ -55,7 +55,7 @@ def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to
 
 
 def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
-    from EEUTILITY.Enums import SimulationPhaseEnum, CollectionEnum, PeriodEnum
+    from EEUTILITY.Enums import SimulationPhaseEnum, CollectionEnum, PeriodEnum, ClassEnum
 
     # is this time_res active? If not quit
     if not is_switch(args, arg_opt): return
@@ -75,9 +75,47 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
     if os.path.exists(csv_file): os.remove(csv_file)
 
     # loop through all relevant collections and phases
-    for phase in Enum.GetValues(clr.GetClrType(SimulationPhaseEnum)):
-        for coll in Enum.GetValues(clr.GetClrType(CollectionEnum)):
-            query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'))
+    config_json = switch_data(args, '-c')
+    if not config_json is None and os.path.exists(config_json):
+        cfg_json_obj = json.load(open(config_json))
+        for query in cfg_json_obj['queries']:
+            try:
+                phase = Enum.Parse(SimulationPhaseEnum, query['phase'])
+                coll = sol_cxn.CollectionName2Id(query['parentclass'], query['childclass'], query['collection'])
+            except:
+                print("Phase:", query['phase'], "Collection:", query['collection'], "Parent Class:", query['parentclass'], "Child Class:",  query['childclass'])
+                print(" --> This combination doesn't identify queryable information")
+                continue # If the phase or collection are missing or incorrect just skip
+
+            if 'properties' in query:
+                # the data in properties field may be a list of property names; we'll pull each individually
+                if type(query['properties']) is list:
+                    for prop in query['properties']:
+                        try:
+                            prop_id = str(sol_cxn.PropertyName2EnumId(query['parentclass'], query['childclass'], query['collection'], prop))
+                            query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id)
+                        except:
+                            pass
+                
+                # the data in properties field may be a single property name; we'll just pull it
+                elif type(query['properties']) is str:
+                    try:
+                        prop_id = str(sol_cxn.PropertyName2EnumId(query['parentclass'], query['childclass'], query['collection'], query['properties']))
+                        query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id)
+                    except:
+                        pass
+                
+                # the data in properties field may be poorly formatted
+                else:
+                    print(query['properties'],'is not valid property information')
+
+            # properties field may be missing; just pull all properties
+            else:
+                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'))
+    else:
+        for phase in Enum.GetValues(clr.GetClrType(SimulationPhaseEnum)):
+            for coll in Enum.GetValues(clr.GetClrType(CollectionEnum)):
+                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'))
 
     print('Completed',clr.GetClrType(PeriodEnum).GetEnumName(time_res),'in',time.time() - start_time,'sec')
 
@@ -88,7 +126,8 @@ def main():
     if len(sys.argv) <= 1:
         print('''
 Usage:
-    python power_bi_link.py <solution_file> [-y [yr_file]]
+    python power_bi_link.py <solution_file> [-c [config_json]]
+                                            [-y [yr_file]]
                                             [-q [qt_file]]
                                             [-m [mn_file]]
                                             [-w [wk_file]]

@@ -1,0 +1,25 @@
+{
+"queries": 
+    [
+        {
+            "phase": "STSchedule",
+            "parentclass": "System",
+            "childclass": "Generator",
+            "collection": "Generators",
+            "properties": ["Generation", "Generation Cost", "SRMC"]
+        },
+        {
+            "phase": "STSchedule",
+            "parentclass": "System",
+            "childclass": "Fuel",
+            "collection": "Fuels"
+        },
+        {
+            "phase": "STSchedule",
+            "parentclass": "System",
+            "childclass": "Region",
+            "collection": "Regions",
+            "properties": "Load"
+        }
+    ]
+}

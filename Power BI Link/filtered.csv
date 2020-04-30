@@ -1,0 +1,528 @@
+model_name,parent_class_id,parent_id,parent_name,collection_id,collection_name,category_id,category_name,category_rank,child_id,child_name,property_id,property_name,band_id,timeslice_name,sample_name,_date,period_id,value,unit_id,unit_name,interval_id,phase_id,phase_name
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,2,101_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,463.53955289772,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,3,101_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,68.23233611903,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,4,101_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,69.07785678201,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,5,102_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,127.89335489313,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,6,102_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,135.31774454761,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,7,115_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,281.24865100312,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,8,116_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,202.58828384869,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,9,123_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,369.12306983188,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,10,123_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,616.33414204709,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,11,201_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,739.50850944949,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,12,202_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,696.45203982679,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,13,202_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,710.22354943913,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,14,216_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,521.4068122834,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,15,223_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,756.99974253262,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,16,223_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,754.52141681466,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,17,223_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1452.87580957637,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,18,316_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1305.3083498174,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,19,316_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1305.63891181622,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,20,316_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1305.89667853088,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,21,316_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1305.17715009756,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,22,122_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,265.97189373294,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,23,122_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,265.97159049678,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,24,122_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,266.88615355988,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,25,122_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,266.05142977884,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,26,122_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,267.06821372036,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,27,122_6,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,266.56748617214,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,28,201_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,436.2991897245,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,29,215_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,385.51066819211,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,30,215_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,385.35324229899,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,31,215_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,385.19372065653,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,32,222_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,354.32091096686,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,33,222_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,354.32821249569,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,34,222_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,353.67178179961,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,35,222_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,353.96054302039,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,36,222_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,353.97452190156,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,37,222_6,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,353.58348434577,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,38,222_7,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,354.03739770136,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,39,322_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,435.82761711455,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,40,322_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,435.92440921955,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,41,322_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,435.63556237551,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,42,322_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,435.85679080062,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,43,107_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,5.376,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,44,118_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,18.7895702923,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,45,118_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,20.66562035314,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,46,213_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,554.50368963349,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,47,218_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,305.22011911876,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,48,221_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,359.31229638928,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,49,313_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,2154.83965151468,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,50,318_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1906.71419931581,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,51,321_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1841.59913100863,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,52,323_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1579.40365084241,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,53,323_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1610.64669459603,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,54,113_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,12.33551257436,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,55,113_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,10.36144983566,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,56,113_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9.97064597849,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,57,113_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,10.90894081028,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,58,113_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9.66118264589,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,59,123_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.35627046071,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,60,123_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,15.47578081666,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,61,123_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.12462603607,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,62,207_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,50.06158842301,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,63,207_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,49.9171144549,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,64,213_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,30.8872900303,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,65,213_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,31.25794624988,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,66,215_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,20.32356115168,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,67,215_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,20.0845128964,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,68,223_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,23.1891613025,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,69,223_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,22.89662872088,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,70,223_6,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,23.94450952735,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,71,301_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,85.50931969907,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,72,301_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,81.50257309354,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,73,302_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,79.16441717356,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,74,302_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,77.58604174307,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,75,307_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,100.49477353065,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,76,307_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,100.00569870748,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,77,315_6,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,181.50187802586,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,78,315_7,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,176.17785786531,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,79,315_8,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,178.68424404335,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,80,322_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,188.59796208814,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,81,322_6,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,190.21995266109,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,8,Nuclear,5,82,121_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9895.12754228819,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,83,101_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.064,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,84,101_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.064,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,85,102_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.092,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,86,102_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.092,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,87,201_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,3.11270531909,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,88,201_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,3.00835186302,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,89,202_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1.97608484509,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,90,202_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,2.06397259279,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,91,301_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1.6332010632,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,92,301_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1.65343117447,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,93,302_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1.97832224655,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,94,302_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1.9638843022,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,95,115_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.08666666666,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,96,115_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.09671508079,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,97,315_1,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.8714811006,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,98,315_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.81171943974,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,99,315_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.75497538291,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,100,315_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.94329166666,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,101,315_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0.8976887595,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,102,101_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,53.77371651808,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,103,101_pv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,53.63177987703,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,104,101_pv_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,53.81652345277,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,105,101_pv_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,53.71948454078,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,106,102_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,51.57491620809,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,107,102_pv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,51.77152044948,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,108,103_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,113.20884423344,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,109,104_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,49.86824067932,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,110,113_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,245.9661272988,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,111,119_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,141.53071419801,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,112,215_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,340.79750172285,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,113,310_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,147.88170067343,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,114,310_pv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,148.68691790296,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,115,312_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,251.41625705414,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,116,313_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,253.11753,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,117,313_pv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,252.96458,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,118,314_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,145.478335,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,119,314_pv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,148.76768,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,120,314_pv_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,248.34595,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,121,314_pv_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,148.735825,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,122,319_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,558.595365,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,123,320_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,145.64351944024,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,124,324_pv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,146.38353050541,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,125,324_pv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,146.31300581829,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,126,324_pv_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,146.30047,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,127,118_rtpv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.62225631974,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,128,118_rtpv_10,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,7.5036641931,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,129,118_rtpv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.59163542096,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,130,118_rtpv_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.65563164212,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,131,118_rtpv_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.44212766253,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,132,118_rtpv_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.70870546558,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,133,118_rtpv_6,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.4199997936,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,134,118_rtpv_7,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,17.42783258639,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,135,118_rtpv_8,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,18.28409511171,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,136,118_rtpv_9,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16.04808338399,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,137,213_rtpv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,23.3524,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,138,308_rtpv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,185.5191,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,139,313_rtpv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,185.6017,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,140,313_rtpv_10,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,120.88974,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,141,313_rtpv_11,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,125.33545412263,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,142,313_rtpv_12,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,50.8062982283,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,143,313_rtpv_13,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,51.31324,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,144,313_rtpv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,118.8809,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,145,313_rtpv_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,116.4357,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,146,313_rtpv_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,115.7642,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,147,313_rtpv_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,118.08786,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,148,313_rtpv_6,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,116.1657,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,149,313_rtpv_7,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,120.2616,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,150,313_rtpv_8,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,117.8852,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,151,313_rtpv_9,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,120.12144,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,152,320_rtpv,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,50.7472,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,153,320_rtpv_2,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,50.7488,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,154,320_rtpv_3,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,50.29698,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,155,320_rtpv_4,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,50.962,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,156,320_rtpv_5,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,53.40322,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,157,320_rtpv_6,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,19.00308,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,158,122_wind,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1370.33227097632,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,159,303_wind,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1879.7226285924,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,160,309_wind,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,365.44145115385,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,161,317_wind,1,Generation,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,2400.98056551083,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,2,101_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,11468.727659883,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,3,101_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1625.63731891769,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,4,101_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1651.4294464947,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,5,102_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,3044.83834014307,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,6,102_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,3219.66949597282,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,7,115_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,5683.64798078848,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,8,116_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,4100.78678854665,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,9,123_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,7452.31188903382,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,10,123_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,12439.1398356545,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,11,201_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,17811.9020303275,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,12,202_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16834.7338745123,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,13,202_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,17187.9124898755,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,14,216_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,10652.2109511705,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,15,223_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,15594.5206887877,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,16,223_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,15552.1209531915,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,17,223_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,29435.9482774069,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,18,316_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,26219.1509684872,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,19,316_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,26225.451178975,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,20,316_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,26230.1026127737,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,21,316_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,26216.8464327303,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,22,122_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,23,122_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,24,122_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,25,122_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,26,122_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,27,122_6,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,28,201_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,29,215_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,30,215_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,31,215_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,32,222_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,33,222_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,34,222_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,35,222_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,36,222_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,37,222_6,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,38,222_7,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,39,322_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,40,322_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,41,322_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,42,322_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,43,107_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,333.14260774055,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,44,118_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,883.01102252172,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,45,118_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,950.53960283257,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,46,213_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,23316.2276764782,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,47,218_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,12651.3671241507,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,48,221_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,14944.8836261227,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,49,313_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,89370.4554569383,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,50,318_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,79902.2785557547,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,51,321_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,76942.4952863181,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,52,323_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,66227.1885268009,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,53,323_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,67515.8391960731,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,54,113_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,616.25524037127,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,55,113_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,516.70261754733,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,56,113_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,496.34712271807,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,57,113_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,544.19384672507,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,58,113_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,482.29089991429,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,59,123_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,845.20418949055,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,60,123_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,805.32068478805,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,61,123_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,834.3826488985,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,62,207_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,2582.23336874225,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,63,207_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,2570.279457262,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,64,213_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1570.75727202863,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,65,213_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1586.35841159837,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,66,215_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1013.98765321419,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,67,215_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1001.155626508,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,68,223_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1166.45281742397,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,69,223_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1150.96411264474,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,70,223_6,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1208.45259771788,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,71,301_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,4266.98740969334,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,72,301_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,4073.3042844764,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,73,302_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,3960.70811104424,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,74,302_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,3883.84175215816,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,75,307_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,5091.33521614348,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,76,307_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,5061.73413226801,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,77,315_6,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9255.77668723724,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,78,315_7,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,8969.90191789044,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,79,315_8,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9121.77253947241,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,80,322_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9628.90355562801,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,81,322_6,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9721.86488868724,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,8,Nuclear,5,82,121_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,77926.0459075637,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,83,101_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9.93406615872,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,84,101_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9.93406615872,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,85,102_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,13.8523821019,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,86,102_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,13.8523821019,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,87,201_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,421.20935926726,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,88,201_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,407.10365121051,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,89,202_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,266.42444768943,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,90,202_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,278.65396120097,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,91,301_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,222.9904865857,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,92,301_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,226.08894544039,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,93,302_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,270.24286768569,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,94,302_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,267.80421494328,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,95,115_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,11.19902457069,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,96,115_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,12.54838000191,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,97,315_1,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,102.89338360628,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,98,315_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,95.49810269493,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,99,315_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,89.36374643975,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,100,315_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,112.32972596655,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,101,315_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,105.85593354756,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,102,101_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,103,101_pv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,104,101_pv_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,105,101_pv_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,106,102_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,107,102_pv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,108,103_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,109,104_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,110,113_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,111,119_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,112,215_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,113,310_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,114,310_pv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,115,312_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,116,313_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,117,313_pv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,118,314_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,119,314_pv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,120,314_pv_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,121,314_pv_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,122,319_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,123,320_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,124,324_pv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,125,324_pv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,126,324_pv_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,127,118_rtpv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,128,118_rtpv_10,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,129,118_rtpv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,130,118_rtpv_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,131,118_rtpv_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,132,118_rtpv_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,133,118_rtpv_6,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,134,118_rtpv_7,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,135,118_rtpv_8,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,136,118_rtpv_9,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,137,213_rtpv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,138,308_rtpv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,139,313_rtpv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,140,313_rtpv_10,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,141,313_rtpv_11,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,142,313_rtpv_12,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,143,313_rtpv_13,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,144,313_rtpv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,145,313_rtpv_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,146,313_rtpv_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,147,313_rtpv_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,148,313_rtpv_6,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,149,313_rtpv_7,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,150,313_rtpv_8,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,151,313_rtpv_9,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,152,320_rtpv,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,153,320_rtpv_2,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,154,320_rtpv_3,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,155,320_rtpv_4,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,156,320_rtpv_5,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,157,320_rtpv_6,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,158,122_wind,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,159,303_wind,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,160,309_wind,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,161,317_wind,87,Generation Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,2,101_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,347.023003611148,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,3,101_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,284.608177945645,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,4,101_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,284.434190443737,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,5,102_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,283.937492590632,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,6,102_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,283.888526048145,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,7,115_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,225.172796919005,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,8,116_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,225.320811606694,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,9,123_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,225.013227055478,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,10,123_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,238.684740866625,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,11,201_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,268.277076365203,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,12,202_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,267.017034393326,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,13,202_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,267.09749854852,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,14,216_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,223.209375391378,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,15,223_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,220.369261390489,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,16,223_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,220.273959024169,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,17,223_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,229.987747300847,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,18,316_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,223.903334737268,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,19,316_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,223.904361003516,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,20,316_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,223.90874683905,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,4,Coal/Steam,1,21,316_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,223.897486956639,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,22,122_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,23,122_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,24,122_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,25,122_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,26,122_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,27,122_6,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,28,201_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,29,215_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,30,215_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,31,215_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,32,222_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,33,222_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,34,222_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,35,222_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,36,222_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,37,222_6,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,38,222_7,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,39,322_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,40,322_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,41,322_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,5,Hydro,2,42,322_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,43,107_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,311.167582659624,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,44,118_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,313.439517554503,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,45,118_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,313.46320552375,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,46,213_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,309.31157354611,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,47,218_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,310.755165677876,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,48,221_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,310.49441941998,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,49,313_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,306.231140698954,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,50,318_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,304.664407332362,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,51,321_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,305.537675079064,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,52,323_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,305.738995960152,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,6,NG/CC,3,53,323_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,305.696511349247,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,54,113_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,534.306943540699,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,55,113_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,534.529743213971,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,56,113_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,534.598149916168,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,57,113_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,534.472157332408,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,58,113_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,534.586134367628,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,59,123_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,532.640980915402,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,60,123_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,532.566737114463,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,61,123_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,532.647876201828,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,62,207_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,528.066572853828,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,63,207_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,528.280702216685,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,64,213_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,531.696224280267,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,65,213_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,531.771765214439,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,66,215_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,533.824273496266,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,67,215_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,533.888583988696,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,68,223_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,533.228513928669,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,69,223_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,533.268759189104,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,70,223_6,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,532.963113674383,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,71,301_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,529.176372605608,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,72,301_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,529.136571101317,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,73,302_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,529.167429214434,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,74,302_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,529.238771533514,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,75,307_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,524.66351009469,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,76,307_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,524.95256596019,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,77,315_6,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,575.039103663464,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,78,315_7,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,577.721239719577,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,79,315_8,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,575.294442344094,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,80,322_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,570.542239127052,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,7,NG/CT,4,81,322_6,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,569.701529321628,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,8,Nuclear,5,82,121_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,96.1901607527408,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,83,101_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1643.090151803,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,84,101_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1643.090151803,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,85,102_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1643.04341258055,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,86,102_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1643.04341258052,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,87,201_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1641.20500316329,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,88,201_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1641.2880951144,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,89,202_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1642.35271073734,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,90,202_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1642.1969133291,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,91,301_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1641.63344603599,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,92,301_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1641.55554733183,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,93,302_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1641.22837277456,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,9,Oil/CT,6,94,302_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1641.32704446648,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,95,115_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1346.35588915063,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,96,115_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1346.34033001847,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,97,315_1,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1346.21488451543,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,98,315_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1346.26107568903,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,99,315_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1346.23384720773,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,100,315_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1346.11229148771,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,10,Oil/Steam,7,101,315_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,1346.21926052134,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,102,101_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,103,101_pv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,104,101_pv_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,105,101_pv_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,106,102_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,107,102_pv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,108,103_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,109,104_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,110,113_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,111,119_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,112,215_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,113,310_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,114,310_pv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,115,312_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,116,313_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,117,313_pv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,118,314_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,119,314_pv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,120,314_pv_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,121,314_pv_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,122,319_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,123,320_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,124,324_pv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,125,324_pv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,11,PV,8,126,324_pv_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,127,118_rtpv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,128,118_rtpv_10,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,129,118_rtpv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,130,118_rtpv_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,131,118_rtpv_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,132,118_rtpv_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,133,118_rtpv_6,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,134,118_rtpv_7,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,135,118_rtpv_8,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,136,118_rtpv_9,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,137,213_rtpv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,138,308_rtpv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,139,313_rtpv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,140,313_rtpv_10,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,141,313_rtpv_11,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,142,313_rtpv_12,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,143,313_rtpv_13,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,144,313_rtpv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,145,313_rtpv_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,146,313_rtpv_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,147,313_rtpv_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,148,313_rtpv_6,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,149,313_rtpv_7,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,150,313_rtpv_8,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,151,313_rtpv_9,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,152,320_rtpv,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,153,320_rtpv_2,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,154,320_rtpv_3,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,155,320_rtpv_4,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,156,320_rtpv_5,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,12,RTPV,9,157,320_rtpv_6,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,158,122_wind,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,159,303_wind,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,160,309_wind,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,1,Generator,14,Wind,11,161,317_wind,104,SRMC,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,33,$/MWh,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,162,Coal/Steam,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,25.36788,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,162,Coal/Steam,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,25.36788,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,162,Coal/Steam,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,131810.977920272,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,162,Coal/Steam,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,278647.089213676,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,163,Hydro,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,163,Hydro,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,163,Hydro,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,7411.99482007415,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,163,Hydro,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,164,NG/CC,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,46.64664,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,164,NG/CC,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,46.64664,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,164,NG/CC,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,111400.288299024,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,164,NG/CC,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,433037.428681732,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,165,NG/CT,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,46.64664,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,165,NG/CT,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,46.64664,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,165,NG/CT,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,23674.3660153762,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,165,NG/CT,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,92027.469062291,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,166,Nuclear,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9.72419999999999,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,166,Nuclear,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,9.7242,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,166,Nuclear,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,96163.4428426776,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,166,Nuclear,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,77926.0459075637,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,167,Oil/CT,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,103.494000000125,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,167,Oil/CT,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,124.1928,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,167,Oil/CT,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,232.67926938222,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,167,Oil/CT,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,2408.0908305444,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,168,Oil/Steam,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,51.7469999999467,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,168,Oil/Steam,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,124.1928,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,168,Oil/Steam,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,51.18058021022,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,168,Oil/Steam,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,529.68829682768,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,169,PV,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,169,PV,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,169,PV,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,4098.29003557306,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,169,PV,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,170,RTPV,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,170,RTPV,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,170,RTPV,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,2120.28584393065,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,170,RTPV,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,171,SynchCond,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,171,SynchCond,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,171,SynchCond,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,171,SynchCond,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,172,Wind,298,Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,172,Wind,301,Time-weighted Price,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,29,$/MMBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,172,Wind,302,Offtake,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,6016.47691623345,18,GBtu,1,4,ST Schedule
+Year DA,1,1,System,2,Fuel,18,-,0,172,Wind,312,Cost,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,0,34,$000,1,4,ST Schedule
+Year DA,1,1,System,32,Region,26,-,0,176,1,968,Load,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,16498.161430892,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,32,Region,26,-,0,177,2,968,Load,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,18340.501227917,2,GWh,1,4,ST Schedule
+Year DA,1,1,System,32,Region,26,-,0,178,3,968,Load,1,All Periods,Mean,12/31/2024 12:00:00 AM,1,20050.067215721,2,GWh,1,4,ST Schedule
