@@ -119,6 +119,67 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
 
     print('Completed',clr.GetClrType(PeriodEnum).GetEnumName(time_res),'in',time.time() - start_time,'sec')
 
+def none_to_empty_list(ret):
+    if ret is None:
+        return []
+    else:
+        return ret
+
+def pull_xref(sol_cxn, xref_file):
+    from EEUTILITY.Enums import ClassEnum, CollectionEnum
+
+    # retrieve memberships
+    mem_df = pd.DataFrame(columns = ['pclass', 'cclass', 'coll', 'pobj', 'cobj'])
+    for row in sol_cxn.GetDataTable('t_membership', '')[0]:
+        mem_df.loc[row.membership_id] = [row.parent_class_id, row.child_class_id, row.collection_id, row.parent_object_id, row.child_object_id]
+
+    # retrieve objects
+    obj_df = pd.DataFrame(columns = ['oname', 'ocat'])
+    for row in sol_cxn.GetDataTable('t_object', '')[0]:
+        if row.show:
+            obj_df.loc[row.object_id] = [row.name, row.category_id]
+    
+    # retrieve classes
+    cls_df = pd.DataFrame(columns = ['class_name'])
+    for row in sol_cxn.GetDataTable('t_class', '')[0]:
+        cls_df.loc[row.class_id] = [row.name]
+
+    # retrieve categories
+    cat_df = pd.DataFrame(columns = ['category'])
+    for row in sol_cxn.GetDataTable('t_category', '')[0]:
+        cat_df.loc[row.category_id] = [row.name]
+
+    # retrieve collections
+    coll_df = pd.DataFrame(columns = ['collection'])
+    for row in sol_cxn.GetDataTable('t_collection', '')[0]:
+        coll_df.loc[row.collection_id] = [row.name]
+
+    # Join the metadata into a single xref table
+
+    # join parent and child object names
+    mem_df = mem_df.join(obj_df, on='cobj', rsuffix='_child')
+    mem_df = mem_df.join(obj_df, on='pobj', rsuffix='_parent')
+
+    # join parent and child class names
+    mem_df = mem_df.join(cls_df, on='cclass', rsuffix = '_child')
+    mem_df = mem_df.join(cls_df, on='pclass', rsuffix = '_parent')
+
+    # join parent and child categories
+    mem_df = mem_df.join(cat_df, on='ocat', rsuffix = '_child')
+    mem_df = mem_df.join(cat_df, on='ocat_parent', rsuffix = '_parent')
+
+    # join collections
+    mem_df = mem_df.join(coll_df, on='coll', rsuffix = '_parent')
+
+    # reformat the dataframe to look nicer
+    mem_df = mem_df.drop(columns = ['cobj', 'pobj', 'cclass', 'pclass', 'ocat', 'ocat_parent', 'coll'])
+    mem_df = mem_df[['class_name_parent', 'oname_parent', 'category_parent', 'collection', 'class_name','oname','category']]
+    mem_df.columns = ['ParentClass', 'ParentName', 'ParentCategory', 'Collection', 'ChildClass', 'ChildName', 'ChildCategory']
+    
+    # write the xref file
+    mem_df.to_csv(xref_file)
+
+
 def main():
     from EEUTILITY.Enums import PeriodEnum
     from PLEXOS7_NET.Core import DatabaseCore, Solution, PLEXOSConnect
@@ -126,7 +187,8 @@ def main():
     if len(sys.argv) <= 1:
         print('''
 Usage:
-    python power_bi_link.py <solution_file> [-c [config_json]]
+    python power_bi_link.py <solution_file> [-x [xref_file]]
+                                            [-c [config_json]]
                                             [-y [yr_file]]
                                             [-q [qt_file]]
                                             [-m [mn_file]]
@@ -155,6 +217,9 @@ Usage:
     pull_data(sol_cxn, PeriodEnum.Day, sys.argv, '-d', '_daily.csv') # pull day results
     pull_data(sol_cxn, PeriodEnum.Hour, sys.argv, '-h', '_hourly.csv') # pull hourly results
     pull_data(sol_cxn, PeriodEnum.Interval, sys.argv, '-i', '_interval.csv') # pull interval results
+    if is_switch(sys.argv, '-x'): pull_xref(sol_cxn, switch_data(sys.argv, '-x'))
+
+    sol_cxn.Close()
 
     print ('Completed in', time.time() - start_time, 'sec')
 

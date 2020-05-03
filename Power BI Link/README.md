@@ -8,7 +8,8 @@ The Power BI Link pulls all PLEXOS output data of a specified time granularity.
 # Power BI Link Command Line Interface
 This script is setup to run in the following command line approach:
 ```
-    python power_bi_link.py <solution_file> [-c [config_json]]
+    python power_bi_link.py <solution_file> [-x [xref_file]]
+                                            [-c [config_json]]
                                             [-y [yr_file]]
                                             [-q [qt_file]]
                                             [-m [mn_file]]
@@ -90,3 +91,36 @@ or perhaps how much generation was producted by each generator-fuel pair.
 
 The ```properties``` field may be missing, the name of a single property, or a list of properties. All of these are
 demonstrated above.
+
+## Cross Reference Table
+It is often helpful to understand object linkages, say for example to know which 
+generators are in a specific region. The ```-x``` option allows you to obtain this
+metadata information in addition to numeric output results. For example,
+
+```
+python power_bi_link.py "Model Year DA Solution.zip" -x xref.csv
+```
+
+will produce a .csv file table that indicates all available object relationships in
+the PLEXOS Solution file. 
+
+The metadata is presented in a .csv tabular form similar to the following. For ease
+of reading we have tab-separated instead of comma-separating, although the data appears
+in .csv format.
+
+```
+     ParentClass ParentName ParentCategory       Collection ChildClass  ChildName  ChildCategory
+1         System     System              -       Generators  Generator      101_3     Coal/Steam
+2         System     System              -       Generators  Generator      101_4     Coal/Steam
+3         System     System              -       Generators  Generator      101_5     Coal/Steam
+4         System     System              -       Generators  Generator      102_3     Coal/Steam
+5         System     System              -       Generators  Generator      102_4     Coal/Steam
+6         System     System              -       Generators  Generator      115_3     Coal/Steam
+7         System     System              -       Generators  Generator      116_1     Coal/Steam
+8         System     System              -       Generators  Generator      123_2     Coal/Steam
+9         System     System              -       Generators  Generator      123_3     Coal/Steam
+10        System     System              -       Generators  Generator      201_3     Coal/Steam
+11        System     System              -       Generators  Generator      202_3     Coal/Steam
+```
+
+The ```-x``` option can be used in combination with other option switches as needed.

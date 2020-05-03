@@ -1,0 +1,1946 @@
+,ParentClass,ParentName,ParentCategory,Collection,ChildClass,ChildName,ChildCategory
+1,System,System,-,Generators,Generator,101_3,Coal/Steam
+2,System,System,-,Generators,Generator,101_4,Coal/Steam
+3,System,System,-,Generators,Generator,101_5,Coal/Steam
+4,System,System,-,Generators,Generator,102_3,Coal/Steam
+5,System,System,-,Generators,Generator,102_4,Coal/Steam
+6,System,System,-,Generators,Generator,115_3,Coal/Steam
+7,System,System,-,Generators,Generator,116_1,Coal/Steam
+8,System,System,-,Generators,Generator,123_2,Coal/Steam
+9,System,System,-,Generators,Generator,123_3,Coal/Steam
+10,System,System,-,Generators,Generator,201_3,Coal/Steam
+11,System,System,-,Generators,Generator,202_3,Coal/Steam
+12,System,System,-,Generators,Generator,202_4,Coal/Steam
+13,System,System,-,Generators,Generator,216_1,Coal/Steam
+14,System,System,-,Generators,Generator,223_1,Coal/Steam
+15,System,System,-,Generators,Generator,223_2,Coal/Steam
+16,System,System,-,Generators,Generator,223_3,Coal/Steam
+17,System,System,-,Generators,Generator,316_1,Coal/Steam
+18,System,System,-,Generators,Generator,316_2,Coal/Steam
+19,System,System,-,Generators,Generator,316_3,Coal/Steam
+20,System,System,-,Generators,Generator,316_4,Coal/Steam
+21,System,System,-,Generators,Generator,122_1,Hydro
+22,System,System,-,Generators,Generator,122_2,Hydro
+23,System,System,-,Generators,Generator,122_3,Hydro
+24,System,System,-,Generators,Generator,122_4,Hydro
+25,System,System,-,Generators,Generator,122_5,Hydro
+26,System,System,-,Generators,Generator,122_6,Hydro
+27,System,System,-,Generators,Generator,201_4,Hydro
+28,System,System,-,Generators,Generator,215_1,Hydro
+29,System,System,-,Generators,Generator,215_2,Hydro
+30,System,System,-,Generators,Generator,215_3,Hydro
+31,System,System,-,Generators,Generator,222_1,Hydro
+32,System,System,-,Generators,Generator,222_2,Hydro
+33,System,System,-,Generators,Generator,222_3,Hydro
+34,System,System,-,Generators,Generator,222_4,Hydro
+35,System,System,-,Generators,Generator,222_5,Hydro
+36,System,System,-,Generators,Generator,222_6,Hydro
+37,System,System,-,Generators,Generator,222_7,Hydro
+38,System,System,-,Generators,Generator,322_1,Hydro
+39,System,System,-,Generators,Generator,322_2,Hydro
+40,System,System,-,Generators,Generator,322_3,Hydro
+41,System,System,-,Generators,Generator,322_4,Hydro
+42,System,System,-,Generators,Generator,107_1,NG/CC
+43,System,System,-,Generators,Generator,118_1,NG/CC
+44,System,System,-,Generators,Generator,118_2,NG/CC
+45,System,System,-,Generators,Generator,213_3,NG/CC
+46,System,System,-,Generators,Generator,218_1,NG/CC
+47,System,System,-,Generators,Generator,221_1,NG/CC
+48,System,System,-,Generators,Generator,313_1,NG/CC
+49,System,System,-,Generators,Generator,318_1,NG/CC
+50,System,System,-,Generators,Generator,321_1,NG/CC
+51,System,System,-,Generators,Generator,323_1,NG/CC
+52,System,System,-,Generators,Generator,323_2,NG/CC
+53,System,System,-,Generators,Generator,113_1,NG/CT
+54,System,System,-,Generators,Generator,113_2,NG/CT
+55,System,System,-,Generators,Generator,113_3,NG/CT
+56,System,System,-,Generators,Generator,113_4,NG/CT
+57,System,System,-,Generators,Generator,113_5,NG/CT
+58,System,System,-,Generators,Generator,123_1,NG/CT
+59,System,System,-,Generators,Generator,123_4,NG/CT
+60,System,System,-,Generators,Generator,123_5,NG/CT
+61,System,System,-,Generators,Generator,207_1,NG/CT
+62,System,System,-,Generators,Generator,207_2,NG/CT
+63,System,System,-,Generators,Generator,213_1,NG/CT
+64,System,System,-,Generators,Generator,213_2,NG/CT
+65,System,System,-,Generators,Generator,215_4,NG/CT
+66,System,System,-,Generators,Generator,215_5,NG/CT
+67,System,System,-,Generators,Generator,223_4,NG/CT
+68,System,System,-,Generators,Generator,223_5,NG/CT
+69,System,System,-,Generators,Generator,223_6,NG/CT
+70,System,System,-,Generators,Generator,301_3,NG/CT
+71,System,System,-,Generators,Generator,301_4,NG/CT
+72,System,System,-,Generators,Generator,302_3,NG/CT
+73,System,System,-,Generators,Generator,302_4,NG/CT
+74,System,System,-,Generators,Generator,307_1,NG/CT
+75,System,System,-,Generators,Generator,307_2,NG/CT
+76,System,System,-,Generators,Generator,315_6,NG/CT
+77,System,System,-,Generators,Generator,315_7,NG/CT
+78,System,System,-,Generators,Generator,315_8,NG/CT
+79,System,System,-,Generators,Generator,322_5,NG/CT
+80,System,System,-,Generators,Generator,322_6,NG/CT
+81,System,System,-,Generators,Generator,121_1,Nuclear
+82,System,System,-,Generators,Generator,101_1,Oil/CT
+83,System,System,-,Generators,Generator,101_2,Oil/CT
+84,System,System,-,Generators,Generator,102_1,Oil/CT
+85,System,System,-,Generators,Generator,102_2,Oil/CT
+86,System,System,-,Generators,Generator,201_1,Oil/CT
+87,System,System,-,Generators,Generator,201_2,Oil/CT
+88,System,System,-,Generators,Generator,202_1,Oil/CT
+89,System,System,-,Generators,Generator,202_2,Oil/CT
+90,System,System,-,Generators,Generator,301_1,Oil/CT
+91,System,System,-,Generators,Generator,301_2,Oil/CT
+92,System,System,-,Generators,Generator,302_1,Oil/CT
+93,System,System,-,Generators,Generator,302_2,Oil/CT
+94,System,System,-,Generators,Generator,115_1,Oil/Steam
+95,System,System,-,Generators,Generator,115_2,Oil/Steam
+96,System,System,-,Generators,Generator,315_1,Oil/Steam
+97,System,System,-,Generators,Generator,315_2,Oil/Steam
+98,System,System,-,Generators,Generator,315_3,Oil/Steam
+99,System,System,-,Generators,Generator,315_4,Oil/Steam
+100,System,System,-,Generators,Generator,315_5,Oil/Steam
+101,System,System,-,Generators,Generator,101_pv,PV
+102,System,System,-,Generators,Generator,101_pv_2,PV
+103,System,System,-,Generators,Generator,101_pv_3,PV
+104,System,System,-,Generators,Generator,101_pv_4,PV
+105,System,System,-,Generators,Generator,102_pv,PV
+106,System,System,-,Generators,Generator,102_pv_2,PV
+107,System,System,-,Generators,Generator,103_pv,PV
+108,System,System,-,Generators,Generator,104_pv,PV
+109,System,System,-,Generators,Generator,113_pv,PV
+110,System,System,-,Generators,Generator,119_pv,PV
+111,System,System,-,Generators,Generator,215_pv,PV
+112,System,System,-,Generators,Generator,310_pv,PV
+113,System,System,-,Generators,Generator,310_pv_2,PV
+114,System,System,-,Generators,Generator,312_pv,PV
+115,System,System,-,Generators,Generator,313_pv,PV
+116,System,System,-,Generators,Generator,313_pv_2,PV
+117,System,System,-,Generators,Generator,314_pv,PV
+118,System,System,-,Generators,Generator,314_pv_2,PV
+119,System,System,-,Generators,Generator,314_pv_3,PV
+120,System,System,-,Generators,Generator,314_pv_4,PV
+121,System,System,-,Generators,Generator,319_pv,PV
+122,System,System,-,Generators,Generator,320_pv,PV
+123,System,System,-,Generators,Generator,324_pv,PV
+124,System,System,-,Generators,Generator,324_pv_2,PV
+125,System,System,-,Generators,Generator,324_pv_3,PV
+126,System,System,-,Generators,Generator,118_rtpv,RTPV
+127,System,System,-,Generators,Generator,118_rtpv_10,RTPV
+128,System,System,-,Generators,Generator,118_rtpv_2,RTPV
+129,System,System,-,Generators,Generator,118_rtpv_3,RTPV
+130,System,System,-,Generators,Generator,118_rtpv_4,RTPV
+131,System,System,-,Generators,Generator,118_rtpv_5,RTPV
+132,System,System,-,Generators,Generator,118_rtpv_6,RTPV
+133,System,System,-,Generators,Generator,118_rtpv_7,RTPV
+134,System,System,-,Generators,Generator,118_rtpv_8,RTPV
+135,System,System,-,Generators,Generator,118_rtpv_9,RTPV
+136,System,System,-,Generators,Generator,213_rtpv,RTPV
+137,System,System,-,Generators,Generator,308_rtpv,RTPV
+138,System,System,-,Generators,Generator,313_rtpv,RTPV
+139,System,System,-,Generators,Generator,313_rtpv_10,RTPV
+140,System,System,-,Generators,Generator,313_rtpv_11,RTPV
+141,System,System,-,Generators,Generator,313_rtpv_12,RTPV
+142,System,System,-,Generators,Generator,313_rtpv_13,RTPV
+143,System,System,-,Generators,Generator,313_rtpv_2,RTPV
+144,System,System,-,Generators,Generator,313_rtpv_3,RTPV
+145,System,System,-,Generators,Generator,313_rtpv_4,RTPV
+146,System,System,-,Generators,Generator,313_rtpv_5,RTPV
+147,System,System,-,Generators,Generator,313_rtpv_6,RTPV
+148,System,System,-,Generators,Generator,313_rtpv_7,RTPV
+149,System,System,-,Generators,Generator,313_rtpv_8,RTPV
+150,System,System,-,Generators,Generator,313_rtpv_9,RTPV
+151,System,System,-,Generators,Generator,320_rtpv,RTPV
+152,System,System,-,Generators,Generator,320_rtpv_2,RTPV
+153,System,System,-,Generators,Generator,320_rtpv_3,RTPV
+154,System,System,-,Generators,Generator,320_rtpv_4,RTPV
+155,System,System,-,Generators,Generator,320_rtpv_5,RTPV
+156,System,System,-,Generators,Generator,320_rtpv_6,RTPV
+157,System,System,-,Generators,Generator,122_wind,Wind
+158,System,System,-,Generators,Generator,303_wind,Wind
+159,System,System,-,Generators,Generator,309_wind,Wind
+160,System,System,-,Generators,Generator,317_wind,Wind
+161,System,System,-,Fuels,Fuel,Coal/Steam,-
+162,System,System,-,Fuels,Fuel,Hydro,-
+163,System,System,-,Fuels,Fuel,NG/CC,-
+164,System,System,-,Fuels,Fuel,NG/CT,-
+165,System,System,-,Fuels,Fuel,Nuclear,-
+166,System,System,-,Fuels,Fuel,Oil/CT,-
+167,System,System,-,Fuels,Fuel,Oil/Steam,-
+168,System,System,-,Fuels,Fuel,PV,-
+169,System,System,-,Fuels,Fuel,RTPV,-
+170,System,System,-,Fuels,Fuel,SynchCond,-
+171,System,System,-,Fuels,Fuel,Wind,-
+172,System,System,-,Emissions,Emission,CO2,-
+173,System,System,-,Emissions,Emission,NOX,-
+174,System,System,-,Reserves,Reserve,Spin Up,-
+175,System,System,-,Regions,Region,1,-
+176,System,System,-,Regions,Region,2,-
+177,System,System,-,Regions,Region,3,-
+178,System,System,-,Zones,Zone,11,-
+179,System,System,-,Zones,Zone,12,-
+180,System,System,-,Zones,Zone,21,-
+181,System,System,-,Zones,Zone,22,-
+182,System,System,-,Zones,Zone,31,-
+183,System,System,-,Zones,Zone,32,-
+184,System,System,-,Nodes,Node,101,1
+185,System,System,-,Nodes,Node,102,1
+186,System,System,-,Nodes,Node,103,1
+187,System,System,-,Nodes,Node,104,1
+188,System,System,-,Nodes,Node,105,1
+189,System,System,-,Nodes,Node,106,1
+190,System,System,-,Nodes,Node,107,1
+191,System,System,-,Nodes,Node,108,1
+192,System,System,-,Nodes,Node,109,1
+193,System,System,-,Nodes,Node,110,1
+194,System,System,-,Nodes,Node,111,1
+195,System,System,-,Nodes,Node,112,1
+196,System,System,-,Nodes,Node,113,1
+197,System,System,-,Nodes,Node,114,1
+198,System,System,-,Nodes,Node,115,1
+199,System,System,-,Nodes,Node,116,1
+200,System,System,-,Nodes,Node,117,1
+201,System,System,-,Nodes,Node,118,1
+202,System,System,-,Nodes,Node,119,1
+203,System,System,-,Nodes,Node,120,1
+204,System,System,-,Nodes,Node,121,1
+205,System,System,-,Nodes,Node,122,1
+206,System,System,-,Nodes,Node,123,1
+207,System,System,-,Nodes,Node,124,1
+208,System,System,-,Nodes,Node,201,2
+209,System,System,-,Nodes,Node,202,2
+210,System,System,-,Nodes,Node,203,2
+211,System,System,-,Nodes,Node,204,2
+212,System,System,-,Nodes,Node,205,2
+213,System,System,-,Nodes,Node,206,2
+214,System,System,-,Nodes,Node,207,2
+215,System,System,-,Nodes,Node,208,2
+216,System,System,-,Nodes,Node,209,2
+217,System,System,-,Nodes,Node,210,2
+218,System,System,-,Nodes,Node,211,2
+219,System,System,-,Nodes,Node,212,2
+220,System,System,-,Nodes,Node,213,2
+221,System,System,-,Nodes,Node,214,2
+222,System,System,-,Nodes,Node,215,2
+223,System,System,-,Nodes,Node,216,2
+224,System,System,-,Nodes,Node,217,2
+225,System,System,-,Nodes,Node,218,2
+226,System,System,-,Nodes,Node,219,2
+227,System,System,-,Nodes,Node,220,2
+228,System,System,-,Nodes,Node,221,2
+229,System,System,-,Nodes,Node,222,2
+230,System,System,-,Nodes,Node,223,2
+231,System,System,-,Nodes,Node,224,2
+232,System,System,-,Nodes,Node,301,3
+233,System,System,-,Nodes,Node,302,3
+234,System,System,-,Nodes,Node,303,3
+235,System,System,-,Nodes,Node,304,3
+236,System,System,-,Nodes,Node,305,3
+237,System,System,-,Nodes,Node,306,3
+238,System,System,-,Nodes,Node,307,3
+239,System,System,-,Nodes,Node,308,3
+240,System,System,-,Nodes,Node,309,3
+241,System,System,-,Nodes,Node,310,3
+242,System,System,-,Nodes,Node,311,3
+243,System,System,-,Nodes,Node,312,3
+244,System,System,-,Nodes,Node,313,3
+245,System,System,-,Nodes,Node,314,3
+246,System,System,-,Nodes,Node,315,3
+247,System,System,-,Nodes,Node,316,3
+248,System,System,-,Nodes,Node,317,3
+249,System,System,-,Nodes,Node,318,3
+250,System,System,-,Nodes,Node,319,3
+251,System,System,-,Nodes,Node,320,3
+252,System,System,-,Nodes,Node,321,3
+253,System,System,-,Nodes,Node,322,3
+254,System,System,-,Nodes,Node,323,3
+255,System,System,-,Nodes,Node,324,3
+256,System,System,-,Nodes,Node,325,3
+257,System,System,-,Nodes,Node,326,3
+258,System,System,-,Nodes,Node,327,3
+259,System,System,-,Lines,Line,101_102_1,AC_1
+260,System,System,-,Lines,Line,101_103_1,AC_1
+261,System,System,-,Lines,Line,101_105_1,AC_1
+262,System,System,-,Lines,Line,102_104_1,AC_1
+263,System,System,-,Lines,Line,102_106_1,AC_1
+264,System,System,-,Lines,Line,103_109_1,AC_1
+265,System,System,-,Lines,Line,103_124_1,AC_1
+266,System,System,-,Lines,Line,104_109_1,AC_1
+267,System,System,-,Lines,Line,105_110_1,AC_1
+268,System,System,-,Lines,Line,106_110_1,AC_1
+269,System,System,-,Lines,Line,107_108_1,AC_1
+270,System,System,-,Lines,Line,108_109_1,AC_1
+271,System,System,-,Lines,Line,108_110_1,AC_1
+272,System,System,-,Lines,Line,109_111_1,AC_1
+273,System,System,-,Lines,Line,109_112_1,AC_1
+274,System,System,-,Lines,Line,110_111_1,AC_1
+275,System,System,-,Lines,Line,110_112_1,AC_1
+276,System,System,-,Lines,Line,111_113_1,AC_1
+277,System,System,-,Lines,Line,111_114_1,AC_1
+278,System,System,-,Lines,Line,112_113_1,AC_1
+279,System,System,-,Lines,Line,112_123_1,AC_1
+280,System,System,-,Lines,Line,113_123_1,AC_1
+281,System,System,-,Lines,Line,114_116_1,AC_1
+282,System,System,-,Lines,Line,115_116_1,AC_1
+283,System,System,-,Lines,Line,115_121_1,AC_1
+284,System,System,-,Lines,Line,115_121_2,AC_1
+285,System,System,-,Lines,Line,115_124_1,AC_1
+286,System,System,-,Lines,Line,116_117_1,AC_1
+287,System,System,-,Lines,Line,116_119_1,AC_1
+288,System,System,-,Lines,Line,117_118_1,AC_1
+289,System,System,-,Lines,Line,117_122_1,AC_1
+290,System,System,-,Lines,Line,118_121_1,AC_1
+291,System,System,-,Lines,Line,118_121_2,AC_1
+292,System,System,-,Lines,Line,119_120_1,AC_1
+293,System,System,-,Lines,Line,119_120_2,AC_1
+294,System,System,-,Lines,Line,120_123_1,AC_1
+295,System,System,-,Lines,Line,120_123_2,AC_1
+296,System,System,-,Lines,Line,121_122_1,AC_1
+297,System,System,-,Lines,Line,201_202_1,AC_2
+298,System,System,-,Lines,Line,201_203_1,AC_2
+299,System,System,-,Lines,Line,201_205_1,AC_2
+300,System,System,-,Lines,Line,202_204_1,AC_2
+301,System,System,-,Lines,Line,202_206_1,AC_2
+302,System,System,-,Lines,Line,203_209_1,AC_2
+303,System,System,-,Lines,Line,203_224_1,AC_2
+304,System,System,-,Lines,Line,204_209_1,AC_2
+305,System,System,-,Lines,Line,205_210_1,AC_2
+306,System,System,-,Lines,Line,206_210_1,AC_2
+307,System,System,-,Lines,Line,207_208_1,AC_2
+308,System,System,-,Lines,Line,208_209_1,AC_2
+309,System,System,-,Lines,Line,208_210_1,AC_2
+310,System,System,-,Lines,Line,209_211_1,AC_2
+311,System,System,-,Lines,Line,209_212_1,AC_2
+312,System,System,-,Lines,Line,210_211_1,AC_2
+313,System,System,-,Lines,Line,210_212_1,AC_2
+314,System,System,-,Lines,Line,211_213_1,AC_2
+315,System,System,-,Lines,Line,211_214_1,AC_2
+316,System,System,-,Lines,Line,212_213_1,AC_2
+317,System,System,-,Lines,Line,212_223_1,AC_2
+318,System,System,-,Lines,Line,213_223_1,AC_2
+319,System,System,-,Lines,Line,214_216_1,AC_2
+320,System,System,-,Lines,Line,215_216_1,AC_2
+321,System,System,-,Lines,Line,215_221_1,AC_2
+322,System,System,-,Lines,Line,215_221_2,AC_2
+323,System,System,-,Lines,Line,215_224_1,AC_2
+324,System,System,-,Lines,Line,216_217_1,AC_2
+325,System,System,-,Lines,Line,216_219_1,AC_2
+326,System,System,-,Lines,Line,217_218_1,AC_2
+327,System,System,-,Lines,Line,217_222_1,AC_2
+328,System,System,-,Lines,Line,218_221_1,AC_2
+329,System,System,-,Lines,Line,218_221_2,AC_2
+330,System,System,-,Lines,Line,219_220_1,AC_2
+331,System,System,-,Lines,Line,219_220_2,AC_2
+332,System,System,-,Lines,Line,220_223_1,AC_2
+333,System,System,-,Lines,Line,220_223_2,AC_2
+334,System,System,-,Lines,Line,221_222_1,AC_2
+335,System,System,-,Lines,Line,301_302_1,AC_3
+336,System,System,-,Lines,Line,301_303_1,AC_3
+337,System,System,-,Lines,Line,301_305_1,AC_3
+338,System,System,-,Lines,Line,302_304_1,AC_3
+339,System,System,-,Lines,Line,302_306_1,AC_3
+340,System,System,-,Lines,Line,303_309_1,AC_3
+341,System,System,-,Lines,Line,303_324_1,AC_3
+342,System,System,-,Lines,Line,304_309_1,AC_3
+343,System,System,-,Lines,Line,305_310_1,AC_3
+344,System,System,-,Lines,Line,306_310_1,AC_3
+345,System,System,-,Lines,Line,307_308_1,AC_3
+346,System,System,-,Lines,Line,308_309_1,AC_3
+347,System,System,-,Lines,Line,308_310_1,AC_3
+348,System,System,-,Lines,Line,309_311_1,AC_3
+349,System,System,-,Lines,Line,309_312_1,AC_3
+350,System,System,-,Lines,Line,310_311_1,AC_3
+351,System,System,-,Lines,Line,310_312_1,AC_3
+352,System,System,-,Lines,Line,311_313_1,AC_3
+353,System,System,-,Lines,Line,311_314_1,AC_3
+354,System,System,-,Lines,Line,312_313_1,AC_3
+355,System,System,-,Lines,Line,312_323_1,AC_3
+356,System,System,-,Lines,Line,313_323_1,AC_3
+357,System,System,-,Lines,Line,313_326_1,AC_3
+358,System,System,-,Lines,Line,314_316_1,AC_3
+359,System,System,-,Lines,Line,315_316_1,AC_3
+360,System,System,-,Lines,Line,315_321_1,AC_3
+361,System,System,-,Lines,Line,315_321_2,AC_3
+362,System,System,-,Lines,Line,315_324_1,AC_3
+363,System,System,-,Lines,Line,315_327_1,AC_3
+364,System,System,-,Lines,Line,316_317_1,AC_3
+365,System,System,-,Lines,Line,316_319_1,AC_3
+366,System,System,-,Lines,Line,317_318_1,AC_3
+367,System,System,-,Lines,Line,317_322_1,AC_3
+368,System,System,-,Lines,Line,318_321_1,AC_3
+369,System,System,-,Lines,Line,318_321_2,AC_3
+370,System,System,-,Lines,Line,319_320_1,AC_3
+371,System,System,-,Lines,Line,319_320_2,AC_3
+372,System,System,-,Lines,Line,320_323_1,AC_3
+373,System,System,-,Lines,Line,320_323_2,AC_3
+374,System,System,-,Lines,Line,321_322_1,AC_3
+375,System,System,-,Lines,Line,323_325_1,AC_3
+376,System,System,-,Lines,Line,107_203_1,Interstate_AC
+377,System,System,-,Lines,Line,113_215_1,Interstate_AC
+378,System,System,-,Lines,Line,123_217_1,Interstate_AC
+379,System,System,-,Lines,Line,318_223_1,Interstate_AC
+380,System,System,-,Lines,Line,325_121_1,Interstate_AC
+381,System,System,-,Lines,Line,113_316_1,Interstate_DC
+382,System,System,-,Constraints,Constraint,Min Region 3 Gen,-
+383,System,System,-,Lists,List,timeslice,-
+384,System,System,-,Variables,Variable,CapAndTrade,-
+385,System,System,-,Variables,Variable,X,-
+386,System,System,-,Variables,Variable,Y,-
+387,Generator,101_3,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+388,Generator,101_4,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+389,Generator,101_5,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+390,Generator,102_3,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+391,Generator,102_4,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+392,Generator,115_3,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+393,Generator,116_1,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+394,Generator,123_2,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+395,Generator,123_3,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+396,Generator,201_3,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+397,Generator,202_3,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+398,Generator,202_4,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+399,Generator,216_1,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+400,Generator,223_1,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+401,Generator,223_2,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+402,Generator,223_3,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+403,Generator,316_1,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+404,Generator,316_2,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+405,Generator,316_3,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+406,Generator,316_4,Coal/Steam,Fuels,Fuel,Coal/Steam,-
+407,Generator,122_1,Hydro,Fuels,Fuel,Hydro,-
+408,Generator,122_2,Hydro,Fuels,Fuel,Hydro,-
+409,Generator,122_3,Hydro,Fuels,Fuel,Hydro,-
+410,Generator,122_4,Hydro,Fuels,Fuel,Hydro,-
+411,Generator,122_5,Hydro,Fuels,Fuel,Hydro,-
+412,Generator,122_6,Hydro,Fuels,Fuel,Hydro,-
+413,Generator,201_4,Hydro,Fuels,Fuel,Hydro,-
+414,Generator,215_1,Hydro,Fuels,Fuel,Hydro,-
+415,Generator,215_2,Hydro,Fuels,Fuel,Hydro,-
+416,Generator,215_3,Hydro,Fuels,Fuel,Hydro,-
+417,Generator,222_1,Hydro,Fuels,Fuel,Hydro,-
+418,Generator,222_2,Hydro,Fuels,Fuel,Hydro,-
+419,Generator,222_3,Hydro,Fuels,Fuel,Hydro,-
+420,Generator,222_4,Hydro,Fuels,Fuel,Hydro,-
+421,Generator,222_5,Hydro,Fuels,Fuel,Hydro,-
+422,Generator,222_6,Hydro,Fuels,Fuel,Hydro,-
+423,Generator,222_7,Hydro,Fuels,Fuel,Hydro,-
+424,Generator,322_1,Hydro,Fuels,Fuel,Hydro,-
+425,Generator,322_2,Hydro,Fuels,Fuel,Hydro,-
+426,Generator,322_3,Hydro,Fuels,Fuel,Hydro,-
+427,Generator,322_4,Hydro,Fuels,Fuel,Hydro,-
+428,Generator,107_1,NG/CC,Fuels,Fuel,NG/CC,-
+429,Generator,118_1,NG/CC,Fuels,Fuel,NG/CC,-
+430,Generator,118_2,NG/CC,Fuels,Fuel,NG/CC,-
+431,Generator,213_3,NG/CC,Fuels,Fuel,NG/CC,-
+432,Generator,218_1,NG/CC,Fuels,Fuel,NG/CC,-
+433,Generator,221_1,NG/CC,Fuels,Fuel,NG/CC,-
+434,Generator,313_1,NG/CC,Fuels,Fuel,NG/CC,-
+435,Generator,318_1,NG/CC,Fuels,Fuel,NG/CC,-
+436,Generator,321_1,NG/CC,Fuels,Fuel,NG/CC,-
+437,Generator,323_1,NG/CC,Fuels,Fuel,NG/CC,-
+438,Generator,323_2,NG/CC,Fuels,Fuel,NG/CC,-
+439,Generator,113_1,NG/CT,Fuels,Fuel,NG/CT,-
+440,Generator,113_2,NG/CT,Fuels,Fuel,NG/CT,-
+441,Generator,113_3,NG/CT,Fuels,Fuel,NG/CT,-
+442,Generator,113_4,NG/CT,Fuels,Fuel,NG/CT,-
+443,Generator,113_5,NG/CT,Fuels,Fuel,NG/CT,-
+444,Generator,123_1,NG/CT,Fuels,Fuel,NG/CT,-
+445,Generator,123_4,NG/CT,Fuels,Fuel,NG/CT,-
+446,Generator,123_5,NG/CT,Fuels,Fuel,NG/CT,-
+447,Generator,207_1,NG/CT,Fuels,Fuel,NG/CT,-
+448,Generator,207_2,NG/CT,Fuels,Fuel,NG/CT,-
+449,Generator,213_1,NG/CT,Fuels,Fuel,NG/CT,-
+450,Generator,213_2,NG/CT,Fuels,Fuel,NG/CT,-
+451,Generator,215_4,NG/CT,Fuels,Fuel,NG/CT,-
+452,Generator,215_5,NG/CT,Fuels,Fuel,NG/CT,-
+453,Generator,223_4,NG/CT,Fuels,Fuel,NG/CT,-
+454,Generator,223_5,NG/CT,Fuels,Fuel,NG/CT,-
+455,Generator,223_6,NG/CT,Fuels,Fuel,NG/CT,-
+456,Generator,301_3,NG/CT,Fuels,Fuel,NG/CT,-
+457,Generator,301_4,NG/CT,Fuels,Fuel,NG/CT,-
+458,Generator,302_3,NG/CT,Fuels,Fuel,NG/CT,-
+459,Generator,302_4,NG/CT,Fuels,Fuel,NG/CT,-
+460,Generator,307_1,NG/CT,Fuels,Fuel,NG/CT,-
+461,Generator,307_2,NG/CT,Fuels,Fuel,NG/CT,-
+462,Generator,315_6,NG/CT,Fuels,Fuel,NG/CT,-
+463,Generator,315_7,NG/CT,Fuels,Fuel,NG/CT,-
+464,Generator,315_8,NG/CT,Fuels,Fuel,NG/CT,-
+465,Generator,322_5,NG/CT,Fuels,Fuel,NG/CT,-
+466,Generator,322_6,NG/CT,Fuels,Fuel,NG/CT,-
+467,Generator,121_1,Nuclear,Fuels,Fuel,Nuclear,-
+468,Generator,101_1,Oil/CT,Fuels,Fuel,Oil/CT,-
+469,Generator,101_2,Oil/CT,Fuels,Fuel,Oil/CT,-
+470,Generator,102_1,Oil/CT,Fuels,Fuel,Oil/CT,-
+471,Generator,102_2,Oil/CT,Fuels,Fuel,Oil/CT,-
+472,Generator,201_1,Oil/CT,Fuels,Fuel,Oil/CT,-
+473,Generator,201_2,Oil/CT,Fuels,Fuel,Oil/CT,-
+474,Generator,202_1,Oil/CT,Fuels,Fuel,Oil/CT,-
+475,Generator,202_2,Oil/CT,Fuels,Fuel,Oil/CT,-
+476,Generator,301_1,Oil/CT,Fuels,Fuel,Oil/CT,-
+477,Generator,301_2,Oil/CT,Fuels,Fuel,Oil/CT,-
+478,Generator,302_1,Oil/CT,Fuels,Fuel,Oil/CT,-
+479,Generator,302_2,Oil/CT,Fuels,Fuel,Oil/CT,-
+480,Generator,115_1,Oil/Steam,Fuels,Fuel,Oil/Steam,-
+481,Generator,115_2,Oil/Steam,Fuels,Fuel,Oil/Steam,-
+482,Generator,315_1,Oil/Steam,Fuels,Fuel,Oil/Steam,-
+483,Generator,315_2,Oil/Steam,Fuels,Fuel,Oil/Steam,-
+484,Generator,315_3,Oil/Steam,Fuels,Fuel,Oil/Steam,-
+485,Generator,315_4,Oil/Steam,Fuels,Fuel,Oil/Steam,-
+486,Generator,315_5,Oil/Steam,Fuels,Fuel,Oil/Steam,-
+487,Generator,101_pv,PV,Fuels,Fuel,PV,-
+488,Generator,101_pv_2,PV,Fuels,Fuel,PV,-
+489,Generator,101_pv_3,PV,Fuels,Fuel,PV,-
+490,Generator,101_pv_4,PV,Fuels,Fuel,PV,-
+491,Generator,102_pv,PV,Fuels,Fuel,PV,-
+492,Generator,102_pv_2,PV,Fuels,Fuel,PV,-
+493,Generator,103_pv,PV,Fuels,Fuel,PV,-
+494,Generator,104_pv,PV,Fuels,Fuel,PV,-
+495,Generator,113_pv,PV,Fuels,Fuel,PV,-
+496,Generator,119_pv,PV,Fuels,Fuel,PV,-
+497,Generator,215_pv,PV,Fuels,Fuel,PV,-
+498,Generator,310_pv,PV,Fuels,Fuel,PV,-
+499,Generator,310_pv_2,PV,Fuels,Fuel,PV,-
+500,Generator,312_pv,PV,Fuels,Fuel,PV,-
+501,Generator,313_pv,PV,Fuels,Fuel,PV,-
+502,Generator,313_pv_2,PV,Fuels,Fuel,PV,-
+503,Generator,314_pv,PV,Fuels,Fuel,PV,-
+504,Generator,314_pv_2,PV,Fuels,Fuel,PV,-
+505,Generator,314_pv_3,PV,Fuels,Fuel,PV,-
+506,Generator,314_pv_4,PV,Fuels,Fuel,PV,-
+507,Generator,319_pv,PV,Fuels,Fuel,PV,-
+508,Generator,320_pv,PV,Fuels,Fuel,PV,-
+509,Generator,324_pv,PV,Fuels,Fuel,PV,-
+510,Generator,324_pv_2,PV,Fuels,Fuel,PV,-
+511,Generator,324_pv_3,PV,Fuels,Fuel,PV,-
+512,Generator,118_rtpv,RTPV,Fuels,Fuel,RTPV,-
+513,Generator,118_rtpv_10,RTPV,Fuels,Fuel,RTPV,-
+514,Generator,118_rtpv_2,RTPV,Fuels,Fuel,RTPV,-
+515,Generator,118_rtpv_3,RTPV,Fuels,Fuel,RTPV,-
+516,Generator,118_rtpv_4,RTPV,Fuels,Fuel,RTPV,-
+517,Generator,118_rtpv_5,RTPV,Fuels,Fuel,RTPV,-
+518,Generator,118_rtpv_6,RTPV,Fuels,Fuel,RTPV,-
+519,Generator,118_rtpv_7,RTPV,Fuels,Fuel,RTPV,-
+520,Generator,118_rtpv_8,RTPV,Fuels,Fuel,RTPV,-
+521,Generator,118_rtpv_9,RTPV,Fuels,Fuel,RTPV,-
+522,Generator,213_rtpv,RTPV,Fuels,Fuel,RTPV,-
+523,Generator,308_rtpv,RTPV,Fuels,Fuel,RTPV,-
+524,Generator,313_rtpv,RTPV,Fuels,Fuel,RTPV,-
+525,Generator,313_rtpv_10,RTPV,Fuels,Fuel,RTPV,-
+526,Generator,313_rtpv_11,RTPV,Fuels,Fuel,RTPV,-
+527,Generator,313_rtpv_12,RTPV,Fuels,Fuel,RTPV,-
+528,Generator,313_rtpv_13,RTPV,Fuels,Fuel,RTPV,-
+529,Generator,313_rtpv_2,RTPV,Fuels,Fuel,RTPV,-
+530,Generator,313_rtpv_3,RTPV,Fuels,Fuel,RTPV,-
+531,Generator,313_rtpv_4,RTPV,Fuels,Fuel,RTPV,-
+532,Generator,313_rtpv_5,RTPV,Fuels,Fuel,RTPV,-
+533,Generator,313_rtpv_6,RTPV,Fuels,Fuel,RTPV,-
+534,Generator,313_rtpv_7,RTPV,Fuels,Fuel,RTPV,-
+535,Generator,313_rtpv_8,RTPV,Fuels,Fuel,RTPV,-
+536,Generator,313_rtpv_9,RTPV,Fuels,Fuel,RTPV,-
+537,Generator,320_rtpv,RTPV,Fuels,Fuel,RTPV,-
+538,Generator,320_rtpv_2,RTPV,Fuels,Fuel,RTPV,-
+539,Generator,320_rtpv_3,RTPV,Fuels,Fuel,RTPV,-
+540,Generator,320_rtpv_4,RTPV,Fuels,Fuel,RTPV,-
+541,Generator,320_rtpv_5,RTPV,Fuels,Fuel,RTPV,-
+542,Generator,320_rtpv_6,RTPV,Fuels,Fuel,RTPV,-
+543,Generator,122_wind,Wind,Fuels,Fuel,Wind,-
+544,Generator,303_wind,Wind,Fuels,Fuel,Wind,-
+545,Generator,309_wind,Wind,Fuels,Fuel,Wind,-
+546,Generator,317_wind,Wind,Fuels,Fuel,Wind,-
+547,Generator,101_3,Coal/Steam,Nodes,Node,101,1
+548,Generator,101_4,Coal/Steam,Nodes,Node,101,1
+549,Generator,101_5,Coal/Steam,Nodes,Node,101,1
+550,Generator,102_3,Coal/Steam,Nodes,Node,102,1
+551,Generator,102_4,Coal/Steam,Nodes,Node,102,1
+552,Generator,115_3,Coal/Steam,Nodes,Node,115,1
+553,Generator,116_1,Coal/Steam,Nodes,Node,116,1
+554,Generator,123_2,Coal/Steam,Nodes,Node,123,1
+555,Generator,123_3,Coal/Steam,Nodes,Node,123,1
+556,Generator,201_3,Coal/Steam,Nodes,Node,201,2
+557,Generator,202_3,Coal/Steam,Nodes,Node,202,2
+558,Generator,202_4,Coal/Steam,Nodes,Node,202,2
+559,Generator,216_1,Coal/Steam,Nodes,Node,216,2
+560,Generator,223_1,Coal/Steam,Nodes,Node,223,2
+561,Generator,223_2,Coal/Steam,Nodes,Node,223,2
+562,Generator,223_3,Coal/Steam,Nodes,Node,223,2
+563,Generator,316_1,Coal/Steam,Nodes,Node,316,3
+564,Generator,316_2,Coal/Steam,Nodes,Node,316,3
+565,Generator,316_3,Coal/Steam,Nodes,Node,316,3
+566,Generator,316_4,Coal/Steam,Nodes,Node,316,3
+567,Generator,122_1,Hydro,Nodes,Node,122,1
+568,Generator,122_2,Hydro,Nodes,Node,122,1
+569,Generator,122_3,Hydro,Nodes,Node,122,1
+570,Generator,122_4,Hydro,Nodes,Node,122,1
+571,Generator,122_5,Hydro,Nodes,Node,122,1
+572,Generator,122_6,Hydro,Nodes,Node,122,1
+573,Generator,201_4,Hydro,Nodes,Node,201,2
+574,Generator,215_1,Hydro,Nodes,Node,215,2
+575,Generator,215_2,Hydro,Nodes,Node,215,2
+576,Generator,215_3,Hydro,Nodes,Node,215,2
+577,Generator,222_1,Hydro,Nodes,Node,222,2
+578,Generator,222_2,Hydro,Nodes,Node,222,2
+579,Generator,222_3,Hydro,Nodes,Node,222,2
+580,Generator,222_4,Hydro,Nodes,Node,222,2
+581,Generator,222_5,Hydro,Nodes,Node,222,2
+582,Generator,222_6,Hydro,Nodes,Node,222,2
+583,Generator,222_7,Hydro,Nodes,Node,222,2
+584,Generator,322_1,Hydro,Nodes,Node,322,3
+585,Generator,322_2,Hydro,Nodes,Node,322,3
+586,Generator,322_3,Hydro,Nodes,Node,322,3
+587,Generator,322_4,Hydro,Nodes,Node,322,3
+588,Generator,107_1,NG/CC,Nodes,Node,107,1
+589,Generator,118_1,NG/CC,Nodes,Node,118,1
+590,Generator,118_2,NG/CC,Nodes,Node,118,1
+591,Generator,213_3,NG/CC,Nodes,Node,213,2
+592,Generator,218_1,NG/CC,Nodes,Node,218,2
+593,Generator,221_1,NG/CC,Nodes,Node,221,2
+594,Generator,313_1,NG/CC,Nodes,Node,313,3
+595,Generator,318_1,NG/CC,Nodes,Node,318,3
+596,Generator,321_1,NG/CC,Nodes,Node,321,3
+597,Generator,323_1,NG/CC,Nodes,Node,323,3
+598,Generator,323_2,NG/CC,Nodes,Node,323,3
+599,Generator,113_1,NG/CT,Nodes,Node,113,1
+600,Generator,113_2,NG/CT,Nodes,Node,113,1
+601,Generator,113_3,NG/CT,Nodes,Node,113,1
+602,Generator,113_4,NG/CT,Nodes,Node,113,1
+603,Generator,113_5,NG/CT,Nodes,Node,113,1
+604,Generator,123_1,NG/CT,Nodes,Node,123,1
+605,Generator,123_4,NG/CT,Nodes,Node,123,1
+606,Generator,123_5,NG/CT,Nodes,Node,123,1
+607,Generator,207_1,NG/CT,Nodes,Node,207,2
+608,Generator,207_2,NG/CT,Nodes,Node,207,2
+609,Generator,213_1,NG/CT,Nodes,Node,213,2
+610,Generator,213_2,NG/CT,Nodes,Node,213,2
+611,Generator,215_4,NG/CT,Nodes,Node,215,2
+612,Generator,215_5,NG/CT,Nodes,Node,215,2
+613,Generator,223_4,NG/CT,Nodes,Node,223,2
+614,Generator,223_5,NG/CT,Nodes,Node,223,2
+615,Generator,223_6,NG/CT,Nodes,Node,223,2
+616,Generator,301_3,NG/CT,Nodes,Node,301,3
+617,Generator,301_4,NG/CT,Nodes,Node,301,3
+618,Generator,302_3,NG/CT,Nodes,Node,302,3
+619,Generator,302_4,NG/CT,Nodes,Node,302,3
+620,Generator,307_1,NG/CT,Nodes,Node,307,3
+621,Generator,307_2,NG/CT,Nodes,Node,307,3
+622,Generator,315_6,NG/CT,Nodes,Node,315,3
+623,Generator,315_7,NG/CT,Nodes,Node,315,3
+624,Generator,315_8,NG/CT,Nodes,Node,315,3
+625,Generator,322_5,NG/CT,Nodes,Node,322,3
+626,Generator,322_6,NG/CT,Nodes,Node,322,3
+627,Generator,121_1,Nuclear,Nodes,Node,121,1
+628,Generator,101_1,Oil/CT,Nodes,Node,101,1
+629,Generator,101_2,Oil/CT,Nodes,Node,101,1
+630,Generator,102_1,Oil/CT,Nodes,Node,102,1
+631,Generator,102_2,Oil/CT,Nodes,Node,102,1
+632,Generator,201_1,Oil/CT,Nodes,Node,201,2
+633,Generator,201_2,Oil/CT,Nodes,Node,201,2
+634,Generator,202_1,Oil/CT,Nodes,Node,202,2
+635,Generator,202_2,Oil/CT,Nodes,Node,202,2
+636,Generator,301_1,Oil/CT,Nodes,Node,301,3
+637,Generator,301_2,Oil/CT,Nodes,Node,301,3
+638,Generator,302_1,Oil/CT,Nodes,Node,302,3
+639,Generator,302_2,Oil/CT,Nodes,Node,302,3
+640,Generator,115_1,Oil/Steam,Nodes,Node,115,1
+641,Generator,115_2,Oil/Steam,Nodes,Node,115,1
+642,Generator,315_1,Oil/Steam,Nodes,Node,315,3
+643,Generator,315_2,Oil/Steam,Nodes,Node,315,3
+644,Generator,315_3,Oil/Steam,Nodes,Node,315,3
+645,Generator,315_4,Oil/Steam,Nodes,Node,315,3
+646,Generator,315_5,Oil/Steam,Nodes,Node,315,3
+647,Generator,101_pv,PV,Nodes,Node,101,1
+648,Generator,101_pv_2,PV,Nodes,Node,101,1
+649,Generator,101_pv_3,PV,Nodes,Node,101,1
+650,Generator,101_pv_4,PV,Nodes,Node,101,1
+651,Generator,102_pv,PV,Nodes,Node,102,1
+652,Generator,102_pv_2,PV,Nodes,Node,102,1
+653,Generator,103_pv,PV,Nodes,Node,103,1
+654,Generator,104_pv,PV,Nodes,Node,104,1
+655,Generator,113_pv,PV,Nodes,Node,113,1
+656,Generator,119_pv,PV,Nodes,Node,119,1
+657,Generator,215_pv,PV,Nodes,Node,215,2
+658,Generator,310_pv,PV,Nodes,Node,310,3
+659,Generator,310_pv_2,PV,Nodes,Node,310,3
+660,Generator,312_pv,PV,Nodes,Node,312,3
+661,Generator,313_pv,PV,Nodes,Node,313,3
+662,Generator,313_pv_2,PV,Nodes,Node,313,3
+663,Generator,314_pv,PV,Nodes,Node,314,3
+664,Generator,314_pv_2,PV,Nodes,Node,314,3
+665,Generator,314_pv_3,PV,Nodes,Node,314,3
+666,Generator,314_pv_4,PV,Nodes,Node,314,3
+667,Generator,319_pv,PV,Nodes,Node,319,3
+668,Generator,320_pv,PV,Nodes,Node,320,3
+669,Generator,324_pv,PV,Nodes,Node,324,3
+670,Generator,324_pv_2,PV,Nodes,Node,324,3
+671,Generator,324_pv_3,PV,Nodes,Node,324,3
+672,Generator,118_rtpv,RTPV,Nodes,Node,118,1
+673,Generator,118_rtpv_10,RTPV,Nodes,Node,118,1
+674,Generator,118_rtpv_2,RTPV,Nodes,Node,118,1
+675,Generator,118_rtpv_3,RTPV,Nodes,Node,118,1
+676,Generator,118_rtpv_4,RTPV,Nodes,Node,118,1
+677,Generator,118_rtpv_5,RTPV,Nodes,Node,118,1
+678,Generator,118_rtpv_6,RTPV,Nodes,Node,118,1
+679,Generator,118_rtpv_7,RTPV,Nodes,Node,118,1
+680,Generator,118_rtpv_8,RTPV,Nodes,Node,118,1
+681,Generator,118_rtpv_9,RTPV,Nodes,Node,118,1
+682,Generator,213_rtpv,RTPV,Nodes,Node,213,2
+683,Generator,308_rtpv,RTPV,Nodes,Node,308,3
+684,Generator,313_rtpv,RTPV,Nodes,Node,313,3
+685,Generator,313_rtpv_10,RTPV,Nodes,Node,313,3
+686,Generator,313_rtpv_11,RTPV,Nodes,Node,313,3
+687,Generator,313_rtpv_12,RTPV,Nodes,Node,313,3
+688,Generator,313_rtpv_13,RTPV,Nodes,Node,313,3
+689,Generator,313_rtpv_2,RTPV,Nodes,Node,313,3
+690,Generator,313_rtpv_3,RTPV,Nodes,Node,313,3
+691,Generator,313_rtpv_4,RTPV,Nodes,Node,313,3
+692,Generator,313_rtpv_5,RTPV,Nodes,Node,313,3
+693,Generator,313_rtpv_6,RTPV,Nodes,Node,313,3
+694,Generator,313_rtpv_7,RTPV,Nodes,Node,313,3
+695,Generator,313_rtpv_8,RTPV,Nodes,Node,313,3
+696,Generator,313_rtpv_9,RTPV,Nodes,Node,313,3
+697,Generator,320_rtpv,RTPV,Nodes,Node,320,3
+698,Generator,320_rtpv_2,RTPV,Nodes,Node,320,3
+699,Generator,320_rtpv_3,RTPV,Nodes,Node,320,3
+700,Generator,320_rtpv_4,RTPV,Nodes,Node,320,3
+701,Generator,320_rtpv_5,RTPV,Nodes,Node,320,3
+702,Generator,320_rtpv_6,RTPV,Nodes,Node,320,3
+703,Generator,122_wind,Wind,Nodes,Node,122,1
+704,Generator,303_wind,Wind,Nodes,Node,303,3
+705,Generator,309_wind,Wind,Nodes,Node,309,3
+706,Generator,317_wind,Wind,Nodes,Node,317,3
+707,Emission,CO2,-,Generators,Generator,101_3,Coal/Steam
+708,Emission,CO2,-,Generators,Generator,101_4,Coal/Steam
+709,Emission,CO2,-,Generators,Generator,101_5,Coal/Steam
+710,Emission,CO2,-,Generators,Generator,102_3,Coal/Steam
+711,Emission,CO2,-,Generators,Generator,102_4,Coal/Steam
+712,Emission,CO2,-,Generators,Generator,115_3,Coal/Steam
+713,Emission,CO2,-,Generators,Generator,116_1,Coal/Steam
+714,Emission,CO2,-,Generators,Generator,123_2,Coal/Steam
+715,Emission,CO2,-,Generators,Generator,123_3,Coal/Steam
+716,Emission,CO2,-,Generators,Generator,201_3,Coal/Steam
+717,Emission,CO2,-,Generators,Generator,202_3,Coal/Steam
+718,Emission,CO2,-,Generators,Generator,202_4,Coal/Steam
+719,Emission,CO2,-,Generators,Generator,216_1,Coal/Steam
+720,Emission,CO2,-,Generators,Generator,223_1,Coal/Steam
+721,Emission,CO2,-,Generators,Generator,223_2,Coal/Steam
+722,Emission,CO2,-,Generators,Generator,223_3,Coal/Steam
+723,Emission,CO2,-,Generators,Generator,316_1,Coal/Steam
+724,Emission,CO2,-,Generators,Generator,316_2,Coal/Steam
+725,Emission,CO2,-,Generators,Generator,316_3,Coal/Steam
+726,Emission,CO2,-,Generators,Generator,316_4,Coal/Steam
+727,Emission,CO2,-,Generators,Generator,107_1,NG/CC
+728,Emission,CO2,-,Generators,Generator,118_1,NG/CC
+729,Emission,CO2,-,Generators,Generator,118_2,NG/CC
+730,Emission,CO2,-,Generators,Generator,213_3,NG/CC
+731,Emission,CO2,-,Generators,Generator,218_1,NG/CC
+732,Emission,CO2,-,Generators,Generator,221_1,NG/CC
+733,Emission,CO2,-,Generators,Generator,313_1,NG/CC
+734,Emission,CO2,-,Generators,Generator,318_1,NG/CC
+735,Emission,CO2,-,Generators,Generator,321_1,NG/CC
+736,Emission,CO2,-,Generators,Generator,323_1,NG/CC
+737,Emission,CO2,-,Generators,Generator,323_2,NG/CC
+738,Emission,CO2,-,Generators,Generator,113_1,NG/CT
+739,Emission,CO2,-,Generators,Generator,113_2,NG/CT
+740,Emission,CO2,-,Generators,Generator,113_3,NG/CT
+741,Emission,CO2,-,Generators,Generator,113_4,NG/CT
+742,Emission,CO2,-,Generators,Generator,113_5,NG/CT
+743,Emission,CO2,-,Generators,Generator,123_1,NG/CT
+744,Emission,CO2,-,Generators,Generator,123_4,NG/CT
+745,Emission,CO2,-,Generators,Generator,123_5,NG/CT
+746,Emission,CO2,-,Generators,Generator,207_1,NG/CT
+747,Emission,CO2,-,Generators,Generator,207_2,NG/CT
+748,Emission,CO2,-,Generators,Generator,213_1,NG/CT
+749,Emission,CO2,-,Generators,Generator,213_2,NG/CT
+750,Emission,CO2,-,Generators,Generator,215_4,NG/CT
+751,Emission,CO2,-,Generators,Generator,215_5,NG/CT
+752,Emission,CO2,-,Generators,Generator,223_4,NG/CT
+753,Emission,CO2,-,Generators,Generator,223_5,NG/CT
+754,Emission,CO2,-,Generators,Generator,223_6,NG/CT
+755,Emission,CO2,-,Generators,Generator,301_3,NG/CT
+756,Emission,CO2,-,Generators,Generator,301_4,NG/CT
+757,Emission,CO2,-,Generators,Generator,302_3,NG/CT
+758,Emission,CO2,-,Generators,Generator,302_4,NG/CT
+759,Emission,CO2,-,Generators,Generator,307_1,NG/CT
+760,Emission,CO2,-,Generators,Generator,307_2,NG/CT
+761,Emission,CO2,-,Generators,Generator,315_6,NG/CT
+762,Emission,CO2,-,Generators,Generator,315_7,NG/CT
+763,Emission,CO2,-,Generators,Generator,315_8,NG/CT
+764,Emission,CO2,-,Generators,Generator,322_5,NG/CT
+765,Emission,CO2,-,Generators,Generator,322_6,NG/CT
+766,Emission,CO2,-,Generators,Generator,101_1,Oil/CT
+767,Emission,CO2,-,Generators,Generator,101_2,Oil/CT
+768,Emission,CO2,-,Generators,Generator,102_1,Oil/CT
+769,Emission,CO2,-,Generators,Generator,102_2,Oil/CT
+770,Emission,CO2,-,Generators,Generator,201_1,Oil/CT
+771,Emission,CO2,-,Generators,Generator,201_2,Oil/CT
+772,Emission,CO2,-,Generators,Generator,202_1,Oil/CT
+773,Emission,CO2,-,Generators,Generator,202_2,Oil/CT
+774,Emission,CO2,-,Generators,Generator,301_1,Oil/CT
+775,Emission,CO2,-,Generators,Generator,301_2,Oil/CT
+776,Emission,CO2,-,Generators,Generator,302_1,Oil/CT
+777,Emission,CO2,-,Generators,Generator,302_2,Oil/CT
+778,Emission,CO2,-,Generators,Generator,115_1,Oil/Steam
+779,Emission,CO2,-,Generators,Generator,115_2,Oil/Steam
+780,Emission,CO2,-,Generators,Generator,315_1,Oil/Steam
+781,Emission,CO2,-,Generators,Generator,315_2,Oil/Steam
+782,Emission,CO2,-,Generators,Generator,315_3,Oil/Steam
+783,Emission,CO2,-,Generators,Generator,315_4,Oil/Steam
+784,Emission,CO2,-,Generators,Generator,315_5,Oil/Steam
+785,Emission,CO2,-,Fuels,Fuel,Coal/Steam,-
+786,Emission,CO2,-,Fuels,Fuel,NG/CC,-
+787,Emission,CO2,-,Fuels,Fuel,NG/CT,-
+788,Emission,CO2,-,Fuels,Fuel,Oil/CT,-
+789,Emission,CO2,-,Fuels,Fuel,Oil/Steam,-
+790,Reserve,Spin Up,-,Generators,Generator,101_3,Coal/Steam
+791,Reserve,Spin Up,-,Generators,Generator,101_4,Coal/Steam
+792,Reserve,Spin Up,-,Generators,Generator,101_5,Coal/Steam
+793,Reserve,Spin Up,-,Generators,Generator,102_3,Coal/Steam
+794,Reserve,Spin Up,-,Generators,Generator,102_4,Coal/Steam
+795,Reserve,Spin Up,-,Generators,Generator,115_3,Coal/Steam
+796,Reserve,Spin Up,-,Generators,Generator,116_1,Coal/Steam
+797,Reserve,Spin Up,-,Generators,Generator,123_2,Coal/Steam
+798,Reserve,Spin Up,-,Generators,Generator,123_3,Coal/Steam
+799,Reserve,Spin Up,-,Generators,Generator,201_3,Coal/Steam
+800,Reserve,Spin Up,-,Generators,Generator,202_3,Coal/Steam
+801,Reserve,Spin Up,-,Generators,Generator,202_4,Coal/Steam
+802,Reserve,Spin Up,-,Generators,Generator,216_1,Coal/Steam
+803,Reserve,Spin Up,-,Generators,Generator,223_1,Coal/Steam
+804,Reserve,Spin Up,-,Generators,Generator,223_2,Coal/Steam
+805,Reserve,Spin Up,-,Generators,Generator,223_3,Coal/Steam
+806,Reserve,Spin Up,-,Generators,Generator,316_1,Coal/Steam
+807,Reserve,Spin Up,-,Generators,Generator,316_2,Coal/Steam
+808,Reserve,Spin Up,-,Generators,Generator,316_3,Coal/Steam
+809,Reserve,Spin Up,-,Generators,Generator,316_4,Coal/Steam
+810,Reserve,Spin Up,-,Generators,Generator,122_1,Hydro
+811,Reserve,Spin Up,-,Generators,Generator,122_2,Hydro
+812,Reserve,Spin Up,-,Generators,Generator,107_1,NG/CC
+813,Reserve,Spin Up,-,Generators,Generator,118_1,NG/CC
+814,Reserve,Spin Up,-,Generators,Generator,118_2,NG/CC
+815,Reserve,Spin Up,-,Generators,Generator,213_3,NG/CC
+816,Reserve,Spin Up,-,Generators,Generator,218_1,NG/CC
+817,Reserve,Spin Up,-,Generators,Generator,221_1,NG/CC
+818,Reserve,Spin Up,-,Generators,Generator,313_1,NG/CC
+819,Reserve,Spin Up,-,Generators,Generator,318_1,NG/CC
+820,Reserve,Spin Up,-,Generators,Generator,321_1,NG/CC
+821,Reserve,Spin Up,-,Generators,Generator,323_1,NG/CC
+822,Reserve,Spin Up,-,Generators,Generator,323_2,NG/CC
+823,Reserve,Spin Up,-,Generators,Generator,113_1,NG/CT
+824,Reserve,Spin Up,-,Generators,Generator,113_2,NG/CT
+825,Reserve,Spin Up,-,Generators,Generator,113_3,NG/CT
+826,Reserve,Spin Up,-,Generators,Generator,113_4,NG/CT
+827,Reserve,Spin Up,-,Generators,Generator,113_5,NG/CT
+828,Reserve,Spin Up,-,Generators,Generator,123_1,NG/CT
+829,Reserve,Spin Up,-,Generators,Generator,123_4,NG/CT
+830,Reserve,Spin Up,-,Generators,Generator,123_5,NG/CT
+831,Reserve,Spin Up,-,Generators,Generator,207_1,NG/CT
+832,Reserve,Spin Up,-,Generators,Generator,207_2,NG/CT
+833,Reserve,Spin Up,-,Generators,Generator,213_1,NG/CT
+834,Reserve,Spin Up,-,Generators,Generator,213_2,NG/CT
+835,Reserve,Spin Up,-,Generators,Generator,215_4,NG/CT
+836,Reserve,Spin Up,-,Generators,Generator,215_5,NG/CT
+837,Reserve,Spin Up,-,Generators,Generator,223_4,NG/CT
+838,Reserve,Spin Up,-,Generators,Generator,223_5,NG/CT
+839,Reserve,Spin Up,-,Generators,Generator,223_6,NG/CT
+840,Reserve,Spin Up,-,Generators,Generator,301_3,NG/CT
+841,Reserve,Spin Up,-,Generators,Generator,301_4,NG/CT
+842,Reserve,Spin Up,-,Generators,Generator,302_3,NG/CT
+843,Reserve,Spin Up,-,Generators,Generator,302_4,NG/CT
+844,Reserve,Spin Up,-,Generators,Generator,307_1,NG/CT
+845,Reserve,Spin Up,-,Generators,Generator,307_2,NG/CT
+846,Reserve,Spin Up,-,Generators,Generator,315_6,NG/CT
+847,Reserve,Spin Up,-,Generators,Generator,315_7,NG/CT
+848,Reserve,Spin Up,-,Generators,Generator,315_8,NG/CT
+849,Reserve,Spin Up,-,Generators,Generator,322_5,NG/CT
+850,Reserve,Spin Up,-,Generators,Generator,322_6,NG/CT
+851,Reserve,Spin Up,-,Generators,Generator,101_1,Oil/CT
+852,Reserve,Spin Up,-,Generators,Generator,101_2,Oil/CT
+853,Reserve,Spin Up,-,Generators,Generator,102_1,Oil/CT
+854,Reserve,Spin Up,-,Generators,Generator,102_2,Oil/CT
+855,Reserve,Spin Up,-,Generators,Generator,201_1,Oil/CT
+856,Reserve,Spin Up,-,Generators,Generator,201_2,Oil/CT
+857,Reserve,Spin Up,-,Generators,Generator,202_1,Oil/CT
+858,Reserve,Spin Up,-,Generators,Generator,202_2,Oil/CT
+859,Reserve,Spin Up,-,Generators,Generator,301_1,Oil/CT
+860,Reserve,Spin Up,-,Generators,Generator,301_2,Oil/CT
+861,Reserve,Spin Up,-,Generators,Generator,302_1,Oil/CT
+862,Reserve,Spin Up,-,Generators,Generator,302_2,Oil/CT
+863,Reserve,Spin Up,-,Generators,Generator,115_1,Oil/Steam
+864,Reserve,Spin Up,-,Generators,Generator,115_2,Oil/Steam
+865,Reserve,Spin Up,-,Generators,Generator,315_1,Oil/Steam
+866,Reserve,Spin Up,-,Generators,Generator,315_2,Oil/Steam
+867,Reserve,Spin Up,-,Generators,Generator,315_3,Oil/Steam
+868,Reserve,Spin Up,-,Generators,Generator,315_4,Oil/Steam
+869,Reserve,Spin Up,-,Generators,Generator,315_5,Oil/Steam
+870,Reserve,Spin Up,-,Regions,Region,1,-
+871,Reserve,Spin Up,-,Regions,Region,2,-
+872,Reserve,Spin Up,-,Regions,Region,3,-
+873,Node,101,1,Region,Region,1,-
+874,Node,102,1,Region,Region,1,-
+875,Node,103,1,Region,Region,1,-
+876,Node,104,1,Region,Region,1,-
+877,Node,105,1,Region,Region,1,-
+878,Node,106,1,Region,Region,1,-
+879,Node,107,1,Region,Region,1,-
+880,Node,108,1,Region,Region,1,-
+881,Node,109,1,Region,Region,1,-
+882,Node,110,1,Region,Region,1,-
+883,Node,111,1,Region,Region,1,-
+884,Node,112,1,Region,Region,1,-
+885,Node,113,1,Region,Region,1,-
+886,Node,114,1,Region,Region,1,-
+887,Node,115,1,Region,Region,1,-
+888,Node,116,1,Region,Region,1,-
+889,Node,117,1,Region,Region,1,-
+890,Node,118,1,Region,Region,1,-
+891,Node,119,1,Region,Region,1,-
+892,Node,120,1,Region,Region,1,-
+893,Node,121,1,Region,Region,1,-
+894,Node,122,1,Region,Region,1,-
+895,Node,123,1,Region,Region,1,-
+896,Node,124,1,Region,Region,1,-
+897,Node,201,2,Region,Region,2,-
+898,Node,202,2,Region,Region,2,-
+899,Node,203,2,Region,Region,2,-
+900,Node,204,2,Region,Region,2,-
+901,Node,205,2,Region,Region,2,-
+902,Node,206,2,Region,Region,2,-
+903,Node,207,2,Region,Region,2,-
+904,Node,208,2,Region,Region,2,-
+905,Node,209,2,Region,Region,2,-
+906,Node,210,2,Region,Region,2,-
+907,Node,211,2,Region,Region,2,-
+908,Node,212,2,Region,Region,2,-
+909,Node,213,2,Region,Region,2,-
+910,Node,214,2,Region,Region,2,-
+911,Node,215,2,Region,Region,2,-
+912,Node,216,2,Region,Region,2,-
+913,Node,217,2,Region,Region,2,-
+914,Node,218,2,Region,Region,2,-
+915,Node,219,2,Region,Region,2,-
+916,Node,220,2,Region,Region,2,-
+917,Node,221,2,Region,Region,2,-
+918,Node,222,2,Region,Region,2,-
+919,Node,223,2,Region,Region,2,-
+920,Node,224,2,Region,Region,2,-
+921,Node,301,3,Region,Region,3,-
+922,Node,302,3,Region,Region,3,-
+923,Node,303,3,Region,Region,3,-
+924,Node,304,3,Region,Region,3,-
+925,Node,305,3,Region,Region,3,-
+926,Node,306,3,Region,Region,3,-
+927,Node,307,3,Region,Region,3,-
+928,Node,308,3,Region,Region,3,-
+929,Node,309,3,Region,Region,3,-
+930,Node,310,3,Region,Region,3,-
+931,Node,311,3,Region,Region,3,-
+932,Node,312,3,Region,Region,3,-
+933,Node,313,3,Region,Region,3,-
+934,Node,314,3,Region,Region,3,-
+935,Node,315,3,Region,Region,3,-
+936,Node,316,3,Region,Region,3,-
+937,Node,317,3,Region,Region,3,-
+938,Node,318,3,Region,Region,3,-
+939,Node,319,3,Region,Region,3,-
+940,Node,320,3,Region,Region,3,-
+941,Node,321,3,Region,Region,3,-
+942,Node,322,3,Region,Region,3,-
+943,Node,323,3,Region,Region,3,-
+944,Node,324,3,Region,Region,3,-
+945,Node,325,3,Region,Region,3,-
+946,Node,326,3,Region,Region,3,-
+947,Node,327,3,Region,Region,3,-
+948,Node,101,1,Zone,Zone,11,-
+949,Node,102,1,Zone,Zone,11,-
+950,Node,103,1,Zone,Zone,11,-
+951,Node,104,1,Zone,Zone,11,-
+952,Node,105,1,Zone,Zone,11,-
+953,Node,106,1,Zone,Zone,11,-
+954,Node,107,1,Zone,Zone,11,-
+955,Node,108,1,Zone,Zone,11,-
+956,Node,109,1,Zone,Zone,11,-
+957,Node,110,1,Zone,Zone,11,-
+958,Node,111,1,Zone,Zone,11,-
+959,Node,112,1,Zone,Zone,11,-
+960,Node,113,1,Zone,Zone,12,-
+961,Node,114,1,Zone,Zone,12,-
+962,Node,115,1,Zone,Zone,12,-
+963,Node,116,1,Zone,Zone,12,-
+964,Node,117,1,Zone,Zone,12,-
+965,Node,118,1,Zone,Zone,12,-
+966,Node,119,1,Zone,Zone,12,-
+967,Node,120,1,Zone,Zone,12,-
+968,Node,121,1,Zone,Zone,12,-
+969,Node,122,1,Zone,Zone,12,-
+970,Node,123,1,Zone,Zone,12,-
+971,Node,124,1,Zone,Zone,12,-
+972,Node,201,2,Zone,Zone,21,-
+973,Node,202,2,Zone,Zone,21,-
+974,Node,203,2,Zone,Zone,21,-
+975,Node,204,2,Zone,Zone,21,-
+976,Node,205,2,Zone,Zone,21,-
+977,Node,206,2,Zone,Zone,21,-
+978,Node,207,2,Zone,Zone,21,-
+979,Node,208,2,Zone,Zone,21,-
+980,Node,209,2,Zone,Zone,21,-
+981,Node,210,2,Zone,Zone,21,-
+982,Node,211,2,Zone,Zone,21,-
+983,Node,212,2,Zone,Zone,21,-
+984,Node,213,2,Zone,Zone,22,-
+985,Node,214,2,Zone,Zone,22,-
+986,Node,215,2,Zone,Zone,22,-
+987,Node,216,2,Zone,Zone,22,-
+988,Node,217,2,Zone,Zone,22,-
+989,Node,218,2,Zone,Zone,22,-
+990,Node,219,2,Zone,Zone,22,-
+991,Node,220,2,Zone,Zone,22,-
+992,Node,221,2,Zone,Zone,22,-
+993,Node,222,2,Zone,Zone,22,-
+994,Node,223,2,Zone,Zone,22,-
+995,Node,224,2,Zone,Zone,22,-
+996,Node,301,3,Zone,Zone,31,-
+997,Node,302,3,Zone,Zone,31,-
+998,Node,303,3,Zone,Zone,31,-
+999,Node,304,3,Zone,Zone,31,-
+1000,Node,305,3,Zone,Zone,31,-
+1001,Node,306,3,Zone,Zone,31,-
+1002,Node,307,3,Zone,Zone,31,-
+1003,Node,308,3,Zone,Zone,31,-
+1004,Node,309,3,Zone,Zone,31,-
+1005,Node,310,3,Zone,Zone,31,-
+1006,Node,311,3,Zone,Zone,31,-
+1007,Node,312,3,Zone,Zone,31,-
+1008,Node,313,3,Zone,Zone,32,-
+1009,Node,314,3,Zone,Zone,32,-
+1010,Node,315,3,Zone,Zone,32,-
+1011,Node,316,3,Zone,Zone,32,-
+1012,Node,317,3,Zone,Zone,32,-
+1013,Node,318,3,Zone,Zone,32,-
+1014,Node,319,3,Zone,Zone,32,-
+1015,Node,320,3,Zone,Zone,32,-
+1016,Node,321,3,Zone,Zone,32,-
+1017,Node,322,3,Zone,Zone,32,-
+1018,Node,323,3,Zone,Zone,32,-
+1019,Node,324,3,Zone,Zone,32,-
+1020,Node,325,3,Zone,Zone,32,-
+1021,Node,326,3,Zone,Zone,32,-
+1022,Node,327,3,Zone,Zone,32,-
+1023,Line,101_102_1,AC_1,Node From,Node,101,1
+1024,Line,101_103_1,AC_1,Node From,Node,101,1
+1025,Line,101_105_1,AC_1,Node From,Node,101,1
+1026,Line,102_104_1,AC_1,Node From,Node,102,1
+1027,Line,102_106_1,AC_1,Node From,Node,102,1
+1028,Line,103_109_1,AC_1,Node From,Node,103,1
+1029,Line,103_124_1,AC_1,Node From,Node,103,1
+1030,Line,104_109_1,AC_1,Node From,Node,104,1
+1031,Line,105_110_1,AC_1,Node From,Node,105,1
+1032,Line,106_110_1,AC_1,Node From,Node,106,1
+1033,Line,107_108_1,AC_1,Node From,Node,107,1
+1034,Line,108_109_1,AC_1,Node From,Node,108,1
+1035,Line,108_110_1,AC_1,Node From,Node,108,1
+1036,Line,109_111_1,AC_1,Node From,Node,109,1
+1037,Line,109_112_1,AC_1,Node From,Node,109,1
+1038,Line,110_111_1,AC_1,Node From,Node,110,1
+1039,Line,110_112_1,AC_1,Node From,Node,110,1
+1040,Line,111_113_1,AC_1,Node From,Node,111,1
+1041,Line,111_114_1,AC_1,Node From,Node,111,1
+1042,Line,112_113_1,AC_1,Node From,Node,112,1
+1043,Line,112_123_1,AC_1,Node From,Node,112,1
+1044,Line,113_123_1,AC_1,Node From,Node,113,1
+1045,Line,114_116_1,AC_1,Node From,Node,114,1
+1046,Line,115_116_1,AC_1,Node From,Node,115,1
+1047,Line,115_121_1,AC_1,Node From,Node,115,1
+1048,Line,115_121_2,AC_1,Node From,Node,115,1
+1049,Line,115_124_1,AC_1,Node From,Node,115,1
+1050,Line,116_117_1,AC_1,Node From,Node,116,1
+1051,Line,116_119_1,AC_1,Node From,Node,116,1
+1052,Line,117_118_1,AC_1,Node From,Node,117,1
+1053,Line,117_122_1,AC_1,Node From,Node,117,1
+1054,Line,118_121_1,AC_1,Node From,Node,118,1
+1055,Line,118_121_2,AC_1,Node From,Node,118,1
+1056,Line,119_120_1,AC_1,Node From,Node,119,1
+1057,Line,119_120_2,AC_1,Node From,Node,119,1
+1058,Line,120_123_1,AC_1,Node From,Node,120,1
+1059,Line,120_123_2,AC_1,Node From,Node,120,1
+1060,Line,121_122_1,AC_1,Node From,Node,121,1
+1061,Line,201_202_1,AC_2,Node From,Node,201,2
+1062,Line,201_203_1,AC_2,Node From,Node,201,2
+1063,Line,201_205_1,AC_2,Node From,Node,201,2
+1064,Line,202_204_1,AC_2,Node From,Node,202,2
+1065,Line,202_206_1,AC_2,Node From,Node,202,2
+1066,Line,203_209_1,AC_2,Node From,Node,203,2
+1067,Line,203_224_1,AC_2,Node From,Node,203,2
+1068,Line,204_209_1,AC_2,Node From,Node,204,2
+1069,Line,205_210_1,AC_2,Node From,Node,205,2
+1070,Line,206_210_1,AC_2,Node From,Node,206,2
+1071,Line,207_208_1,AC_2,Node From,Node,207,2
+1072,Line,208_209_1,AC_2,Node From,Node,208,2
+1073,Line,208_210_1,AC_2,Node From,Node,208,2
+1074,Line,209_211_1,AC_2,Node From,Node,209,2
+1075,Line,209_212_1,AC_2,Node From,Node,209,2
+1076,Line,210_211_1,AC_2,Node From,Node,210,2
+1077,Line,210_212_1,AC_2,Node From,Node,210,2
+1078,Line,211_213_1,AC_2,Node From,Node,211,2
+1079,Line,211_214_1,AC_2,Node From,Node,211,2
+1080,Line,212_213_1,AC_2,Node From,Node,212,2
+1081,Line,212_223_1,AC_2,Node From,Node,212,2
+1082,Line,213_223_1,AC_2,Node From,Node,213,2
+1083,Line,214_216_1,AC_2,Node From,Node,214,2
+1084,Line,215_216_1,AC_2,Node From,Node,215,2
+1085,Line,215_221_1,AC_2,Node From,Node,215,2
+1086,Line,215_221_2,AC_2,Node From,Node,215,2
+1087,Line,215_224_1,AC_2,Node From,Node,215,2
+1088,Line,216_217_1,AC_2,Node From,Node,216,2
+1089,Line,216_219_1,AC_2,Node From,Node,216,2
+1090,Line,217_218_1,AC_2,Node From,Node,217,2
+1091,Line,217_222_1,AC_2,Node From,Node,217,2
+1092,Line,218_221_1,AC_2,Node From,Node,218,2
+1093,Line,218_221_2,AC_2,Node From,Node,218,2
+1094,Line,219_220_1,AC_2,Node From,Node,219,2
+1095,Line,219_220_2,AC_2,Node From,Node,219,2
+1096,Line,220_223_1,AC_2,Node From,Node,220,2
+1097,Line,220_223_2,AC_2,Node From,Node,220,2
+1098,Line,221_222_1,AC_2,Node From,Node,221,2
+1099,Line,301_302_1,AC_3,Node From,Node,301,3
+1100,Line,301_303_1,AC_3,Node From,Node,301,3
+1101,Line,301_305_1,AC_3,Node From,Node,301,3
+1102,Line,302_304_1,AC_3,Node From,Node,302,3
+1103,Line,302_306_1,AC_3,Node From,Node,302,3
+1104,Line,303_309_1,AC_3,Node From,Node,303,3
+1105,Line,303_324_1,AC_3,Node From,Node,303,3
+1106,Line,304_309_1,AC_3,Node From,Node,304,3
+1107,Line,305_310_1,AC_3,Node From,Node,305,3
+1108,Line,306_310_1,AC_3,Node From,Node,306,3
+1109,Line,307_308_1,AC_3,Node From,Node,307,3
+1110,Line,308_309_1,AC_3,Node From,Node,308,3
+1111,Line,308_310_1,AC_3,Node From,Node,308,3
+1112,Line,309_311_1,AC_3,Node From,Node,309,3
+1113,Line,309_312_1,AC_3,Node From,Node,309,3
+1114,Line,310_311_1,AC_3,Node From,Node,310,3
+1115,Line,310_312_1,AC_3,Node From,Node,310,3
+1116,Line,311_313_1,AC_3,Node From,Node,311,3
+1117,Line,311_314_1,AC_3,Node From,Node,311,3
+1118,Line,312_313_1,AC_3,Node From,Node,312,3
+1119,Line,312_323_1,AC_3,Node From,Node,312,3
+1120,Line,313_323_1,AC_3,Node From,Node,313,3
+1121,Line,313_326_1,AC_3,Node From,Node,326,3
+1122,Line,314_316_1,AC_3,Node From,Node,314,3
+1123,Line,315_316_1,AC_3,Node From,Node,315,3
+1124,Line,315_321_1,AC_3,Node From,Node,315,3
+1125,Line,315_321_2,AC_3,Node From,Node,315,3
+1126,Line,315_324_1,AC_3,Node From,Node,315,3
+1127,Line,315_327_1,AC_3,Node From,Node,315,3
+1128,Line,316_317_1,AC_3,Node From,Node,316,3
+1129,Line,316_319_1,AC_3,Node From,Node,316,3
+1130,Line,317_318_1,AC_3,Node From,Node,317,3
+1131,Line,317_322_1,AC_3,Node From,Node,317,3
+1132,Line,318_321_1,AC_3,Node From,Node,318,3
+1133,Line,318_321_2,AC_3,Node From,Node,318,3
+1134,Line,319_320_1,AC_3,Node From,Node,319,3
+1135,Line,319_320_2,AC_3,Node From,Node,319,3
+1136,Line,320_323_1,AC_3,Node From,Node,320,3
+1137,Line,320_323_2,AC_3,Node From,Node,320,3
+1138,Line,321_322_1,AC_3,Node From,Node,321,3
+1139,Line,323_325_1,AC_3,Node From,Node,323,3
+1140,Line,107_203_1,Interstate_AC,Node From,Node,107,1
+1141,Line,113_215_1,Interstate_AC,Node From,Node,113,1
+1142,Line,123_217_1,Interstate_AC,Node From,Node,123,1
+1143,Line,318_223_1,Interstate_AC,Node From,Node,318,3
+1144,Line,325_121_1,Interstate_AC,Node From,Node,325,3
+1145,Line,113_316_1,Interstate_DC,Node From,Node,113,1
+1146,Line,101_102_1,AC_1,Node To,Node,102,1
+1147,Line,101_103_1,AC_1,Node To,Node,103,1
+1148,Line,101_105_1,AC_1,Node To,Node,105,1
+1149,Line,102_104_1,AC_1,Node To,Node,104,1
+1150,Line,102_106_1,AC_1,Node To,Node,106,1
+1151,Line,103_109_1,AC_1,Node To,Node,109,1
+1152,Line,103_124_1,AC_1,Node To,Node,124,1
+1153,Line,104_109_1,AC_1,Node To,Node,109,1
+1154,Line,105_110_1,AC_1,Node To,Node,110,1
+1155,Line,106_110_1,AC_1,Node To,Node,110,1
+1156,Line,107_108_1,AC_1,Node To,Node,108,1
+1157,Line,108_109_1,AC_1,Node To,Node,109,1
+1158,Line,108_110_1,AC_1,Node To,Node,110,1
+1159,Line,109_111_1,AC_1,Node To,Node,111,1
+1160,Line,109_112_1,AC_1,Node To,Node,112,1
+1161,Line,110_111_1,AC_1,Node To,Node,111,1
+1162,Line,110_112_1,AC_1,Node To,Node,112,1
+1163,Line,111_113_1,AC_1,Node To,Node,113,1
+1164,Line,111_114_1,AC_1,Node To,Node,114,1
+1165,Line,112_113_1,AC_1,Node To,Node,113,1
+1166,Line,112_123_1,AC_1,Node To,Node,123,1
+1167,Line,113_123_1,AC_1,Node To,Node,123,1
+1168,Line,114_116_1,AC_1,Node To,Node,116,1
+1169,Line,115_116_1,AC_1,Node To,Node,116,1
+1170,Line,115_121_1,AC_1,Node To,Node,121,1
+1171,Line,115_121_2,AC_1,Node To,Node,121,1
+1172,Line,115_124_1,AC_1,Node To,Node,124,1
+1173,Line,116_117_1,AC_1,Node To,Node,117,1
+1174,Line,116_119_1,AC_1,Node To,Node,119,1
+1175,Line,117_118_1,AC_1,Node To,Node,118,1
+1176,Line,117_122_1,AC_1,Node To,Node,122,1
+1177,Line,118_121_1,AC_1,Node To,Node,121,1
+1178,Line,118_121_2,AC_1,Node To,Node,121,1
+1179,Line,119_120_1,AC_1,Node To,Node,120,1
+1180,Line,119_120_2,AC_1,Node To,Node,120,1
+1181,Line,120_123_1,AC_1,Node To,Node,123,1
+1182,Line,120_123_2,AC_1,Node To,Node,123,1
+1183,Line,121_122_1,AC_1,Node To,Node,122,1
+1184,Line,201_202_1,AC_2,Node To,Node,202,2
+1185,Line,201_203_1,AC_2,Node To,Node,203,2
+1186,Line,201_205_1,AC_2,Node To,Node,205,2
+1187,Line,202_204_1,AC_2,Node To,Node,204,2
+1188,Line,202_206_1,AC_2,Node To,Node,206,2
+1189,Line,203_209_1,AC_2,Node To,Node,209,2
+1190,Line,203_224_1,AC_2,Node To,Node,224,2
+1191,Line,204_209_1,AC_2,Node To,Node,209,2
+1192,Line,205_210_1,AC_2,Node To,Node,210,2
+1193,Line,206_210_1,AC_2,Node To,Node,210,2
+1194,Line,207_208_1,AC_2,Node To,Node,208,2
+1195,Line,208_209_1,AC_2,Node To,Node,209,2
+1196,Line,208_210_1,AC_2,Node To,Node,210,2
+1197,Line,209_211_1,AC_2,Node To,Node,211,2
+1198,Line,209_212_1,AC_2,Node To,Node,212,2
+1199,Line,210_211_1,AC_2,Node To,Node,211,2
+1200,Line,210_212_1,AC_2,Node To,Node,212,2
+1201,Line,211_213_1,AC_2,Node To,Node,213,2
+1202,Line,211_214_1,AC_2,Node To,Node,214,2
+1203,Line,212_213_1,AC_2,Node To,Node,213,2
+1204,Line,212_223_1,AC_2,Node To,Node,223,2
+1205,Line,213_223_1,AC_2,Node To,Node,223,2
+1206,Line,214_216_1,AC_2,Node To,Node,216,2
+1207,Line,215_216_1,AC_2,Node To,Node,216,2
+1208,Line,215_221_1,AC_2,Node To,Node,221,2
+1209,Line,215_221_2,AC_2,Node To,Node,221,2
+1210,Line,215_224_1,AC_2,Node To,Node,224,2
+1211,Line,216_217_1,AC_2,Node To,Node,217,2
+1212,Line,216_219_1,AC_2,Node To,Node,219,2
+1213,Line,217_218_1,AC_2,Node To,Node,218,2
+1214,Line,217_222_1,AC_2,Node To,Node,222,2
+1215,Line,218_221_1,AC_2,Node To,Node,221,2
+1216,Line,218_221_2,AC_2,Node To,Node,221,2
+1217,Line,219_220_1,AC_2,Node To,Node,220,2
+1218,Line,219_220_2,AC_2,Node To,Node,220,2
+1219,Line,220_223_1,AC_2,Node To,Node,223,2
+1220,Line,220_223_2,AC_2,Node To,Node,223,2
+1221,Line,221_222_1,AC_2,Node To,Node,222,2
+1222,Line,301_302_1,AC_3,Node To,Node,302,3
+1223,Line,301_303_1,AC_3,Node To,Node,303,3
+1224,Line,301_305_1,AC_3,Node To,Node,305,3
+1225,Line,302_304_1,AC_3,Node To,Node,304,3
+1226,Line,302_306_1,AC_3,Node To,Node,306,3
+1227,Line,303_309_1,AC_3,Node To,Node,309,3
+1228,Line,303_324_1,AC_3,Node To,Node,324,3
+1229,Line,304_309_1,AC_3,Node To,Node,309,3
+1230,Line,305_310_1,AC_3,Node To,Node,310,3
+1231,Line,306_310_1,AC_3,Node To,Node,310,3
+1232,Line,307_308_1,AC_3,Node To,Node,308,3
+1233,Line,308_309_1,AC_3,Node To,Node,309,3
+1234,Line,308_310_1,AC_3,Node To,Node,310,3
+1235,Line,309_311_1,AC_3,Node To,Node,311,3
+1236,Line,309_312_1,AC_3,Node To,Node,312,3
+1237,Line,310_311_1,AC_3,Node To,Node,311,3
+1238,Line,310_312_1,AC_3,Node To,Node,312,3
+1239,Line,311_313_1,AC_3,Node To,Node,313,3
+1240,Line,311_314_1,AC_3,Node To,Node,314,3
+1241,Line,312_313_1,AC_3,Node To,Node,313,3
+1242,Line,312_323_1,AC_3,Node To,Node,323,3
+1243,Line,313_323_1,AC_3,Node To,Node,323,3
+1244,Line,313_326_1,AC_3,Node To,Node,313,3
+1245,Line,314_316_1,AC_3,Node To,Node,316,3
+1246,Line,315_316_1,AC_3,Node To,Node,316,3
+1247,Line,315_321_1,AC_3,Node To,Node,321,3
+1248,Line,315_321_2,AC_3,Node To,Node,321,3
+1249,Line,315_324_1,AC_3,Node To,Node,324,3
+1250,Line,315_327_1,AC_3,Node To,Node,327,3
+1251,Line,316_317_1,AC_3,Node To,Node,317,3
+1252,Line,316_319_1,AC_3,Node To,Node,319,3
+1253,Line,317_318_1,AC_3,Node To,Node,318,3
+1254,Line,317_322_1,AC_3,Node To,Node,322,3
+1255,Line,318_321_1,AC_3,Node To,Node,321,3
+1256,Line,318_321_2,AC_3,Node To,Node,321,3
+1257,Line,319_320_1,AC_3,Node To,Node,320,3
+1258,Line,319_320_2,AC_3,Node To,Node,320,3
+1259,Line,320_323_1,AC_3,Node To,Node,323,3
+1260,Line,320_323_2,AC_3,Node To,Node,323,3
+1261,Line,321_322_1,AC_3,Node To,Node,322,3
+1262,Line,323_325_1,AC_3,Node To,Node,325,3
+1263,Line,107_203_1,Interstate_AC,Node To,Node,203,2
+1264,Line,113_215_1,Interstate_AC,Node To,Node,215,2
+1265,Line,123_217_1,Interstate_AC,Node To,Node,217,2
+1266,Line,318_223_1,Interstate_AC,Node To,Node,223,2
+1267,Line,325_121_1,Interstate_AC,Node To,Node,121,1
+1268,Line,113_316_1,Interstate_DC,Node To,Node,316,3
+1269,Constraint,Min Region 3 Gen,-,Regions,Region,3,-
+1270,System,System,-,Constraints,Constraint,FueMaxOffYear_NG/CT,Fuel Offtake
+1271,Constraint,FueMaxOffYear_NG/CT,Fuel Offtake,Fuels,Fuel,NG/CT,-
+1272,Region,1,-,Generators,Generator,101_3,Coal/Steam
+1273,Region,1,-,Generators,Generator,101_4,Coal/Steam
+1274,Region,1,-,Generators,Generator,101_5,Coal/Steam
+1275,Region,1,-,Generators,Generator,102_3,Coal/Steam
+1276,Region,1,-,Generators,Generator,102_4,Coal/Steam
+1277,Region,1,-,Generators,Generator,115_3,Coal/Steam
+1278,Region,1,-,Generators,Generator,116_1,Coal/Steam
+1279,Region,1,-,Generators,Generator,123_2,Coal/Steam
+1280,Region,1,-,Generators,Generator,123_3,Coal/Steam
+1281,Region,2,-,Generators,Generator,201_3,Coal/Steam
+1282,Region,2,-,Generators,Generator,202_3,Coal/Steam
+1283,Region,2,-,Generators,Generator,202_4,Coal/Steam
+1284,Region,2,-,Generators,Generator,216_1,Coal/Steam
+1285,Region,2,-,Generators,Generator,223_1,Coal/Steam
+1286,Region,2,-,Generators,Generator,223_2,Coal/Steam
+1287,Region,2,-,Generators,Generator,223_3,Coal/Steam
+1288,Region,3,-,Generators,Generator,316_1,Coal/Steam
+1289,Region,3,-,Generators,Generator,316_2,Coal/Steam
+1290,Region,3,-,Generators,Generator,316_3,Coal/Steam
+1291,Region,3,-,Generators,Generator,316_4,Coal/Steam
+1292,Region,1,-,Generators,Generator,122_1,Hydro
+1293,Region,1,-,Generators,Generator,122_2,Hydro
+1294,Region,1,-,Generators,Generator,122_3,Hydro
+1295,Region,1,-,Generators,Generator,122_4,Hydro
+1296,Region,1,-,Generators,Generator,122_5,Hydro
+1297,Region,1,-,Generators,Generator,122_6,Hydro
+1298,Region,2,-,Generators,Generator,201_4,Hydro
+1299,Region,2,-,Generators,Generator,215_1,Hydro
+1300,Region,2,-,Generators,Generator,215_2,Hydro
+1301,Region,2,-,Generators,Generator,215_3,Hydro
+1302,Region,2,-,Generators,Generator,222_1,Hydro
+1303,Region,2,-,Generators,Generator,222_2,Hydro
+1304,Region,2,-,Generators,Generator,222_3,Hydro
+1305,Region,2,-,Generators,Generator,222_4,Hydro
+1306,Region,2,-,Generators,Generator,222_5,Hydro
+1307,Region,2,-,Generators,Generator,222_6,Hydro
+1308,Region,2,-,Generators,Generator,222_7,Hydro
+1309,Region,3,-,Generators,Generator,322_1,Hydro
+1310,Region,3,-,Generators,Generator,322_2,Hydro
+1311,Region,3,-,Generators,Generator,322_3,Hydro
+1312,Region,3,-,Generators,Generator,322_4,Hydro
+1313,Region,1,-,Generators,Generator,107_1,NG/CC
+1314,Region,1,-,Generators,Generator,118_1,NG/CC
+1315,Region,1,-,Generators,Generator,118_2,NG/CC
+1316,Region,2,-,Generators,Generator,213_3,NG/CC
+1317,Region,2,-,Generators,Generator,218_1,NG/CC
+1318,Region,2,-,Generators,Generator,221_1,NG/CC
+1319,Region,3,-,Generators,Generator,313_1,NG/CC
+1320,Region,3,-,Generators,Generator,318_1,NG/CC
+1321,Region,3,-,Generators,Generator,321_1,NG/CC
+1322,Region,3,-,Generators,Generator,323_1,NG/CC
+1323,Region,3,-,Generators,Generator,323_2,NG/CC
+1324,Region,1,-,Generators,Generator,113_1,NG/CT
+1325,Region,1,-,Generators,Generator,113_2,NG/CT
+1326,Region,1,-,Generators,Generator,113_3,NG/CT
+1327,Region,1,-,Generators,Generator,113_4,NG/CT
+1328,Region,1,-,Generators,Generator,113_5,NG/CT
+1329,Region,1,-,Generators,Generator,123_1,NG/CT
+1330,Region,1,-,Generators,Generator,123_4,NG/CT
+1331,Region,1,-,Generators,Generator,123_5,NG/CT
+1332,Region,2,-,Generators,Generator,207_1,NG/CT
+1333,Region,2,-,Generators,Generator,207_2,NG/CT
+1334,Region,2,-,Generators,Generator,213_1,NG/CT
+1335,Region,2,-,Generators,Generator,213_2,NG/CT
+1336,Region,2,-,Generators,Generator,215_4,NG/CT
+1337,Region,2,-,Generators,Generator,215_5,NG/CT
+1338,Region,2,-,Generators,Generator,223_4,NG/CT
+1339,Region,2,-,Generators,Generator,223_5,NG/CT
+1340,Region,2,-,Generators,Generator,223_6,NG/CT
+1341,Region,3,-,Generators,Generator,301_3,NG/CT
+1342,Region,3,-,Generators,Generator,301_4,NG/CT
+1343,Region,3,-,Generators,Generator,302_3,NG/CT
+1344,Region,3,-,Generators,Generator,302_4,NG/CT
+1345,Region,3,-,Generators,Generator,307_1,NG/CT
+1346,Region,3,-,Generators,Generator,307_2,NG/CT
+1347,Region,3,-,Generators,Generator,315_6,NG/CT
+1348,Region,3,-,Generators,Generator,315_7,NG/CT
+1349,Region,3,-,Generators,Generator,315_8,NG/CT
+1350,Region,3,-,Generators,Generator,322_5,NG/CT
+1351,Region,3,-,Generators,Generator,322_6,NG/CT
+1352,Region,1,-,Generators,Generator,121_1,Nuclear
+1353,Region,1,-,Generators,Generator,101_1,Oil/CT
+1354,Region,1,-,Generators,Generator,101_2,Oil/CT
+1355,Region,1,-,Generators,Generator,102_1,Oil/CT
+1356,Region,1,-,Generators,Generator,102_2,Oil/CT
+1357,Region,2,-,Generators,Generator,201_1,Oil/CT
+1358,Region,2,-,Generators,Generator,201_2,Oil/CT
+1359,Region,2,-,Generators,Generator,202_1,Oil/CT
+1360,Region,2,-,Generators,Generator,202_2,Oil/CT
+1361,Region,3,-,Generators,Generator,301_1,Oil/CT
+1362,Region,3,-,Generators,Generator,301_2,Oil/CT
+1363,Region,3,-,Generators,Generator,302_1,Oil/CT
+1364,Region,3,-,Generators,Generator,302_2,Oil/CT
+1365,Region,1,-,Generators,Generator,115_1,Oil/Steam
+1366,Region,1,-,Generators,Generator,115_2,Oil/Steam
+1367,Region,3,-,Generators,Generator,315_1,Oil/Steam
+1368,Region,3,-,Generators,Generator,315_2,Oil/Steam
+1369,Region,3,-,Generators,Generator,315_3,Oil/Steam
+1370,Region,3,-,Generators,Generator,315_4,Oil/Steam
+1371,Region,3,-,Generators,Generator,315_5,Oil/Steam
+1372,Region,1,-,Generators,Generator,101_pv,PV
+1373,Region,1,-,Generators,Generator,101_pv_2,PV
+1374,Region,1,-,Generators,Generator,101_pv_3,PV
+1375,Region,1,-,Generators,Generator,101_pv_4,PV
+1376,Region,1,-,Generators,Generator,102_pv,PV
+1377,Region,1,-,Generators,Generator,102_pv_2,PV
+1378,Region,1,-,Generators,Generator,103_pv,PV
+1379,Region,1,-,Generators,Generator,104_pv,PV
+1380,Region,1,-,Generators,Generator,113_pv,PV
+1381,Region,1,-,Generators,Generator,119_pv,PV
+1382,Region,2,-,Generators,Generator,215_pv,PV
+1383,Region,3,-,Generators,Generator,310_pv,PV
+1384,Region,3,-,Generators,Generator,310_pv_2,PV
+1385,Region,3,-,Generators,Generator,312_pv,PV
+1386,Region,3,-,Generators,Generator,313_pv,PV
+1387,Region,3,-,Generators,Generator,313_pv_2,PV
+1388,Region,3,-,Generators,Generator,314_pv,PV
+1389,Region,3,-,Generators,Generator,314_pv_2,PV
+1390,Region,3,-,Generators,Generator,314_pv_3,PV
+1391,Region,3,-,Generators,Generator,314_pv_4,PV
+1392,Region,3,-,Generators,Generator,319_pv,PV
+1393,Region,3,-,Generators,Generator,320_pv,PV
+1394,Region,3,-,Generators,Generator,324_pv,PV
+1395,Region,3,-,Generators,Generator,324_pv_2,PV
+1396,Region,3,-,Generators,Generator,324_pv_3,PV
+1397,Region,1,-,Generators,Generator,118_rtpv,RTPV
+1398,Region,1,-,Generators,Generator,118_rtpv_10,RTPV
+1399,Region,1,-,Generators,Generator,118_rtpv_2,RTPV
+1400,Region,1,-,Generators,Generator,118_rtpv_3,RTPV
+1401,Region,1,-,Generators,Generator,118_rtpv_4,RTPV
+1402,Region,1,-,Generators,Generator,118_rtpv_5,RTPV
+1403,Region,1,-,Generators,Generator,118_rtpv_6,RTPV
+1404,Region,1,-,Generators,Generator,118_rtpv_7,RTPV
+1405,Region,1,-,Generators,Generator,118_rtpv_8,RTPV
+1406,Region,1,-,Generators,Generator,118_rtpv_9,RTPV
+1407,Region,2,-,Generators,Generator,213_rtpv,RTPV
+1408,Region,3,-,Generators,Generator,308_rtpv,RTPV
+1409,Region,3,-,Generators,Generator,313_rtpv,RTPV
+1410,Region,3,-,Generators,Generator,313_rtpv_10,RTPV
+1411,Region,3,-,Generators,Generator,313_rtpv_11,RTPV
+1412,Region,3,-,Generators,Generator,313_rtpv_12,RTPV
+1413,Region,3,-,Generators,Generator,313_rtpv_13,RTPV
+1414,Region,3,-,Generators,Generator,313_rtpv_2,RTPV
+1415,Region,3,-,Generators,Generator,313_rtpv_3,RTPV
+1416,Region,3,-,Generators,Generator,313_rtpv_4,RTPV
+1417,Region,3,-,Generators,Generator,313_rtpv_5,RTPV
+1418,Region,3,-,Generators,Generator,313_rtpv_6,RTPV
+1419,Region,3,-,Generators,Generator,313_rtpv_7,RTPV
+1420,Region,3,-,Generators,Generator,313_rtpv_8,RTPV
+1421,Region,3,-,Generators,Generator,313_rtpv_9,RTPV
+1422,Region,3,-,Generators,Generator,320_rtpv,RTPV
+1423,Region,3,-,Generators,Generator,320_rtpv_2,RTPV
+1424,Region,3,-,Generators,Generator,320_rtpv_3,RTPV
+1425,Region,3,-,Generators,Generator,320_rtpv_4,RTPV
+1426,Region,3,-,Generators,Generator,320_rtpv_5,RTPV
+1427,Region,3,-,Generators,Generator,320_rtpv_6,RTPV
+1428,Region,1,-,Generators,Generator,122_wind,Wind
+1429,Region,3,-,Generators,Generator,303_wind,Wind
+1430,Region,3,-,Generators,Generator,309_wind,Wind
+1431,Region,3,-,Generators,Generator,317_wind,Wind
+1432,Region,1,-,Emissions,Emission,CO2,-
+1433,Region,1,-,Emissions,Emission,NOX,-
+1434,Region,2,-,Emissions,Emission,CO2,-
+1435,Region,2,-,Emissions,Emission,NOX,-
+1436,Region,3,-,Emissions,Emission,CO2,-
+1437,Region,3,-,Emissions,Emission,NOX,-
+1438,Region,1,-,Regions,Region,1,-
+1439,Region,1,-,Regions,Region,2,-
+1440,Region,1,-,Regions,Region,3,-
+1441,Region,2,-,Regions,Region,1,-
+1442,Region,2,-,Regions,Region,2,-
+1443,Region,2,-,Regions,Region,3,-
+1444,Region,3,-,Regions,Region,1,-
+1445,Region,3,-,Regions,Region,2,-
+1446,Region,3,-,Regions,Region,3,-
+1447,Zone,11,-,Generators,Generator,101_3,Coal/Steam
+1448,Zone,11,-,Generators,Generator,101_4,Coal/Steam
+1449,Zone,11,-,Generators,Generator,101_5,Coal/Steam
+1450,Zone,11,-,Generators,Generator,102_3,Coal/Steam
+1451,Zone,11,-,Generators,Generator,102_4,Coal/Steam
+1452,Zone,12,-,Generators,Generator,115_3,Coal/Steam
+1453,Zone,12,-,Generators,Generator,116_1,Coal/Steam
+1454,Zone,12,-,Generators,Generator,123_2,Coal/Steam
+1455,Zone,12,-,Generators,Generator,123_3,Coal/Steam
+1456,Zone,21,-,Generators,Generator,201_3,Coal/Steam
+1457,Zone,21,-,Generators,Generator,202_3,Coal/Steam
+1458,Zone,21,-,Generators,Generator,202_4,Coal/Steam
+1459,Zone,22,-,Generators,Generator,216_1,Coal/Steam
+1460,Zone,22,-,Generators,Generator,223_1,Coal/Steam
+1461,Zone,22,-,Generators,Generator,223_2,Coal/Steam
+1462,Zone,22,-,Generators,Generator,223_3,Coal/Steam
+1463,Zone,32,-,Generators,Generator,316_1,Coal/Steam
+1464,Zone,32,-,Generators,Generator,316_2,Coal/Steam
+1465,Zone,32,-,Generators,Generator,316_3,Coal/Steam
+1466,Zone,32,-,Generators,Generator,316_4,Coal/Steam
+1467,Zone,12,-,Generators,Generator,122_1,Hydro
+1468,Zone,12,-,Generators,Generator,122_2,Hydro
+1469,Zone,12,-,Generators,Generator,122_3,Hydro
+1470,Zone,12,-,Generators,Generator,122_4,Hydro
+1471,Zone,12,-,Generators,Generator,122_5,Hydro
+1472,Zone,12,-,Generators,Generator,122_6,Hydro
+1473,Zone,21,-,Generators,Generator,201_4,Hydro
+1474,Zone,22,-,Generators,Generator,215_1,Hydro
+1475,Zone,22,-,Generators,Generator,215_2,Hydro
+1476,Zone,22,-,Generators,Generator,215_3,Hydro
+1477,Zone,22,-,Generators,Generator,222_1,Hydro
+1478,Zone,22,-,Generators,Generator,222_2,Hydro
+1479,Zone,22,-,Generators,Generator,222_3,Hydro
+1480,Zone,22,-,Generators,Generator,222_4,Hydro
+1481,Zone,22,-,Generators,Generator,222_5,Hydro
+1482,Zone,22,-,Generators,Generator,222_6,Hydro
+1483,Zone,22,-,Generators,Generator,222_7,Hydro
+1484,Zone,32,-,Generators,Generator,322_1,Hydro
+1485,Zone,32,-,Generators,Generator,322_2,Hydro
+1486,Zone,32,-,Generators,Generator,322_3,Hydro
+1487,Zone,32,-,Generators,Generator,322_4,Hydro
+1488,Zone,11,-,Generators,Generator,107_1,NG/CC
+1489,Zone,12,-,Generators,Generator,118_1,NG/CC
+1490,Zone,12,-,Generators,Generator,118_2,NG/CC
+1491,Zone,22,-,Generators,Generator,213_3,NG/CC
+1492,Zone,22,-,Generators,Generator,218_1,NG/CC
+1493,Zone,22,-,Generators,Generator,221_1,NG/CC
+1494,Zone,32,-,Generators,Generator,313_1,NG/CC
+1495,Zone,32,-,Generators,Generator,318_1,NG/CC
+1496,Zone,32,-,Generators,Generator,321_1,NG/CC
+1497,Zone,32,-,Generators,Generator,323_1,NG/CC
+1498,Zone,32,-,Generators,Generator,323_2,NG/CC
+1499,Zone,12,-,Generators,Generator,113_1,NG/CT
+1500,Zone,12,-,Generators,Generator,113_2,NG/CT
+1501,Zone,12,-,Generators,Generator,113_3,NG/CT
+1502,Zone,12,-,Generators,Generator,113_4,NG/CT
+1503,Zone,12,-,Generators,Generator,113_5,NG/CT
+1504,Zone,12,-,Generators,Generator,123_1,NG/CT
+1505,Zone,12,-,Generators,Generator,123_4,NG/CT
+1506,Zone,12,-,Generators,Generator,123_5,NG/CT
+1507,Zone,21,-,Generators,Generator,207_1,NG/CT
+1508,Zone,21,-,Generators,Generator,207_2,NG/CT
+1509,Zone,22,-,Generators,Generator,213_1,NG/CT
+1510,Zone,22,-,Generators,Generator,213_2,NG/CT
+1511,Zone,22,-,Generators,Generator,215_4,NG/CT
+1512,Zone,22,-,Generators,Generator,215_5,NG/CT
+1513,Zone,22,-,Generators,Generator,223_4,NG/CT
+1514,Zone,22,-,Generators,Generator,223_5,NG/CT
+1515,Zone,22,-,Generators,Generator,223_6,NG/CT
+1516,Zone,31,-,Generators,Generator,301_3,NG/CT
+1517,Zone,31,-,Generators,Generator,301_4,NG/CT
+1518,Zone,31,-,Generators,Generator,302_3,NG/CT
+1519,Zone,31,-,Generators,Generator,302_4,NG/CT
+1520,Zone,31,-,Generators,Generator,307_1,NG/CT
+1521,Zone,31,-,Generators,Generator,307_2,NG/CT
+1522,Zone,32,-,Generators,Generator,315_6,NG/CT
+1523,Zone,32,-,Generators,Generator,315_7,NG/CT
+1524,Zone,32,-,Generators,Generator,315_8,NG/CT
+1525,Zone,32,-,Generators,Generator,322_5,NG/CT
+1526,Zone,32,-,Generators,Generator,322_6,NG/CT
+1527,Zone,12,-,Generators,Generator,121_1,Nuclear
+1528,Zone,11,-,Generators,Generator,101_1,Oil/CT
+1529,Zone,11,-,Generators,Generator,101_2,Oil/CT
+1530,Zone,11,-,Generators,Generator,102_1,Oil/CT
+1531,Zone,11,-,Generators,Generator,102_2,Oil/CT
+1532,Zone,21,-,Generators,Generator,201_1,Oil/CT
+1533,Zone,21,-,Generators,Generator,201_2,Oil/CT
+1534,Zone,21,-,Generators,Generator,202_1,Oil/CT
+1535,Zone,21,-,Generators,Generator,202_2,Oil/CT
+1536,Zone,31,-,Generators,Generator,301_1,Oil/CT
+1537,Zone,31,-,Generators,Generator,301_2,Oil/CT
+1538,Zone,31,-,Generators,Generator,302_1,Oil/CT
+1539,Zone,31,-,Generators,Generator,302_2,Oil/CT
+1540,Zone,12,-,Generators,Generator,115_1,Oil/Steam
+1541,Zone,12,-,Generators,Generator,115_2,Oil/Steam
+1542,Zone,32,-,Generators,Generator,315_1,Oil/Steam
+1543,Zone,32,-,Generators,Generator,315_2,Oil/Steam
+1544,Zone,32,-,Generators,Generator,315_3,Oil/Steam
+1545,Zone,32,-,Generators,Generator,315_4,Oil/Steam
+1546,Zone,32,-,Generators,Generator,315_5,Oil/Steam
+1547,Zone,11,-,Generators,Generator,101_pv,PV
+1548,Zone,11,-,Generators,Generator,101_pv_2,PV
+1549,Zone,11,-,Generators,Generator,101_pv_3,PV
+1550,Zone,11,-,Generators,Generator,101_pv_4,PV
+1551,Zone,11,-,Generators,Generator,102_pv,PV
+1552,Zone,11,-,Generators,Generator,102_pv_2,PV
+1553,Zone,11,-,Generators,Generator,103_pv,PV
+1554,Zone,11,-,Generators,Generator,104_pv,PV
+1555,Zone,12,-,Generators,Generator,113_pv,PV
+1556,Zone,12,-,Generators,Generator,119_pv,PV
+1557,Zone,22,-,Generators,Generator,215_pv,PV
+1558,Zone,31,-,Generators,Generator,310_pv,PV
+1559,Zone,31,-,Generators,Generator,310_pv_2,PV
+1560,Zone,31,-,Generators,Generator,312_pv,PV
+1561,Zone,32,-,Generators,Generator,313_pv,PV
+1562,Zone,32,-,Generators,Generator,313_pv_2,PV
+1563,Zone,32,-,Generators,Generator,314_pv,PV
+1564,Zone,32,-,Generators,Generator,314_pv_2,PV
+1565,Zone,32,-,Generators,Generator,314_pv_3,PV
+1566,Zone,32,-,Generators,Generator,314_pv_4,PV
+1567,Zone,32,-,Generators,Generator,319_pv,PV
+1568,Zone,32,-,Generators,Generator,320_pv,PV
+1569,Zone,32,-,Generators,Generator,324_pv,PV
+1570,Zone,32,-,Generators,Generator,324_pv_2,PV
+1571,Zone,32,-,Generators,Generator,324_pv_3,PV
+1572,Zone,12,-,Generators,Generator,118_rtpv,RTPV
+1573,Zone,12,-,Generators,Generator,118_rtpv_10,RTPV
+1574,Zone,12,-,Generators,Generator,118_rtpv_2,RTPV
+1575,Zone,12,-,Generators,Generator,118_rtpv_3,RTPV
+1576,Zone,12,-,Generators,Generator,118_rtpv_4,RTPV
+1577,Zone,12,-,Generators,Generator,118_rtpv_5,RTPV
+1578,Zone,12,-,Generators,Generator,118_rtpv_6,RTPV
+1579,Zone,12,-,Generators,Generator,118_rtpv_7,RTPV
+1580,Zone,12,-,Generators,Generator,118_rtpv_8,RTPV
+1581,Zone,12,-,Generators,Generator,118_rtpv_9,RTPV
+1582,Zone,22,-,Generators,Generator,213_rtpv,RTPV
+1583,Zone,31,-,Generators,Generator,308_rtpv,RTPV
+1584,Zone,32,-,Generators,Generator,313_rtpv,RTPV
+1585,Zone,32,-,Generators,Generator,313_rtpv_10,RTPV
+1586,Zone,32,-,Generators,Generator,313_rtpv_11,RTPV
+1587,Zone,32,-,Generators,Generator,313_rtpv_12,RTPV
+1588,Zone,32,-,Generators,Generator,313_rtpv_13,RTPV
+1589,Zone,32,-,Generators,Generator,313_rtpv_2,RTPV
+1590,Zone,32,-,Generators,Generator,313_rtpv_3,RTPV
+1591,Zone,32,-,Generators,Generator,313_rtpv_4,RTPV
+1592,Zone,32,-,Generators,Generator,313_rtpv_5,RTPV
+1593,Zone,32,-,Generators,Generator,313_rtpv_6,RTPV
+1594,Zone,32,-,Generators,Generator,313_rtpv_7,RTPV
+1595,Zone,32,-,Generators,Generator,313_rtpv_8,RTPV
+1596,Zone,32,-,Generators,Generator,313_rtpv_9,RTPV
+1597,Zone,32,-,Generators,Generator,320_rtpv,RTPV
+1598,Zone,32,-,Generators,Generator,320_rtpv_2,RTPV
+1599,Zone,32,-,Generators,Generator,320_rtpv_3,RTPV
+1600,Zone,32,-,Generators,Generator,320_rtpv_4,RTPV
+1601,Zone,32,-,Generators,Generator,320_rtpv_5,RTPV
+1602,Zone,32,-,Generators,Generator,320_rtpv_6,RTPV
+1603,Zone,12,-,Generators,Generator,122_wind,Wind
+1604,Zone,31,-,Generators,Generator,303_wind,Wind
+1605,Zone,31,-,Generators,Generator,309_wind,Wind
+1606,Zone,32,-,Generators,Generator,317_wind,Wind
+1607,Zone,11,-,Emissions,Emission,CO2,-
+1608,Zone,11,-,Emissions,Emission,NOX,-
+1609,Zone,12,-,Emissions,Emission,CO2,-
+1610,Zone,12,-,Emissions,Emission,NOX,-
+1611,Zone,21,-,Emissions,Emission,CO2,-
+1612,Zone,21,-,Emissions,Emission,NOX,-
+1613,Zone,22,-,Emissions,Emission,CO2,-
+1614,Zone,22,-,Emissions,Emission,NOX,-
+1615,Zone,31,-,Emissions,Emission,CO2,-
+1616,Zone,31,-,Emissions,Emission,NOX,-
+1617,Zone,32,-,Emissions,Emission,CO2,-
+1618,Zone,32,-,Emissions,Emission,NOX,-
+1619,Region,1,-,Intraregional Lines,Line,101_102_1,AC_1
+1620,Region,1,-,Intraregional Lines,Line,101_103_1,AC_1
+1621,Region,1,-,Intraregional Lines,Line,101_105_1,AC_1
+1622,Region,1,-,Intraregional Lines,Line,102_104_1,AC_1
+1623,Region,1,-,Intraregional Lines,Line,102_106_1,AC_1
+1624,Region,1,-,Intraregional Lines,Line,103_109_1,AC_1
+1625,Region,1,-,Intraregional Lines,Line,103_124_1,AC_1
+1626,Region,1,-,Intraregional Lines,Line,104_109_1,AC_1
+1627,Region,1,-,Intraregional Lines,Line,105_110_1,AC_1
+1628,Region,1,-,Intraregional Lines,Line,106_110_1,AC_1
+1629,Region,1,-,Intraregional Lines,Line,107_108_1,AC_1
+1630,Region,1,-,Intraregional Lines,Line,108_109_1,AC_1
+1631,Region,1,-,Intraregional Lines,Line,108_110_1,AC_1
+1632,Region,1,-,Intraregional Lines,Line,109_111_1,AC_1
+1633,Region,1,-,Intraregional Lines,Line,109_112_1,AC_1
+1634,Region,1,-,Intraregional Lines,Line,110_111_1,AC_1
+1635,Region,1,-,Intraregional Lines,Line,110_112_1,AC_1
+1636,Region,1,-,Intraregional Lines,Line,111_113_1,AC_1
+1637,Region,1,-,Intraregional Lines,Line,111_114_1,AC_1
+1638,Region,1,-,Intraregional Lines,Line,112_113_1,AC_1
+1639,Region,1,-,Intraregional Lines,Line,112_123_1,AC_1
+1640,Region,1,-,Intraregional Lines,Line,113_123_1,AC_1
+1641,Region,1,-,Intraregional Lines,Line,114_116_1,AC_1
+1642,Region,1,-,Intraregional Lines,Line,115_116_1,AC_1
+1643,Region,1,-,Intraregional Lines,Line,115_121_1,AC_1
+1644,Region,1,-,Intraregional Lines,Line,115_121_2,AC_1
+1645,Region,1,-,Intraregional Lines,Line,115_124_1,AC_1
+1646,Region,1,-,Intraregional Lines,Line,116_117_1,AC_1
+1647,Region,1,-,Intraregional Lines,Line,116_119_1,AC_1
+1648,Region,1,-,Intraregional Lines,Line,117_118_1,AC_1
+1649,Region,1,-,Intraregional Lines,Line,117_122_1,AC_1
+1650,Region,1,-,Intraregional Lines,Line,118_121_1,AC_1
+1651,Region,1,-,Intraregional Lines,Line,118_121_2,AC_1
+1652,Region,1,-,Intraregional Lines,Line,119_120_1,AC_1
+1653,Region,1,-,Intraregional Lines,Line,119_120_2,AC_1
+1654,Region,1,-,Intraregional Lines,Line,120_123_1,AC_1
+1655,Region,1,-,Intraregional Lines,Line,120_123_2,AC_1
+1656,Region,1,-,Intraregional Lines,Line,121_122_1,AC_1
+1657,Region,2,-,Intraregional Lines,Line,201_202_1,AC_2
+1658,Region,2,-,Intraregional Lines,Line,201_203_1,AC_2
+1659,Region,2,-,Intraregional Lines,Line,201_205_1,AC_2
+1660,Region,2,-,Intraregional Lines,Line,202_204_1,AC_2
+1661,Region,2,-,Intraregional Lines,Line,202_206_1,AC_2
+1662,Region,2,-,Intraregional Lines,Line,203_209_1,AC_2
+1663,Region,2,-,Intraregional Lines,Line,203_224_1,AC_2
+1664,Region,2,-,Intraregional Lines,Line,204_209_1,AC_2
+1665,Region,2,-,Intraregional Lines,Line,205_210_1,AC_2
+1666,Region,2,-,Intraregional Lines,Line,206_210_1,AC_2
+1667,Region,2,-,Intraregional Lines,Line,207_208_1,AC_2
+1668,Region,2,-,Intraregional Lines,Line,208_209_1,AC_2
+1669,Region,2,-,Intraregional Lines,Line,208_210_1,AC_2
+1670,Region,2,-,Intraregional Lines,Line,209_211_1,AC_2
+1671,Region,2,-,Intraregional Lines,Line,209_212_1,AC_2
+1672,Region,2,-,Intraregional Lines,Line,210_211_1,AC_2
+1673,Region,2,-,Intraregional Lines,Line,210_212_1,AC_2
+1674,Region,2,-,Intraregional Lines,Line,211_213_1,AC_2
+1675,Region,2,-,Intraregional Lines,Line,211_214_1,AC_2
+1676,Region,2,-,Intraregional Lines,Line,212_213_1,AC_2
+1677,Region,2,-,Intraregional Lines,Line,212_223_1,AC_2
+1678,Region,2,-,Intraregional Lines,Line,213_223_1,AC_2
+1679,Region,2,-,Intraregional Lines,Line,214_216_1,AC_2
+1680,Region,2,-,Intraregional Lines,Line,215_216_1,AC_2
+1681,Region,2,-,Intraregional Lines,Line,215_221_1,AC_2
+1682,Region,2,-,Intraregional Lines,Line,215_221_2,AC_2
+1683,Region,2,-,Intraregional Lines,Line,215_224_1,AC_2
+1684,Region,2,-,Intraregional Lines,Line,216_217_1,AC_2
+1685,Region,2,-,Intraregional Lines,Line,216_219_1,AC_2
+1686,Region,2,-,Intraregional Lines,Line,217_218_1,AC_2
+1687,Region,2,-,Intraregional Lines,Line,217_222_1,AC_2
+1688,Region,2,-,Intraregional Lines,Line,218_221_1,AC_2
+1689,Region,2,-,Intraregional Lines,Line,218_221_2,AC_2
+1690,Region,2,-,Intraregional Lines,Line,219_220_1,AC_2
+1691,Region,2,-,Intraregional Lines,Line,219_220_2,AC_2
+1692,Region,2,-,Intraregional Lines,Line,220_223_1,AC_2
+1693,Region,2,-,Intraregional Lines,Line,220_223_2,AC_2
+1694,Region,2,-,Intraregional Lines,Line,221_222_1,AC_2
+1695,Region,3,-,Intraregional Lines,Line,301_302_1,AC_3
+1696,Region,3,-,Intraregional Lines,Line,301_303_1,AC_3
+1697,Region,3,-,Intraregional Lines,Line,301_305_1,AC_3
+1698,Region,3,-,Intraregional Lines,Line,302_304_1,AC_3
+1699,Region,3,-,Intraregional Lines,Line,302_306_1,AC_3
+1700,Region,3,-,Intraregional Lines,Line,303_309_1,AC_3
+1701,Region,3,-,Intraregional Lines,Line,303_324_1,AC_3
+1702,Region,3,-,Intraregional Lines,Line,304_309_1,AC_3
+1703,Region,3,-,Intraregional Lines,Line,305_310_1,AC_3
+1704,Region,3,-,Intraregional Lines,Line,306_310_1,AC_3
+1705,Region,3,-,Intraregional Lines,Line,307_308_1,AC_3
+1706,Region,3,-,Intraregional Lines,Line,308_309_1,AC_3
+1707,Region,3,-,Intraregional Lines,Line,308_310_1,AC_3
+1708,Region,3,-,Intraregional Lines,Line,309_311_1,AC_3
+1709,Region,3,-,Intraregional Lines,Line,309_312_1,AC_3
+1710,Region,3,-,Intraregional Lines,Line,310_311_1,AC_3
+1711,Region,3,-,Intraregional Lines,Line,310_312_1,AC_3
+1712,Region,3,-,Intraregional Lines,Line,311_313_1,AC_3
+1713,Region,3,-,Intraregional Lines,Line,311_314_1,AC_3
+1714,Region,3,-,Intraregional Lines,Line,312_313_1,AC_3
+1715,Region,3,-,Intraregional Lines,Line,312_323_1,AC_3
+1716,Region,3,-,Intraregional Lines,Line,313_323_1,AC_3
+1717,Region,3,-,Intraregional Lines,Line,313_326_1,AC_3
+1718,Region,3,-,Intraregional Lines,Line,314_316_1,AC_3
+1719,Region,3,-,Intraregional Lines,Line,315_316_1,AC_3
+1720,Region,3,-,Intraregional Lines,Line,315_321_1,AC_3
+1721,Region,3,-,Intraregional Lines,Line,315_321_2,AC_3
+1722,Region,3,-,Intraregional Lines,Line,315_324_1,AC_3
+1723,Region,3,-,Intraregional Lines,Line,315_327_1,AC_3
+1724,Region,3,-,Intraregional Lines,Line,316_317_1,AC_3
+1725,Region,3,-,Intraregional Lines,Line,316_319_1,AC_3
+1726,Region,3,-,Intraregional Lines,Line,317_318_1,AC_3
+1727,Region,3,-,Intraregional Lines,Line,317_322_1,AC_3
+1728,Region,3,-,Intraregional Lines,Line,318_321_1,AC_3
+1729,Region,3,-,Intraregional Lines,Line,318_321_2,AC_3
+1730,Region,3,-,Intraregional Lines,Line,319_320_1,AC_3
+1731,Region,3,-,Intraregional Lines,Line,319_320_2,AC_3
+1732,Region,3,-,Intraregional Lines,Line,320_323_1,AC_3
+1733,Region,3,-,Intraregional Lines,Line,320_323_2,AC_3
+1734,Region,3,-,Intraregional Lines,Line,321_322_1,AC_3
+1735,Region,3,-,Intraregional Lines,Line,323_325_1,AC_3
+1736,Region,1,-,Interregional Lines,Line,107_203_1,Interstate_AC
+1737,Region,1,-,Interregional Lines,Line,113_215_1,Interstate_AC
+1738,Region,1,-,Interregional Lines,Line,123_217_1,Interstate_AC
+1739,Region,3,-,Interregional Lines,Line,318_223_1,Interstate_AC
+1740,Region,3,-,Interregional Lines,Line,325_121_1,Interstate_AC
+1741,Region,1,-,Interregional Lines,Line,113_316_1,Interstate_DC
+1742,Region,2,-,Interregional Lines,Line,107_203_1,Interstate_AC
+1743,Region,2,-,Interregional Lines,Line,113_215_1,Interstate_AC
+1744,Region,2,-,Interregional Lines,Line,123_217_1,Interstate_AC
+1745,Region,2,-,Interregional Lines,Line,318_223_1,Interstate_AC
+1746,Region,1,-,Interregional Lines,Line,325_121_1,Interstate_AC
+1747,Region,3,-,Interregional Lines,Line,113_316_1,Interstate_DC
+1748,Region,1,-,Exporting Lines,Line,107_203_1,Interstate_AC
+1749,Region,1,-,Exporting Lines,Line,113_215_1,Interstate_AC
+1750,Region,1,-,Exporting Lines,Line,123_217_1,Interstate_AC
+1751,Region,3,-,Exporting Lines,Line,318_223_1,Interstate_AC
+1752,Region,3,-,Exporting Lines,Line,325_121_1,Interstate_AC
+1753,Region,1,-,Exporting Lines,Line,113_316_1,Interstate_DC
+1754,Region,2,-,Importing Lines,Line,107_203_1,Interstate_AC
+1755,Region,2,-,Importing Lines,Line,113_215_1,Interstate_AC
+1756,Region,2,-,Importing Lines,Line,123_217_1,Interstate_AC
+1757,Region,2,-,Importing Lines,Line,318_223_1,Interstate_AC
+1758,Region,1,-,Importing Lines,Line,325_121_1,Interstate_AC
+1759,Region,3,-,Importing Lines,Line,113_316_1,Interstate_DC
+1760,Zone,11,-,Intrazonal Lines,Line,101_102_1,AC_1
+1761,Zone,11,-,Intrazonal Lines,Line,101_103_1,AC_1
+1762,Zone,11,-,Intrazonal Lines,Line,101_105_1,AC_1
+1763,Zone,11,-,Intrazonal Lines,Line,102_104_1,AC_1
+1764,Zone,11,-,Intrazonal Lines,Line,102_106_1,AC_1
+1765,Zone,11,-,Intrazonal Lines,Line,103_109_1,AC_1
+1766,Zone,11,-,Intrazonal Lines,Line,104_109_1,AC_1
+1767,Zone,11,-,Intrazonal Lines,Line,105_110_1,AC_1
+1768,Zone,11,-,Intrazonal Lines,Line,106_110_1,AC_1
+1769,Zone,11,-,Intrazonal Lines,Line,107_108_1,AC_1
+1770,Zone,11,-,Intrazonal Lines,Line,108_109_1,AC_1
+1771,Zone,11,-,Intrazonal Lines,Line,108_110_1,AC_1
+1772,Zone,11,-,Intrazonal Lines,Line,109_111_1,AC_1
+1773,Zone,11,-,Intrazonal Lines,Line,109_112_1,AC_1
+1774,Zone,11,-,Intrazonal Lines,Line,110_111_1,AC_1
+1775,Zone,11,-,Intrazonal Lines,Line,110_112_1,AC_1
+1776,Zone,12,-,Intrazonal Lines,Line,113_123_1,AC_1
+1777,Zone,12,-,Intrazonal Lines,Line,114_116_1,AC_1
+1778,Zone,12,-,Intrazonal Lines,Line,115_116_1,AC_1
+1779,Zone,12,-,Intrazonal Lines,Line,115_121_1,AC_1
+1780,Zone,12,-,Intrazonal Lines,Line,115_121_2,AC_1
+1781,Zone,12,-,Intrazonal Lines,Line,115_124_1,AC_1
+1782,Zone,12,-,Intrazonal Lines,Line,116_117_1,AC_1
+1783,Zone,12,-,Intrazonal Lines,Line,116_119_1,AC_1
+1784,Zone,12,-,Intrazonal Lines,Line,117_118_1,AC_1
+1785,Zone,12,-,Intrazonal Lines,Line,117_122_1,AC_1
+1786,Zone,12,-,Intrazonal Lines,Line,118_121_1,AC_1
+1787,Zone,12,-,Intrazonal Lines,Line,118_121_2,AC_1
+1788,Zone,12,-,Intrazonal Lines,Line,119_120_1,AC_1
+1789,Zone,12,-,Intrazonal Lines,Line,119_120_2,AC_1
+1790,Zone,12,-,Intrazonal Lines,Line,120_123_1,AC_1
+1791,Zone,12,-,Intrazonal Lines,Line,120_123_2,AC_1
+1792,Zone,12,-,Intrazonal Lines,Line,121_122_1,AC_1
+1793,Zone,21,-,Intrazonal Lines,Line,201_202_1,AC_2
+1794,Zone,21,-,Intrazonal Lines,Line,201_203_1,AC_2
+1795,Zone,21,-,Intrazonal Lines,Line,201_205_1,AC_2
+1796,Zone,21,-,Intrazonal Lines,Line,202_204_1,AC_2
+1797,Zone,21,-,Intrazonal Lines,Line,202_206_1,AC_2
+1798,Zone,21,-,Intrazonal Lines,Line,203_209_1,AC_2
+1799,Zone,21,-,Intrazonal Lines,Line,204_209_1,AC_2
+1800,Zone,21,-,Intrazonal Lines,Line,205_210_1,AC_2
+1801,Zone,21,-,Intrazonal Lines,Line,206_210_1,AC_2
+1802,Zone,21,-,Intrazonal Lines,Line,207_208_1,AC_2
+1803,Zone,21,-,Intrazonal Lines,Line,208_209_1,AC_2
+1804,Zone,21,-,Intrazonal Lines,Line,208_210_1,AC_2
+1805,Zone,21,-,Intrazonal Lines,Line,209_211_1,AC_2
+1806,Zone,21,-,Intrazonal Lines,Line,209_212_1,AC_2
+1807,Zone,21,-,Intrazonal Lines,Line,210_211_1,AC_2
+1808,Zone,21,-,Intrazonal Lines,Line,210_212_1,AC_2
+1809,Zone,22,-,Intrazonal Lines,Line,213_223_1,AC_2
+1810,Zone,22,-,Intrazonal Lines,Line,214_216_1,AC_2
+1811,Zone,22,-,Intrazonal Lines,Line,215_216_1,AC_2
+1812,Zone,22,-,Intrazonal Lines,Line,215_221_1,AC_2
+1813,Zone,22,-,Intrazonal Lines,Line,215_221_2,AC_2
+1814,Zone,22,-,Intrazonal Lines,Line,215_224_1,AC_2
+1815,Zone,22,-,Intrazonal Lines,Line,216_217_1,AC_2
+1816,Zone,22,-,Intrazonal Lines,Line,216_219_1,AC_2
+1817,Zone,22,-,Intrazonal Lines,Line,217_218_1,AC_2
+1818,Zone,22,-,Intrazonal Lines,Line,217_222_1,AC_2
+1819,Zone,22,-,Intrazonal Lines,Line,218_221_1,AC_2
+1820,Zone,22,-,Intrazonal Lines,Line,218_221_2,AC_2
+1821,Zone,22,-,Intrazonal Lines,Line,219_220_1,AC_2
+1822,Zone,22,-,Intrazonal Lines,Line,219_220_2,AC_2
+1823,Zone,22,-,Intrazonal Lines,Line,220_223_1,AC_2
+1824,Zone,22,-,Intrazonal Lines,Line,220_223_2,AC_2
+1825,Zone,22,-,Intrazonal Lines,Line,221_222_1,AC_2
+1826,Zone,31,-,Intrazonal Lines,Line,301_302_1,AC_3
+1827,Zone,31,-,Intrazonal Lines,Line,301_303_1,AC_3
+1828,Zone,31,-,Intrazonal Lines,Line,301_305_1,AC_3
+1829,Zone,31,-,Intrazonal Lines,Line,302_304_1,AC_3
+1830,Zone,31,-,Intrazonal Lines,Line,302_306_1,AC_3
+1831,Zone,31,-,Intrazonal Lines,Line,303_309_1,AC_3
+1832,Zone,31,-,Intrazonal Lines,Line,304_309_1,AC_3
+1833,Zone,31,-,Intrazonal Lines,Line,305_310_1,AC_3
+1834,Zone,31,-,Intrazonal Lines,Line,306_310_1,AC_3
+1835,Zone,31,-,Intrazonal Lines,Line,307_308_1,AC_3
+1836,Zone,31,-,Intrazonal Lines,Line,308_309_1,AC_3
+1837,Zone,31,-,Intrazonal Lines,Line,308_310_1,AC_3
+1838,Zone,31,-,Intrazonal Lines,Line,309_311_1,AC_3
+1839,Zone,31,-,Intrazonal Lines,Line,309_312_1,AC_3
+1840,Zone,31,-,Intrazonal Lines,Line,310_311_1,AC_3
+1841,Zone,31,-,Intrazonal Lines,Line,310_312_1,AC_3
+1842,Zone,32,-,Intrazonal Lines,Line,313_323_1,AC_3
+1843,Zone,32,-,Intrazonal Lines,Line,313_326_1,AC_3
+1844,Zone,32,-,Intrazonal Lines,Line,314_316_1,AC_3
+1845,Zone,32,-,Intrazonal Lines,Line,315_316_1,AC_3
+1846,Zone,32,-,Intrazonal Lines,Line,315_321_1,AC_3
+1847,Zone,32,-,Intrazonal Lines,Line,315_321_2,AC_3
+1848,Zone,32,-,Intrazonal Lines,Line,315_324_1,AC_3
+1849,Zone,32,-,Intrazonal Lines,Line,315_327_1,AC_3
+1850,Zone,32,-,Intrazonal Lines,Line,316_317_1,AC_3
+1851,Zone,32,-,Intrazonal Lines,Line,316_319_1,AC_3
+1852,Zone,32,-,Intrazonal Lines,Line,317_318_1,AC_3
+1853,Zone,32,-,Intrazonal Lines,Line,317_322_1,AC_3
+1854,Zone,32,-,Intrazonal Lines,Line,318_321_1,AC_3
+1855,Zone,32,-,Intrazonal Lines,Line,318_321_2,AC_3
+1856,Zone,32,-,Intrazonal Lines,Line,319_320_1,AC_3
+1857,Zone,32,-,Intrazonal Lines,Line,319_320_2,AC_3
+1858,Zone,32,-,Intrazonal Lines,Line,320_323_1,AC_3
+1859,Zone,32,-,Intrazonal Lines,Line,320_323_2,AC_3
+1860,Zone,32,-,Intrazonal Lines,Line,321_322_1,AC_3
+1861,Zone,32,-,Intrazonal Lines,Line,323_325_1,AC_3
+1862,Zone,11,-,Interzonal Lines,Line,103_124_1,AC_1
+1863,Zone,11,-,Interzonal Lines,Line,111_113_1,AC_1
+1864,Zone,11,-,Interzonal Lines,Line,111_114_1,AC_1
+1865,Zone,11,-,Interzonal Lines,Line,112_113_1,AC_1
+1866,Zone,11,-,Interzonal Lines,Line,112_123_1,AC_1
+1867,Zone,21,-,Interzonal Lines,Line,203_224_1,AC_2
+1868,Zone,21,-,Interzonal Lines,Line,211_213_1,AC_2
+1869,Zone,21,-,Interzonal Lines,Line,211_214_1,AC_2
+1870,Zone,21,-,Interzonal Lines,Line,212_213_1,AC_2
+1871,Zone,21,-,Interzonal Lines,Line,212_223_1,AC_2
+1872,Zone,31,-,Interzonal Lines,Line,303_324_1,AC_3
+1873,Zone,31,-,Interzonal Lines,Line,311_313_1,AC_3
+1874,Zone,31,-,Interzonal Lines,Line,311_314_1,AC_3
+1875,Zone,31,-,Interzonal Lines,Line,312_313_1,AC_3
+1876,Zone,31,-,Interzonal Lines,Line,312_323_1,AC_3
+1877,Zone,11,-,Interzonal Lines,Line,107_203_1,Interstate_AC
+1878,Zone,12,-,Interzonal Lines,Line,113_215_1,Interstate_AC
+1879,Zone,12,-,Interzonal Lines,Line,123_217_1,Interstate_AC
+1880,Zone,32,-,Interzonal Lines,Line,318_223_1,Interstate_AC
+1881,Zone,32,-,Interzonal Lines,Line,325_121_1,Interstate_AC
+1882,Zone,12,-,Interzonal Lines,Line,113_316_1,Interstate_DC
+1883,Zone,12,-,Interzonal Lines,Line,103_124_1,AC_1
+1884,Zone,12,-,Interzonal Lines,Line,111_113_1,AC_1
+1885,Zone,12,-,Interzonal Lines,Line,111_114_1,AC_1
+1886,Zone,12,-,Interzonal Lines,Line,112_113_1,AC_1
+1887,Zone,12,-,Interzonal Lines,Line,112_123_1,AC_1
+1888,Zone,22,-,Interzonal Lines,Line,203_224_1,AC_2
+1889,Zone,22,-,Interzonal Lines,Line,211_213_1,AC_2
+1890,Zone,22,-,Interzonal Lines,Line,211_214_1,AC_2
+1891,Zone,22,-,Interzonal Lines,Line,212_213_1,AC_2
+1892,Zone,22,-,Interzonal Lines,Line,212_223_1,AC_2
+1893,Zone,32,-,Interzonal Lines,Line,303_324_1,AC_3
+1894,Zone,32,-,Interzonal Lines,Line,311_313_1,AC_3
+1895,Zone,32,-,Interzonal Lines,Line,311_314_1,AC_3
+1896,Zone,32,-,Interzonal Lines,Line,312_313_1,AC_3
+1897,Zone,32,-,Interzonal Lines,Line,312_323_1,AC_3
+1898,Zone,21,-,Interzonal Lines,Line,107_203_1,Interstate_AC
+1899,Zone,22,-,Interzonal Lines,Line,113_215_1,Interstate_AC
+1900,Zone,22,-,Interzonal Lines,Line,123_217_1,Interstate_AC
+1901,Zone,22,-,Interzonal Lines,Line,318_223_1,Interstate_AC
+1902,Zone,12,-,Interzonal Lines,Line,325_121_1,Interstate_AC
+1903,Zone,32,-,Interzonal Lines,Line,113_316_1,Interstate_DC
+1904,Zone,11,-,Exporting Lines,Line,103_124_1,AC_1
+1905,Zone,11,-,Exporting Lines,Line,111_113_1,AC_1
+1906,Zone,11,-,Exporting Lines,Line,111_114_1,AC_1
+1907,Zone,11,-,Exporting Lines,Line,112_113_1,AC_1
+1908,Zone,11,-,Exporting Lines,Line,112_123_1,AC_1
+1909,Zone,21,-,Exporting Lines,Line,203_224_1,AC_2
+1910,Zone,21,-,Exporting Lines,Line,211_213_1,AC_2
+1911,Zone,21,-,Exporting Lines,Line,211_214_1,AC_2
+1912,Zone,21,-,Exporting Lines,Line,212_213_1,AC_2
+1913,Zone,21,-,Exporting Lines,Line,212_223_1,AC_2
+1914,Zone,31,-,Exporting Lines,Line,303_324_1,AC_3
+1915,Zone,31,-,Exporting Lines,Line,311_313_1,AC_3
+1916,Zone,31,-,Exporting Lines,Line,311_314_1,AC_3
+1917,Zone,31,-,Exporting Lines,Line,312_313_1,AC_3
+1918,Zone,31,-,Exporting Lines,Line,312_323_1,AC_3
+1919,Zone,11,-,Exporting Lines,Line,107_203_1,Interstate_AC
+1920,Zone,12,-,Exporting Lines,Line,113_215_1,Interstate_AC
+1921,Zone,12,-,Exporting Lines,Line,123_217_1,Interstate_AC
+1922,Zone,32,-,Exporting Lines,Line,318_223_1,Interstate_AC
+1923,Zone,32,-,Exporting Lines,Line,325_121_1,Interstate_AC
+1924,Zone,12,-,Exporting Lines,Line,113_316_1,Interstate_DC
+1925,Zone,12,-,Importing Lines,Line,103_124_1,AC_1
+1926,Zone,12,-,Importing Lines,Line,111_113_1,AC_1
+1927,Zone,12,-,Importing Lines,Line,111_114_1,AC_1
+1928,Zone,12,-,Importing Lines,Line,112_113_1,AC_1
+1929,Zone,12,-,Importing Lines,Line,112_123_1,AC_1
+1930,Zone,22,-,Importing Lines,Line,203_224_1,AC_2
+1931,Zone,22,-,Importing Lines,Line,211_213_1,AC_2
+1932,Zone,22,-,Importing Lines,Line,211_214_1,AC_2
+1933,Zone,22,-,Importing Lines,Line,212_213_1,AC_2
+1934,Zone,22,-,Importing Lines,Line,212_223_1,AC_2
+1935,Zone,32,-,Importing Lines,Line,303_324_1,AC_3
+1936,Zone,32,-,Importing Lines,Line,311_313_1,AC_3
+1937,Zone,32,-,Importing Lines,Line,311_314_1,AC_3
+1938,Zone,32,-,Importing Lines,Line,312_313_1,AC_3
+1939,Zone,32,-,Importing Lines,Line,312_323_1,AC_3
+1940,Zone,21,-,Importing Lines,Line,107_203_1,Interstate_AC
+1941,Zone,22,-,Importing Lines,Line,113_215_1,Interstate_AC
+1942,Zone,22,-,Importing Lines,Line,123_217_1,Interstate_AC
+1943,Zone,22,-,Importing Lines,Line,318_223_1,Interstate_AC
+1944,Zone,12,-,Importing Lines,Line,325_121_1,Interstate_AC
+1945,Zone,32,-,Importing Lines,Line,113_316_1,Interstate_DC
