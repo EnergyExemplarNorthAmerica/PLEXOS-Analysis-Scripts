@@ -127,31 +127,37 @@ def none_to_empty_list(ret):
 
 def pull_xref(sol_cxn, xref_file):
     from EEUTILITY.Enums import ClassEnum, CollectionEnum
+    #from EEDataSets import t_membershipDataTable, t_objectDataTable, t_classDataTable, t_categoryDataTable, t_collectionDataTable
 
     # retrieve memberships
     mem_df = pd.DataFrame(columns = ['pclass', 'cclass', 'coll', 'pobj', 'cobj'])
-    for row in sol_cxn.GetDataTable('t_membership', '')[0]:
+    tbl = sol_cxn.GetDataTable('t_membership', '')
+    for row in tbl if 'EEDataSets' in str(type(tbl)) else tbl[0]:
         mem_df.loc[row.membership_id] = [row.parent_class_id, row.child_class_id, row.collection_id, row.parent_object_id, row.child_object_id]
 
     # retrieve objects
     obj_df = pd.DataFrame(columns = ['oname', 'ocat'])
-    for row in sol_cxn.GetDataTable('t_object', '')[0]:
+    tbl = sol_cxn.GetDataTable('t_object', '')
+    for row in tbl if 'EEDataSets' in str(type(tbl)) else tbl[0]:
         if row.show:
             obj_df.loc[row.object_id] = [row.name, row.category_id]
     
     # retrieve classes
     cls_df = pd.DataFrame(columns = ['class_name'])
-    for row in sol_cxn.GetDataTable('t_class', '')[0]:
+    tbl = sol_cxn.GetDataTable('t_class', '')
+    for row in tbl if 'EEDataSets' in str(type(tbl)) else tbl[0]:
         cls_df.loc[row.class_id] = [row.name]
 
     # retrieve categories
     cat_df = pd.DataFrame(columns = ['category'])
-    for row in sol_cxn.GetDataTable('t_category', '')[0]:
+    tbl = sol_cxn.GetDataTable('t_category', '')
+    for row in tbl if 'EEDataSets' in str(type(tbl)) else tbl[0]:
         cat_df.loc[row.category_id] = [row.name]
 
     # retrieve collections
     coll_df = pd.DataFrame(columns = ['collection'])
-    for row in sol_cxn.GetDataTable('t_collection', '')[0]:
+    tbl = sol_cxn.GetDataTable('t_collection', '')
+    for row in tbl if 'EEDataSets' in str(type(tbl)) else tbl[0]:
         coll_df.loc[row.collection_id] = [row.name]
 
     # Join the metadata into a single xref table
@@ -228,9 +234,10 @@ def set_plexos_path(plexos_path):
     sys.path.append(plexos_path)
     clr.AddReference('PLEXOS7_NET.Core')
     clr.AddReference('EEUTILITY')
+    clr.AddReference('EEDataSets')
     from PLEXOS7_NET.Core import DatabaseCore, Solution, PLEXOSConnect
 
 if __name__ == '__main__':
 
-    set_plexos_path('C:/Program Files (x86)/Energy Exemplar/PLEXOS 8.1/')
+    set_plexos_path('C:/Program Files/Energy Exemplar/PLEXOS 8.3/')
     main()
