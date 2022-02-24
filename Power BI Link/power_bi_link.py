@@ -4,7 +4,18 @@ import numpy as np
 import io, re, os, sys, time, clr, json
 
 from System import Enum, Boolean, DateTime
+# load PLEXOS assemblies:
+#set_plexos_path('C:/Program Files/Energy Exemplar/PLEXOS 9.0 API')
+sys.path.append('C:/Program Files/Energy Exemplar/PLEXOS 9.0 API')
+clr.AddReference('PLEXOS_NET.Core')
+clr.AddReference('EEUTILITY')
+clr.AddReference('EEDataSets')
+clr.AddReference('EnergyExemplar.PLEXOS.Utility')
+from PLEXOS_NET.Core import DatabaseCore, Solution, PLEXOSConnect
 
+from EnergyExemplar.PLEXOS.Utility.Enums import PeriodEnum, SeriesTypeEnum
+from PLEXOS_NET.Core import DatabaseCore, Solution, PLEXOSConnect
+from EEUTILITY.Enums  import SimulationPhaseEnum, CollectionEnum, ClassEnum
 def is_switch(args, arg_opt):
     '''
     Check to see if switch arg_opt is defined in the command line
@@ -40,7 +51,6 @@ def switch_data_to_date(args, arg_opt):
 
 def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to, is_verbose = False, property_list = ''):
     # Run the query
-    from EEUTILITY.Enums import SeriesTypeEnum
     params = (csv_file, True, sim_phase, coll, '', '', period, SeriesTypeEnum.Values, property_list, date_from, date_to)
     try:
         if sol.QueryToCSV(*params):
@@ -55,7 +65,7 @@ def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to
 
 
 def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
-    from EEUTILITY.Enums import SimulationPhaseEnum, CollectionEnum, PeriodEnum, ClassEnum
+    
 
     # is this time_res active? If not quit
     if not is_switch(args, arg_opt): return
@@ -126,7 +136,6 @@ def none_to_empty_list(ret):
         return ret
 
 def pull_xref(sol_cxn, xref_file):
-    from EEUTILITY.Enums import ClassEnum, CollectionEnum
     #from EEDataSets import t_membershipDataTable, t_objectDataTable, t_classDataTable, t_categoryDataTable, t_collectionDataTable
 
     # retrieve memberships
@@ -187,8 +196,7 @@ def pull_xref(sol_cxn, xref_file):
 
 
 def main():
-    from EEUTILITY.Enums import PeriodEnum
-    from PLEXOS7_NET.Core import DatabaseCore, Solution, PLEXOSConnect
+
     
     if len(sys.argv) <= 1:
         print('''
@@ -229,15 +237,10 @@ Usage:
 
     print ('Completed in', time.time() - start_time, 'sec')
 
-def set_plexos_path(plexos_path):
-    # load PLEXOS assemblies:
-    sys.path.append(plexos_path)
-    clr.AddReference('PLEXOS7_NET.Core')
-    clr.AddReference('EEUTILITY')
-    clr.AddReference('EEDataSets')
-    from PLEXOS7_NET.Core import DatabaseCore, Solution, PLEXOSConnect
+#def set_plexos_path(plexos_path):
+#    pass
 
 if __name__ == '__main__':
 
-    set_plexos_path('C:/Program Files/Energy Exemplar/PLEXOS 8.3/')
+    
     main()
