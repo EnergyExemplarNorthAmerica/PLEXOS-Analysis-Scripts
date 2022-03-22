@@ -219,6 +219,20 @@ Usage:
                                             [-f [from_date]]
                                             [-t [to_date]]
                                             [-o [overwrite|default:True]]
+
+-x this produces a cross reference table that maps memberships
+-c this loads a specific configuration file for queries
+-y pull annual output in the specified file (or a default)
+-q pull quarterly output in the specified file (or a default)
+-m pull monthly output in the specified file (or a default)
+-w pull weekly output in the specified file (or a default)
+-d pull daily output in the specified file (or a default)
+-h pull hourly output in the specified file (or a default)
+-i pull interval output in the specified file (or a default)
+-f only pull data beginning on the specified date
+-t only pull data ending on the specified date
+-o should my data pulls overwrite the existing data? 
+    defaults to True, False to keep the current data
         ''')
         return
     
