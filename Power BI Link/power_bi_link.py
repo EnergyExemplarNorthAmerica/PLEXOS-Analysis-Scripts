@@ -1,6 +1,5 @@
 import pandas as pd
-import numpy as np
-import io, re, os, sys, time, clr, json
+import re, os, sys, time, clr, json
 
 sys.path.append('C:/Program Files/Energy Exemplar/PLEXOS 9.0 API')
 clr.AddReference('PLEXOS_NET.Core')
@@ -8,8 +7,8 @@ clr.AddReference('EEUTILITY')
 clr.AddReference('EnergyExemplar.PLEXOS.Utility')
 #clr.AddReference('EEDataSets')
 
-from System import Enum, Boolean, DateTime, String
-from PLEXOS_NET.Core import DatabaseCore, Solution, PLEXOSConnect
+from System import Enum, DateTime
+from PLEXOS_NET.Core import Solution
 from EEUTILITY.Enums import *
 from EnergyExemplar.PLEXOS.Utility.Enums import *
 
@@ -144,8 +143,6 @@ def none_to_empty_list(ret):
         return ret
 
 def pull_xref(sol_cxn, xref_file):
-    #from EEDataSets import t_membershipDataTable, t_objectDataTable, t_classDataTable, t_categoryDataTable, t_collectionDataTable
-
     # retrieve memberships
     mem_df = pd.DataFrame(columns = ['pclass', 'cclass', 'coll', 'pobj', 'cobj'])
     tbl = sol_cxn.GetDataTable('t_membership', '')
