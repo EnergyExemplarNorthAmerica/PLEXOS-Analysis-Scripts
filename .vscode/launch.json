@@ -5,12 +5,28 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Python: Congestion Analyzer",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
             "args": ["PLEXOS ERCOT Nodal 1.0.0.xml", "Final PTDF.csv", "Model ERCOT 2019 1 Day  Solution.zip", "8126_FORMOSA4A_138", "8140_JOSLIN4A_138", "6/14/2019 4:00 PM"]
+        },
+        {
+            "name": "Python: Power BI Link A",
+            "type": "python",
+            "request": "launch",
+            "program": "Power BI Link/power_bi_link.py",
+            "console": "integratedTerminal",
+            "args": ["Model Year DA Solution.zip", "-c", "config.json", "-y", "annual.csv", "-m", "monthly.csv", "-i", "hourly.csv"]
+        },
+        {
+            "name": "Python: Power BI Link B",
+            "type": "python",
+            "request": "launch",
+            "program": "Power BI Link/power_bi_link.py",
+            "console": "integratedTerminal",
+            "args": ["Model Q4 Week1 DA Solution.zip", "-c", "config.json", "-y", "annual.csv", "-m", "monthly.csv", "-i", "hourly.csv", "-o", "False"]
         }
     ]
 }

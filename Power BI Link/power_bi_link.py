@@ -2,7 +2,16 @@ import pandas as pd
 import numpy as np
 import io, re, os, sys, time, clr, json
 
-from System import Enum, Boolean, DateTime
+sys.path.append('C:/Program Files/Energy Exemplar/PLEXOS 9.0 API')
+clr.AddReference('PLEXOS_NET.Core')
+clr.AddReference('EEUTILITY')
+clr.AddReference('EnergyExemplar.PLEXOS.Utility')
+#clr.AddReference('EEDataSets')
+
+from System import Enum, Boolean, DateTime, String
+from PLEXOS_NET.Core import DatabaseCore, Solution, PLEXOSConnect
+from EEUTILITY.Enums import *
+from EnergyExemplar.PLEXOS.Utility.Enums import *
 
 def is_switch(args, arg_opt):
     '''
@@ -37,10 +46,11 @@ def switch_data_to_date(args, arg_opt):
     except:
         return None
 
-def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to, is_verbose = False, property_list = ''):
+def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to, is_verbose = False, property_list = '', by_category=False):
     # Run the query
-    from EEUTILITY.Enums import SeriesTypeEnum
-    params = (csv_file, True, sim_phase, coll, '', '', period, SeriesTypeEnum.Values, property_list, date_from, date_to)
+    params = [csv_file, True, sim_phase, coll, '', '', period, SeriesTypeEnum.Values, property_list, date_from, date_to]
+    if by_category:
+        params += [None, None, None, AggregationEnum.Category]
     try:
         if sol.QueryToCSV(*params):
             if is_verbose:
@@ -54,7 +64,6 @@ def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to
 
 
 def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
-    from EEUTILITY.Enums import SimulationPhaseEnum, CollectionEnum, PeriodEnum, ClassEnum
 
     # is this time_res active? If not quit
     if not is_switch(args, arg_opt): return
@@ -71,13 +80,19 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
         csv_file = re.sub('\.zip$', '', args[1]) + default_csv
 
     # remove the csv_file if it already exists
-    if os.path.exists(csv_file): os.remove(csv_file)
+    if os.path.exists(csv_file) and is_switch(args, "True") == "False": os.remove(csv_file)
 
     # loop through all relevant collections and phases
     config_json = switch_data(args, '-c')
     if not config_json is None and os.path.exists(config_json):
         cfg_json_obj = json.load(open(config_json))
         for query in cfg_json_obj['queries']:
+
+            #check if we should skip this period type
+            if 'period_types' in query and time_res not in [Enum.Parse(PeriodEnum,x) for x in query['period_types']]:
+                continue
+
+            #find the phase and collectionid for the query
             try:
                 phase = Enum.Parse(SimulationPhaseEnum, query['phase'])
                 coll = sol_cxn.CollectionName2Id(query['parentclass'], query['childclass'], query['collection'])
@@ -86,13 +101,17 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
                 print(" --> This combination doesn't identify queryable information")
                 continue # If the phase or collection are missing or incorrect just skip
 
+            #is this query a category aggregation or full detail?
+            by_category = 'by_category' in query and query['by_category'] == "True"
+
+            #are we filtering the properties in the query?
             if 'properties' in query:
                 # the data in properties field may be a list of property names; we'll pull each individually
                 if type(query['properties']) is list:
                     for prop in query['properties']:
                         try:
                             prop_id = str(sol_cxn.PropertyName2EnumId(query['parentclass'], query['childclass'], query['collection'], prop))
-                            query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id)
+                            query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id, by_category=by_category)
                         except:
                             pass
                 
@@ -100,7 +119,7 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
                 elif type(query['properties']) is str:
                     try:
                         prop_id = str(sol_cxn.PropertyName2EnumId(query['parentclass'], query['childclass'], query['collection'], query['properties']))
-                        query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id)
+                        query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id, by_category=by_category)
                     except:
                         pass
                 
@@ -110,11 +129,11 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
 
             # properties field may be missing; just pull all properties
             else:
-                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'))
+                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), by_category=by_category)
     else:
         for phase in Enum.GetValues(clr.GetClrType(SimulationPhaseEnum)):
             for coll in Enum.GetValues(clr.GetClrType(CollectionEnum)):
-                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'))
+                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), by_category=by_category)
 
     print('Completed',clr.GetClrType(PeriodEnum).GetEnumName(time_res),'in',time.time() - start_time,'sec')
 
@@ -125,7 +144,6 @@ def none_to_empty_list(ret):
         return ret
 
 def pull_xref(sol_cxn, xref_file):
-    from EEUTILITY.Enums import ClassEnum, CollectionEnum
     #from EEDataSets import t_membershipDataTable, t_objectDataTable, t_classDataTable, t_categoryDataTable, t_collectionDataTable
 
     # retrieve memberships
@@ -186,9 +204,6 @@ def pull_xref(sol_cxn, xref_file):
 
 
 def main():
-    from EEUTILITY.Enums import PeriodEnum
-    from PLEXOS7_NET.Core import DatabaseCore, Solution, PLEXOSConnect
-    
     if len(sys.argv) <= 1:
         print('''
 Usage:
@@ -203,12 +218,14 @@ Usage:
                                             [-i [in_file]]
                                             [-f [from_date]]
                                             [-t [to_date]]
+                                            [-o [overwrite|default:True]]
         ''')
         return
     
     start_time = time.time()
 
     # setup and connect to the solution file
+    os.chdir(os.path.dirname(__file__))
     sol_file = sys.argv[1]
     sol_cxn = Solution()
     sol_cxn.Connection(sol_file)
@@ -228,15 +245,5 @@ Usage:
 
     print ('Completed in', time.time() - start_time, 'sec')
 
-def set_plexos_path(plexos_path):
-    # load PLEXOS assemblies:
-    sys.path.append(plexos_path)
-    clr.AddReference('PLEXOS7_NET.Core')
-    clr.AddReference('EEUTILITY')
-    clr.AddReference('EEDataSets')
-    from PLEXOS7_NET.Core import DatabaseCore, Solution, PLEXOSConnect
-
 if __name__ == '__main__':
-
-    set_plexos_path('C:/Program Files/Energy Exemplar/PLEXOS 8.3/')
     main()

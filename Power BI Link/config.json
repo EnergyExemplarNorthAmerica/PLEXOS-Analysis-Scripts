@@ -6,13 +6,15 @@
             "parentclass": "System",
             "childclass": "Generator",
             "collection": "Generators",
+            "by_category": "True",
             "properties": ["Generation", "Generation Cost", "SRMC"]
         },
         {
             "phase": "STSchedule",
             "parentclass": "System",
             "childclass": "Fuel",
-            "collection": "Fuels"
+            "collection": "Fuels",
+            "period_types": ["Month","FiscalYear"]
         },
         {
             "phase": "STSchedule",
