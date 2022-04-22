@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Python: Congestion Analyzer",
             "type": "python",
@@ -27,6 +28,14 @@
             "program": "Power BI Link/power_bi_link.py",
             "console": "integratedTerminal",
             "args": ["Model Q4 Week1 DA Solution.zip", "-c", "config.json", "-y", "annual.csv", "-m", "monthly.csv", "-i", "hourly.csv", "-o", "False"]
+        },
+        {
+            "name": "Python: Power BI Link C",
+            "type": "python",
+            "request": "launch",
+            "program": "Power BI Link/power_bi_link.py",
+            "console": "integratedTerminal",
+            "args": ["Model Q4 Week1 DA Solution.zip", "-y", "annual.csv", "-m", "monthly.csv", "-i", "hourly.csv", "-o", "False"]
         }
     ]
 }

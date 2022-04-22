@@ -95,7 +95,7 @@ def pull_data_json(sol_cxn, time_res, csv_file, overwrite, cfg_json_obj, date_fr
     if os.path.exists(csv_file) and overwrite:
         os.remove(csv_file)
 
-    for query in cfg_json_obj:
+    for query in cfg_json_obj['queries']:
    
         #check if we should skip this period type
         if 'period_types' in query and time_res not in [Enum.Parse(PeriodEnum,x) for x in query['period_types']]:
