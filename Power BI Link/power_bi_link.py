@@ -51,6 +51,7 @@ def query_data_to_csv(sol, csv_file, sim_phase, coll, period, date_from, date_to
     if by_category:
         params += [None, None, None, AggregationEnum.Category]
     try:
+        if is_verbose: print('\t'.join([str(x) for x in params]))
         if sol.QueryToCSV(*params):
             if is_verbose:
                 print('{1} successfully {0} phase output.'.format(str(sim_phase), str(coll)))
@@ -71,70 +72,76 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
     date_from = switch_data_to_date(args, '-f')
     date_to = switch_data_to_date(args, '-t')
 
-    start_time = time.time() # start timer
-
     # get the csv_file name
     csv_file = switch_data(args, arg_opt)
     if csv_file is None:
         csv_file = re.sub('\.zip$', '', args[1]) + default_csv
 
     # remove the csv_file if it already exists
-    if os.path.exists(csv_file) and is_switch(args, "True") == "False": os.remove(csv_file)
+    overwrite = switch_data(args, '-o').lower() == 'true' or not is_switch(args, '-o') 
 
     # loop through all relevant collections and phases
     config_json = switch_data(args, '-c')
     if not config_json is None and os.path.exists(config_json):
         cfg_json_obj = json.load(open(config_json))
-        for query in cfg_json_obj['queries']:
-
-            #check if we should skip this period type
-            if 'period_types' in query and time_res not in [Enum.Parse(PeriodEnum,x) for x in query['period_types']]:
-                continue
-
-            #find the phase and collectionid for the query
-            try:
-                phase = Enum.Parse(SimulationPhaseEnum, query['phase'])
-                coll = sol_cxn.CollectionName2Id(query['parentclass'], query['childclass'], query['collection'])
-            except:
-                print("Phase:", query['phase'], "Collection:", query['collection'], "Parent Class:", query['parentclass'], "Child Class:",  query['childclass'])
-                print(" --> This combination doesn't identify queryable information")
-                continue # If the phase or collection are missing or incorrect just skip
-
-            #is this query a category aggregation or full detail?
-            by_category = 'by_category' in query and query['by_category'] == "True"
-
-            #are we filtering the properties in the query?
-            if 'properties' in query:
-                # the data in properties field may be a list of property names; we'll pull each individually
-                if type(query['properties']) is list:
-                    for prop in query['properties']:
-                        try:
-                            prop_id = str(sol_cxn.PropertyName2EnumId(query['parentclass'], query['childclass'], query['collection'], prop))
-                            query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id, by_category=by_category)
-                        except:
-                            pass
-                
-                # the data in properties field may be a single property name; we'll just pull it
-                elif type(query['properties']) is str:
-                    try:
-                        prop_id = str(sol_cxn.PropertyName2EnumId(query['parentclass'], query['childclass'], query['collection'], query['properties']))
-                        query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id, by_category=by_category)
-                    except:
-                        pass
-                
-                # the data in properties field may be poorly formatted
-                else:
-                    print(query['properties'],'is not valid property information')
-
-            # properties field may be missing; just pull all properties
-            else:
-                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), by_category=by_category)
+        pull_data_json(sol_cxn, time_res, csv_file, overwrite, cfg_json_obj, date_from, date_to, is_verbose=is_switch(args, '-v'))
     else:
         for phase in Enum.GetValues(clr.GetClrType(SimulationPhaseEnum)):
             for coll in Enum.GetValues(clr.GetClrType(CollectionEnum)):
-                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), by_category=by_category)
+                query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'))
+
+def pull_data_json(sol_cxn, time_res, csv_file, overwrite, cfg_json_obj, date_from, date_to, is_verbose):
+    start_time = time.time() # start timer
+    if os.path.exists(csv_file) and overwrite:
+        os.remove(csv_file)
+
+    for query in cfg_json_obj:
+   
+        #check if we should skip this period type
+        if 'period_types' in query and time_res not in [Enum.Parse(PeriodEnum,x) for x in query['period_types']]:
+            continue
+
+        #find the phase and collectionid for the query
+        try:
+            phase = Enum.Parse(SimulationPhaseEnum, query['phase'])
+            coll = sol_cxn.CollectionName2Id(query['parentclass'], query['childclass'], query['collection'])
+        except:
+            print("Phase:", query['phase'], "Collection:", query['collection'], "Parent Class:", query['parentclass'], "Child Class:",  query['childclass'])
+            print(" --> This combination doesn't identify queryable information")
+            continue # If the phase or collection are missing or incorrect just skip
+
+        #is this query a category aggregation or full detail?
+        by_category = 'by_category' in query and query['by_category'] == "True"
+
+        #are we filtering the properties in the query?
+        if 'properties' in query:
+            # the data in properties field may be a list of property names; we'll pull each individually
+            if type(query['properties']) is list:
+                for prop in query['properties']:
+                    try:
+                        prop_id = str(sol_cxn.PropertyName2EnumId(query['parentclass'], query['childclass'], query['collection'], prop))
+                        query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_switch(args, '-v'), property_list=prop_id, by_category=by_category)
+                    except:
+                        pass
+            
+            # the data in properties field may be a single property name; we'll just pull it
+            elif type(query['properties']) is str:
+                try:
+                    prop_id = str(sol_cxn.PropertyName2EnumId(query['parentclass'], query['childclass'], query['collection'], query['properties']))
+                    query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_verbose, property_list=prop_id, by_category=by_category)
+                except:
+                    pass
+            
+            # the data in properties field may be poorly formatted
+            else:
+                print(query['properties'],'is not valid property information')
+
+        # properties field may be missing; just pull all properties
+        else:
+            query_data_to_csv(sol_cxn, csv_file, phase, coll, time_res, date_from, date_to, is_verbose=is_verbose, by_category=by_category)
 
     print('Completed',clr.GetClrType(PeriodEnum).GetEnumName(time_res),'in',time.time() - start_time,'sec')
+
 
 def none_to_empty_list(ret):
     if ret is None:
@@ -197,7 +204,7 @@ def pull_xref(sol_cxn, xref_file):
     mem_df.columns = ['ParentClass', 'ParentName', 'ParentCategory', 'Collection', 'ChildClass', 'ChildName', 'ChildCategory']
     
     # write the xref file
-    mem_df.to_csv(xref_file)
+    mem_df.to_csv(xref_file,index=False)
 
 
 def main():
