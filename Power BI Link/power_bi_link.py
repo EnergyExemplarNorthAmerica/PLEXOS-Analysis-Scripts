@@ -78,7 +78,8 @@ def pull_data(sol_cxn, time_res, args, arg_opt, default_csv):
         csv_file = re.sub('\.zip$', '', args[1]) + default_csv
 
     # remove the csv_file if it already exists
-    overwrite = switch_data(args, '-o').lower() == 'true' or not is_switch(args, '-o') 
+    overwrite_arg = switch_data(args, '-o')
+    overwrite = overwrite_arg is None or overwrite_arg.lower() == 'true'
 
     # loop through all relevant collections and phases
     config_json = switch_data(args, '-c')
