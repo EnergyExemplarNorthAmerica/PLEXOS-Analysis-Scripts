@@ -243,7 +243,9 @@ Usage:
     start_time = time.time()
 
     # setup and connect to the solution file
-    os.chdir(os.path.dirname(__file__))
+    folder = os.path.dirname(__file__)
+    folder = folder if len(folder) > 0 else '.'
+    os.chdir(folder)
     sol_file = sys.argv[1]
     sol_cxn = Solution()
     sol_cxn.Connection(sol_file)
